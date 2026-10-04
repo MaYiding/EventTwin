@@ -1,0 +1,45 @@
+{
+ "v": "v18-100k",
+ "total": 81707,
+ "pos": 13533,
+ "neg": 68174,
+ "sources": {
+  "jev_bulk": 30022,
+  "m3_psame": 20252,
+  "synth_财经快讯": 712,
+  "m2_cross": 16613,
+  "p_same": 1731,
+  "synth_官方通报": 768,
+  "synth_社交媒体": 920,
+  "c5_synth_v2": 725,
+  "synth_行业研报": 816,
+  "synth_短视频标": 790,
+  "synth_读者评论": 832,
+  "synth_专家点评": 744,
+  "c5_synth": 1493,
+  "m1_intra": 1046,
+  "lineage": 1137,
+  "synth_新闻通稿": 744,
+  "synth_口语转述": 856,
+  "m2_flip_pos": 467,
+  "synth_自媒体分": 808,
+  "attach": 183,
+  "p_same_promoted": 11,
+  "arb_flip": 29,
+  "cluster": 8
+ },
+ "splits": {
+  "train": {
+   "n": 65365,
+   "pos": 10826
+  },
+  "val": {
+   "n": 8170,
+   "pos": 1353
+  },
+  "test": {
+   "n": 8172,
+   "pos": 1354
+  }
+ }
+}

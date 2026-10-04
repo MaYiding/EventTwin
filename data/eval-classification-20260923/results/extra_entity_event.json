@@ -1,0 +1,2746 @@
+{
+ "entity_jev": [
+  {
+   "entity": "Apple",
+   "group": "A",
+   "score": 0.99
+  },
+  {
+   "entity": "Apple Inc.",
+   "group": "A",
+   "score": 0.98
+  },
+  {
+   "entity": "iPhone",
+   "group": "A",
+   "score": 0.99
+  },
+  {
+   "entity": "iPhone 15 Pro",
+   "group": "A",
+   "score": 0.99
+  },
+  {
+   "entity": "Siri",
+   "group": "A",
+   "score": 0.99
+  },
+  {
+   "entity": "Apple Intelligence",
+   "group": "A",
+   "score": 0.98
+  },
+  {
+   "entity": "Ryan Clarkson",
+   "group": "A",
+   "score": 0.99
+  },
+  {
+   "entity": "Clarkson Law Firm",
+   "group": "A",
+   "score": 0.21
+  },
+  {
+   "entity": "CBS News",
+   "group": "A",
+   "score": 0.99
+  },
+  {
+   "entity": "PayPal",
+   "group": "A",
+   "score": 0.99
+  },
+  {
+   "entity": "Venmo",
+   "group": "A",
+   "score": 0.98
+  },
+  {
+   "entity": "San Jose",
+   "group": "A",
+   "score": 0.97
+  },
+  {
+   "entity": "Landsheft",
+   "group": "A",
+   "score": 0.94
+  },
+  {
+   "entity": "Samsung",
+   "group": "B",
+   "score": 0.02
+  },
+  {
+   "entity": "Google",
+   "group": "B",
+   "score": 0.02
+  },
+  {
+   "entity": "Elon Musk",
+   "group": "B",
+   "score": 0.02
+  },
+  {
+   "entity": "Tim Cook",
+   "group": "B",
+   "score": 0.03
+  },
+  {
+   "entity": "Microsoft",
+   "group": "B",
+   "score": 0.02
+  },
+  {
+   "entity": "Amazon",
+   "group": "B",
+   "score": 0.02
+  },
+  {
+   "entity": "iPad",
+   "group": "C",
+   "score": 0.03
+  },
+  {
+   "entity": "iPhone 17",
+   "group": "C",
+   "score": 0.03
+  },
+  {
+   "entity": "Android",
+   "group": "C",
+   "score": 0.02
+  },
+  {
+   "entity": "Federal Trade Commission",
+   "group": "C",
+   "score": 0.02
+  },
+  {
+   "entity": "Clarson Law Firm",
+   "group": "D",
+   "score": 0.04
+  },
+  {
+   "entity": "Appel Inc.",
+   "group": "D",
+   "score": 0.02
+  },
+  {
+   "entity": "Ryan Clark",
+   "group": "D",
+   "score": 0.03
+  },
+  {
+   "entity": "Clarkson University",
+   "group": "D",
+   "score": 0.02
+  },
+  {
+   "entity": "Venmon",
+   "group": "D",
+   "score": 0.03
+  },
+  {
+   "entity": "Cupertin",
+   "group": "D",
+   "score": 0.06
+  }
+ ],
+ "_entity_jev_usage": {
+  "input_tokens": 6413,
+  "output_tokens": 604,
+  "cost": 0.000269346
+ },
+ "event_jev": [
+  {
+   "id": "c01",
+   "type": "TRUE",
+   "overall": 0.96,
+   "issuer": 0.98,
+   "receiver": 0.93,
+   "relation": 0.97,
+   "time": 0.96
+  },
+  {
+   "id": "c02",
+   "type": "issuer|同类替换",
+   "overall": 0.01,
+   "issuer": 0.01,
+   "receiver": 0.83,
+   "relation": 0.04,
+   "time": 0.8
+  },
+  {
+   "id": "c03",
+   "type": "issuer|近似拼写",
+   "overall": 0.17,
+   "issuer": 0.36,
+   "receiver": 0.83,
+   "relation": 0.55,
+   "time": 0.83
+  },
+  {
+   "id": "c04",
+   "type": "issuer+receiver|角色对调",
+   "overall": 0.01,
+   "issuer": 0.03,
+   "receiver": 0.09,
+   "relation": 0.02,
+   "time": 0.78
+  },
+  {
+   "id": "c05",
+   "type": "receiver|同类替换",
+   "overall": 0.01,
+   "issuer": 0.95,
+   "receiver": 0.02,
+   "relation": 0.04,
+   "time": 0.84
+  },
+  {
+   "id": "c06",
+   "type": "receiver|字面歧义",
+   "overall": 0.01,
+   "issuer": 0.9,
+   "receiver": 0.01,
+   "relation": 0.03,
+   "time": 0.81
+  },
+  {
+   "id": "c07",
+   "type": "relation|金额近似(±4%)",
+   "overall": 0.02,
+   "issuer": 0.98,
+   "receiver": 0.95,
+   "relation": 0.02,
+   "time": 0.79
+  },
+  {
+   "id": "c08",
+   "type": "relation|数量级(×10)",
+   "overall": 0.01,
+   "issuer": 0.98,
+   "receiver": 0.95,
+   "relation": 0.02,
+   "time": 0.8
+  },
+  {
+   "id": "c09",
+   "type": "relation|总额/单价混淆",
+   "overall": 0.28,
+   "issuer": 0.97,
+   "receiver": 0.92,
+   "relation": 0.39,
+   "time": 0.78
+  },
+  {
+   "id": "c10",
+   "type": "relation|极性反转",
+   "overall": 0.02,
+   "issuer": 0.6,
+   "receiver": 0.67,
+   "relation": 0.03,
+   "time": 0.51
+  },
+  {
+   "id": "c11",
+   "type": "time|具体化矛盾",
+   "overall": 0.05,
+   "issuer": 0.97,
+   "receiver": 0.95,
+   "relation": 0.88,
+   "time": 0.07
+  },
+  {
+   "id": "c12",
+   "type": "TRUE",
+   "overall": 0.91,
+   "issuer": 0.94,
+   "receiver": 0.82,
+   "relation": 0.94,
+   "time": 0.96
+  },
+  {
+   "id": "c13",
+   "type": "TRUE|时间格式等价",
+   "overall": 0.96,
+   "issuer": 0.93,
+   "receiver": 0.89,
+   "relation": 0.95,
+   "time": 0.97
+  },
+  {
+   "id": "c14",
+   "type": "time|±1天",
+   "overall": 0.02,
+   "issuer": 0.89,
+   "receiver": 0.85,
+   "relation": 0.58,
+   "time": 0.02
+  },
+  {
+   "id": "c15",
+   "type": "time|±1月",
+   "overall": 0.01,
+   "issuer": 0.72,
+   "receiver": 0.84,
+   "relation": 0.35,
+   "time": 0.02
+  },
+  {
+   "id": "c16",
+   "type": "time|±1年",
+   "overall": 0.02,
+   "issuer": 0.78,
+   "receiver": 0.81,
+   "relation": 0.58,
+   "time": 0.02
+  },
+  {
+   "id": "c17",
+   "type": "time|跨事件混淆",
+   "overall": 0.03,
+   "issuer": 0.13,
+   "receiver": 0.73,
+   "relation": 0.11,
+   "time": 0.11
+  },
+  {
+   "id": "c18",
+   "type": "issuer|同类城市",
+   "overall": 0.03,
+   "issuer": 0.04,
+   "receiver": 0.61,
+   "relation": 0.26,
+   "time": 0.7
+  },
+  {
+   "id": "c19",
+   "type": "issuer|性质近似",
+   "overall": 0.02,
+   "issuer": 0.05,
+   "receiver": 0.59,
+   "relation": 0.28,
+   "time": 0.66
+  },
+  {
+   "id": "c20",
+   "type": "relation|极性反转",
+   "overall": 0.02,
+   "issuer": 0.79,
+   "receiver": 0.51,
+   "relation": 0.03,
+   "time": 0.8
+  },
+  {
+   "id": "c21",
+   "type": "TRUE|关系等价改写",
+   "overall": 0.81,
+   "issuer": 0.9,
+   "receiver": 0.87,
+   "relation": 0.89,
+   "time": 0.96
+  },
+  {
+   "id": "c22",
+   "type": "TRUE",
+   "overall": 0.91,
+   "issuer": 0.89,
+   "receiver": 0.67,
+   "relation": 0.94,
+   "time": 0.97
+  },
+  {
+   "id": "c23",
+   "type": "time|±1天",
+   "overall": 0.03,
+   "issuer": 0.84,
+   "receiver": 0.78,
+   "relation": 0.86,
+   "time": 0.02
+  },
+  {
+   "id": "c24",
+   "type": "time|跨事件混淆",
+   "overall": 0.03,
+   "issuer": 0.86,
+   "receiver": 0.75,
+   "relation": 0.82,
+   "time": 0.03
+  },
+  {
+   "id": "c25",
+   "type": "time|±1年",
+   "overall": 0.04,
+   "issuer": 0.81,
+   "receiver": 0.71,
+   "relation": 0.8,
+   "time": 0.02
+  },
+  {
+   "id": "c26",
+   "type": "relation|上限→固定",
+   "overall": 0.03,
+   "issuer": 0.76,
+   "receiver": 0.67,
+   "relation": 0.02,
+   "time": 0.89
+  },
+  {
+   "id": "c27",
+   "type": "relation|初始额混淆",
+   "overall": 0.12,
+   "issuer": 0.75,
+   "receiver": 0.72,
+   "relation": 0.04,
+   "time": 0.61
+  },
+  {
+   "id": "c28",
+   "type": "issuer|范围放宽",
+   "overall": 0.06,
+   "issuer": 0.13,
+   "receiver": 0.58,
+   "relation": 0.67,
+   "time": 0.95
+  },
+  {
+   "id": "c29",
+   "type": "issuer|型号近似",
+   "overall": 0.04,
+   "issuer": 0.24,
+   "receiver": 0.13,
+   "relation": 0.61,
+   "time": 0.86
+  },
+  {
+   "id": "c30",
+   "type": "TRUE",
+   "overall": 0.87,
+   "issuer": 0.89,
+   "receiver": 0.9,
+   "relation": 0.89,
+   "time": 0.9
+  },
+  {
+   "id": "c31",
+   "type": "TRUE|承受者等价",
+   "overall": 0.67,
+   "issuer": 0.91,
+   "receiver": 0.76,
+   "relation": 0.79,
+   "time": 0.91
+  },
+  {
+   "id": "c32",
+   "type": "issuer|角色混淆",
+   "overall": 0.34,
+   "issuer": 0.44,
+   "receiver": 0.7,
+   "relation": 0.65,
+   "time": 0.85
+  },
+  {
+   "id": "c33",
+   "type": "time|无中生有",
+   "overall": 0.04,
+   "issuer": 0.74,
+   "receiver": 0.89,
+   "relation": 0.59,
+   "time": 0.05
+  },
+  {
+   "id": "c34",
+   "type": "relation|性质替换",
+   "overall": 0.03,
+   "issuer": 0.26,
+   "receiver": 0.45,
+   "relation": 0.02,
+   "time": 0.67
+  },
+  {
+   "id": "c35",
+   "type": "TRUE",
+   "overall": 0.9,
+   "issuer": 0.65,
+   "receiver": 0.66,
+   "relation": 0.94,
+   "time": 0.98
+  },
+  {
+   "id": "c36",
+   "type": "time|起点+1天",
+   "overall": 0.02,
+   "issuer": 0.57,
+   "receiver": 0.8,
+   "relation": 0.82,
+   "time": 0.02
+  },
+  {
+   "id": "c37",
+   "type": "time|终点-1天",
+   "overall": 0.03,
+   "issuer": 0.56,
+   "receiver": 0.84,
+   "relation": 0.84,
+   "time": 0.03
+  },
+  {
+   "id": "c38",
+   "type": "time|双年份前移",
+   "overall": 0.02,
+   "issuer": 0.73,
+   "receiver": 0.3,
+   "relation": 0.66,
+   "time": 0.02
+  },
+  {
+   "id": "c39",
+   "type": "receiver|型号近似",
+   "overall": 0.02,
+   "issuer": 0.61,
+   "receiver": 0.06,
+   "relation": 0.16,
+   "time": 0.91
+  },
+  {
+   "id": "c40",
+   "type": "relation|添加限定",
+   "overall": 0.04,
+   "issuer": 0.45,
+   "receiver": 0.34,
+   "relation": 0.09,
+   "time": 0.88
+  }
+ ],
+ "_event_jev_usage": {
+  "input_tokens": 17652,
+  "output_tokens": 3964,
+  "cost": 0.000741384
+ },
+ "entity_8b": [
+  {
+   "entity": "Apple",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "Apple Inc.",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "iPhone",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "iPhone 15 Pro",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "Siri",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "Apple Intelligence",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "Ryan Clarkson",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "Clarkson Law Firm",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "CBS News",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "PayPal",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "Venmo",
+   "group": "A",
+   "score": 1.0
+  },
+  {
+   "entity": "San Jose",
+   "group": "A",
+   "score": 0.85
+  },
+  {
+   "entity": "Landsheft",
+   "group": "A",
+   "score": 0.95
+  },
+  {
+   "entity": "Samsung",
+   "group": "B",
+   "score": 0.0
+  },
+  {
+   "entity": "Google",
+   "group": "B",
+   "score": 0.0
+  },
+  {
+   "entity": "Elon Musk",
+   "group": "B",
+   "score": 0.0
+  },
+  {
+   "entity": "Tim Cook",
+   "group": "B",
+   "score": 0.0
+  },
+  {
+   "entity": "Microsoft",
+   "group": "B",
+   "score": 0.0
+  },
+  {
+   "entity": "Amazon",
+   "group": "B",
+   "score": 0.0
+  },
+  {
+   "entity": "iPad",
+   "group": "C",
+   "score": 0.0
+  },
+  {
+   "entity": "iPhone 17",
+   "group": "C",
+   "score": 0.0
+  },
+  {
+   "entity": "Android",
+   "group": "C",
+   "score": 0.0
+  },
+  {
+   "entity": "Federal Trade Commission",
+   "group": "C",
+   "score": 0.0
+  },
+  {
+   "entity": "Clarson Law Firm",
+   "group": "D",
+   "score": 0.0
+  },
+  {
+   "entity": "Appel Inc.",
+   "group": "D",
+   "score": 0.0
+  },
+  {
+   "entity": "Ryan Clark",
+   "group": "D",
+   "score": 0.95
+  },
+  {
+   "entity": "Clarkson University",
+   "group": "D",
+   "score": 0.0
+  },
+  {
+   "entity": "Venmon",
+   "group": "D",
+   "score": 0.95
+  },
+  {
+   "entity": "Cupertin",
+   "group": "D",
+   "score": 0.0
+  }
+ ],
+ "event_8b": [
+  {
+   "id": "c01",
+   "type": "TRUE",
+   "overall": 0.95,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.9
+  },
+  {
+   "id": "c02",
+   "type": "issuer|同类替换",
+   "overall": 0.8,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 0.8,
+   "time": 1.0
+  },
+  {
+   "id": "c03",
+   "type": "issuer|近似拼写",
+   "overall": 0.95,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.9
+  },
+  {
+   "id": "c04",
+   "type": "issuer+receiver|角色对调",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 0.85,
+   "time": 1.0
+  },
+  {
+   "id": "c05",
+   "type": "receiver|同类替换",
+   "overall": 0.3,
+   "issuer": 1.0,
+   "receiver": 0.0,
+   "relation": 0.3,
+   "time": 1.0
+  },
+  {
+   "id": "c06",
+   "type": "receiver|字面歧义",
+   "overall": 0.0,
+   "issuer": 1.0,
+   "receiver": 0.0,
+   "relation": 0.0,
+   "time": 1.0
+  },
+  {
+   "id": "c07",
+   "type": "relation|金额近似(±4%)",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 0.85,
+   "time": 1.0
+  },
+  {
+   "id": "c08",
+   "type": "relation|数量级(×10)",
+   "overall": 1.0,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 1.0
+  },
+  {
+   "id": "c09",
+   "type": "relation|总额/单价混淆",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 0.85,
+   "time": 1.0
+  },
+  {
+   "id": "c10",
+   "type": "relation|极性反转",
+   "overall": 0.6,
+   "issuer": 1.0,
+   "receiver": 0.0,
+   "relation": 0.0,
+   "time": 1.0
+  },
+  {
+   "id": "c11",
+   "type": "time|具体化矛盾",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 0.85,
+   "time": 0.7
+  },
+  {
+   "id": "c12",
+   "type": "TRUE",
+   "overall": 1.0,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 1.0
+  },
+  {
+   "id": "c13",
+   "type": "TRUE|时间格式等价",
+   "overall": 1.0,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 1.0
+  },
+  {
+   "id": "c14",
+   "type": "time|±1天",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.8
+  },
+  {
+   "id": "c15",
+   "type": "time|±1月",
+   "overall": 0.8,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.6
+  },
+  {
+   "id": "c16",
+   "type": "time|±1年",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.85
+  },
+  {
+   "id": "c17",
+   "type": "time|跨事件混淆",
+   "overall": 0.6,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.4
+  },
+  {
+   "id": "c18",
+   "type": "issuer|同类城市",
+   "overall": 1.0,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 1.0
+  },
+  {
+   "id": "c19",
+   "type": "issuer|性质近似",
+   "overall": 1.0,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 1.0
+  },
+  {
+   "id": "c20",
+   "type": "relation|极性反转",
+   "overall": 1.0,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 1.0
+  },
+  {
+   "id": "c21",
+   "type": "TRUE|关系等价改写",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 1.0
+  },
+  {
+   "id": "c22",
+   "type": "TRUE",
+   "overall": 0.95,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 1.0
+  },
+  {
+   "id": "c23",
+   "type": "time|±1天",
+   "overall": 0.95,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.95
+  },
+  {
+   "id": "c24",
+   "type": "time|跨事件混淆",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 0.85,
+   "relation": 1.0,
+   "time": 0.75
+  },
+  {
+   "id": "c25",
+   "type": "time|±1年",
+   "overall": 0.95,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.95
+  },
+  {
+   "id": "c26",
+   "type": "relation|上限→固定",
+   "overall": 0.6,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 0.4,
+   "time": 1.0
+  },
+  {
+   "id": "c27",
+   "type": "relation|初始额混淆",
+   "overall": 0.8,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 0.6,
+   "time": 1.0
+  },
+  {
+   "id": "c28",
+   "type": "issuer|范围放宽",
+   "overall": 0.95,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 1.0
+  },
+  {
+   "id": "c29",
+   "type": "issuer|型号近似",
+   "overall": 0.0,
+   "issuer": 0.0,
+   "receiver": 0.0,
+   "relation": 0.0,
+   "time": 0.2
+  },
+  {
+   "id": "c30",
+   "type": "TRUE",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.0
+  },
+  {
+   "id": "c31",
+   "type": "TRUE|承受者等价",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.0
+  },
+  {
+   "id": "c32",
+   "type": "issuer|角色混淆",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.0
+  },
+  {
+   "id": "c33",
+   "type": "time|无中生有",
+   "overall": 0.6,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.4
+  },
+  {
+   "id": "c34",
+   "type": "relation|性质替换",
+   "overall": 0.0,
+   "issuer": 0.0,
+   "receiver": 1.0,
+   "relation": 0.0,
+   "time": 1.0
+  },
+  {
+   "id": "c35",
+   "type": "TRUE",
+   "overall": 1.0,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 1.0
+  },
+  {
+   "id": "c36",
+   "type": "time|起点+1天",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 0.95,
+   "relation": 1.0,
+   "time": 0.85
+  },
+  {
+   "id": "c37",
+   "type": "time|终点-1天",
+   "overall": 0.95,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 1.0,
+   "time": 0.95
+  },
+  {
+   "id": "c38",
+   "type": "time|双年份前移",
+   "overall": 0.6,
+   "issuer": 1.0,
+   "receiver": 0.6,
+   "relation": 0.6,
+   "time": 0.4
+  },
+  {
+   "id": "c39",
+   "type": "receiver|型号近似",
+   "overall": 0.6,
+   "issuer": 1.0,
+   "receiver": 0.0,
+   "relation": 0.0,
+   "time": 0.8
+  },
+  {
+   "id": "c40",
+   "type": "relation|添加限定",
+   "overall": 0.85,
+   "issuer": 1.0,
+   "receiver": 1.0,
+   "relation": 0.7,
+   "time": 1.0
+  }
+ ],
+ "entity_embed": [
+  {
+   "entity": "Apple",
+   "group": "A",
+   "score": 0.4478
+  },
+  {
+   "entity": "Apple Inc.",
+   "group": "A",
+   "score": 0.454
+  },
+  {
+   "entity": "iPhone",
+   "group": "A",
+   "score": 0.4525
+  },
+  {
+   "entity": "iPhone 15 Pro",
+   "group": "A",
+   "score": 0.4806
+  },
+  {
+   "entity": "Siri",
+   "group": "A",
+   "score": 0.4637
+  },
+  {
+   "entity": "Apple Intelligence",
+   "group": "A",
+   "score": 0.4773
+  },
+  {
+   "entity": "Ryan Clarkson",
+   "group": "A",
+   "score": 0.319
+  },
+  {
+   "entity": "Clarkson Law Firm",
+   "group": "A",
+   "score": 0.4041
+  },
+  {
+   "entity": "CBS News",
+   "group": "A",
+   "score": 0.2505
+  },
+  {
+   "entity": "PayPal",
+   "group": "A",
+   "score": 0.3419
+  },
+  {
+   "entity": "Venmo",
+   "group": "A",
+   "score": 0.3576
+  },
+  {
+   "entity": "San Jose",
+   "group": "A",
+   "score": 0.3133
+  },
+  {
+   "entity": "Landsheft",
+   "group": "A",
+   "score": 0.2571
+  },
+  {
+   "entity": "Samsung",
+   "group": "B",
+   "score": 0.3358
+  },
+  {
+   "entity": "Google",
+   "group": "B",
+   "score": 0.3198
+  },
+  {
+   "entity": "Elon Musk",
+   "group": "B",
+   "score": 0.3382
+  },
+  {
+   "entity": "Tim Cook",
+   "group": "B",
+   "score": 0.4167
+  },
+  {
+   "entity": "Microsoft",
+   "group": "B",
+   "score": 0.3421
+  },
+  {
+   "entity": "Amazon",
+   "group": "B",
+   "score": 0.3249
+  },
+  {
+   "entity": "iPad",
+   "group": "C",
+   "score": 0.403
+  },
+  {
+   "entity": "iPhone 17",
+   "group": "C",
+   "score": 0.456
+  },
+  {
+   "entity": "Android",
+   "group": "C",
+   "score": 0.3114
+  },
+  {
+   "entity": "Federal Trade Commission",
+   "group": "C",
+   "score": 0.3313
+  },
+  {
+   "entity": "Clarson Law Firm",
+   "group": "D",
+   "score": 0.3934
+  },
+  {
+   "entity": "Appel Inc.",
+   "group": "D",
+   "score": 0.4541
+  },
+  {
+   "entity": "Ryan Clark",
+   "group": "D",
+   "score": 0.294
+  },
+  {
+   "entity": "Clarkson University",
+   "group": "D",
+   "score": 0.2806
+  },
+  {
+   "entity": "Venmon",
+   "group": "D",
+   "score": 0.256
+  },
+  {
+   "entity": "Cupertin",
+   "group": "D",
+   "score": 0.3174
+  }
+ ],
+ "event_embed": [
+  {
+   "id": "c01",
+   "type": "TRUE",
+   "score": 0.7846
+  },
+  {
+   "id": "c02",
+   "type": "issuer|同类替换",
+   "score": 0.6948
+  },
+  {
+   "id": "c03",
+   "type": "issuer|近似拼写",
+   "score": 0.7776
+  },
+  {
+   "id": "c04",
+   "type": "issuer+receiver|角色对调",
+   "score": 0.6725
+  },
+  {
+   "id": "c05",
+   "type": "receiver|同类替换",
+   "score": 0.7526
+  },
+  {
+   "id": "c06",
+   "type": "receiver|字面歧义",
+   "score": 0.6632
+  },
+  {
+   "id": "c07",
+   "type": "relation|金额近似(±4%)",
+   "score": 0.6993
+  },
+  {
+   "id": "c08",
+   "type": "relation|数量级(×10)",
+   "score": 0.7154
+  },
+  {
+   "id": "c09",
+   "type": "relation|总额/单价混淆",
+   "score": 0.7183
+  },
+  {
+   "id": "c10",
+   "type": "relation|极性反转",
+   "score": 0.6044
+  },
+  {
+   "id": "c11",
+   "type": "time|具体化矛盾",
+   "score": 0.7407
+  },
+  {
+   "id": "c12",
+   "type": "TRUE",
+   "score": 0.4723
+  },
+  {
+   "id": "c13",
+   "type": "TRUE|时间格式等价",
+   "score": 0.4857
+  },
+  {
+   "id": "c14",
+   "type": "time|±1天",
+   "score": 0.4733
+  },
+  {
+   "id": "c15",
+   "type": "time|±1月",
+   "score": 0.479
+  },
+  {
+   "id": "c16",
+   "type": "time|±1年",
+   "score": 0.4768
+  },
+  {
+   "id": "c17",
+   "type": "time|跨事件混淆",
+   "score": 0.4716
+  },
+  {
+   "id": "c18",
+   "type": "issuer|同类城市",
+   "score": 0.4403
+  },
+  {
+   "id": "c19",
+   "type": "issuer|性质近似",
+   "score": 0.4888
+  },
+  {
+   "id": "c20",
+   "type": "relation|极性反转",
+   "score": 0.4636
+  },
+  {
+   "id": "c21",
+   "type": "TRUE|关系等价改写",
+   "score": 0.4788
+  },
+  {
+   "id": "c22",
+   "type": "TRUE",
+   "score": 0.8297
+  },
+  {
+   "id": "c23",
+   "type": "time|±1天",
+   "score": 0.8289
+  },
+  {
+   "id": "c24",
+   "type": "time|跨事件混淆",
+   "score": 0.8271
+  },
+  {
+   "id": "c25",
+   "type": "time|±1年",
+   "score": 0.8281
+  },
+  {
+   "id": "c26",
+   "type": "relation|上限→固定",
+   "score": 0.6347
+  },
+  {
+   "id": "c27",
+   "type": "relation|初始额混淆",
+   "score": 0.6396
+  },
+  {
+   "id": "c28",
+   "type": "issuer|范围放宽",
+   "score": 0.8104
+  },
+  {
+   "id": "c29",
+   "type": "issuer|型号近似",
+   "score": 0.7569
+  },
+  {
+   "id": "c30",
+   "type": "TRUE",
+   "score": 0.5286
+  },
+  {
+   "id": "c31",
+   "type": "TRUE|承受者等价",
+   "score": 0.5461
+  },
+  {
+   "id": "c32",
+   "type": "issuer|角色混淆",
+   "score": 0.5932
+  },
+  {
+   "id": "c33",
+   "type": "time|无中生有",
+   "score": 0.577
+  },
+  {
+   "id": "c34",
+   "type": "relation|性质替换",
+   "score": 0.4709
+  },
+  {
+   "id": "c35",
+   "type": "TRUE",
+   "score": 0.7092
+  },
+  {
+   "id": "c36",
+   "type": "time|起点+1天",
+   "score": 0.71
+  },
+  {
+   "id": "c37",
+   "type": "time|终点-1天",
+   "score": 0.7095
+  },
+  {
+   "id": "c38",
+   "type": "time|双年份前移",
+   "score": 0.7094
+  },
+  {
+   "id": "c39",
+   "type": "receiver|型号近似",
+   "score": 0.6907
+  },
+  {
+   "id": "c40",
+   "type": "relation|添加限定",
+   "score": 0.7308
+  }
+ ],
+ "entity_rerank": [
+  {
+   "entity": "Apple",
+   "group": "A",
+   "score": 0.1435
+  },
+  {
+   "entity": "Apple Inc.",
+   "group": "A",
+   "score": 0.1287
+  },
+  {
+   "entity": "iPhone",
+   "group": "A",
+   "score": 0.2297
+  },
+  {
+   "entity": "iPhone 15 Pro",
+   "group": "A",
+   "score": 0.5118
+  },
+  {
+   "entity": "Siri",
+   "group": "A",
+   "score": 0.0853
+  },
+  {
+   "entity": "Apple Intelligence",
+   "group": "A",
+   "score": 0.8021
+  },
+  {
+   "entity": "Ryan Clarkson",
+   "group": "A",
+   "score": 0.1064
+  },
+  {
+   "entity": "Clarkson Law Firm",
+   "group": "A",
+   "score": 0.809
+  },
+  {
+   "entity": "CBS News",
+   "group": "A",
+   "score": 0.0005
+  },
+  {
+   "entity": "PayPal",
+   "group": "A",
+   "score": 0.0681
+  },
+  {
+   "entity": "Venmo",
+   "group": "A",
+   "score": 0.095
+  },
+  {
+   "entity": "San Jose",
+   "group": "A",
+   "score": 0.0088
+  },
+  {
+   "entity": "Landsheft",
+   "group": "A",
+   "score": 0.96
+  },
+  {
+   "entity": "Samsung",
+   "group": "B",
+   "score": 0.0002
+  },
+  {
+   "entity": "Google",
+   "group": "B",
+   "score": 0.0001
+  },
+  {
+   "entity": "Elon Musk",
+   "group": "B",
+   "score": 0.0
+  },
+  {
+   "entity": "Tim Cook",
+   "group": "B",
+   "score": 0.0003
+  },
+  {
+   "entity": "Microsoft",
+   "group": "B",
+   "score": 0.0002
+  },
+  {
+   "entity": "Amazon",
+   "group": "B",
+   "score": 0.0005
+  },
+  {
+   "entity": "iPad",
+   "group": "C",
+   "score": 0.0056
+  },
+  {
+   "entity": "iPhone 17",
+   "group": "C",
+   "score": 0.0018
+  },
+  {
+   "entity": "Android",
+   "group": "C",
+   "score": 0.0007
+  },
+  {
+   "entity": "Federal Trade Commission",
+   "group": "C",
+   "score": 0.0003
+  },
+  {
+   "entity": "Clarson Law Firm",
+   "group": "D",
+   "score": 0.0196
+  },
+  {
+   "entity": "Appel Inc.",
+   "group": "D",
+   "score": 0.0347
+  },
+  {
+   "entity": "Ryan Clark",
+   "group": "D",
+   "score": 0.0274
+  },
+  {
+   "entity": "Clarkson University",
+   "group": "D",
+   "score": 0.0001
+  },
+  {
+   "entity": "Venmon",
+   "group": "D",
+   "score": 0.0592
+  },
+  {
+   "entity": "Cupertin",
+   "group": "D",
+   "score": 0.0001
+  }
+ ],
+ "event_rerank": [
+  {
+   "id": "c01",
+   "type": "TRUE",
+   "score": 0.9953
+  },
+  {
+   "id": "c02",
+   "type": "issuer|同类替换",
+   "score": 0.9867
+  },
+  {
+   "id": "c03",
+   "type": "issuer|近似拼写",
+   "score": 0.9919
+  },
+  {
+   "id": "c04",
+   "type": "issuer+receiver|角色对调",
+   "score": 0.9771
+  },
+  {
+   "id": "c05",
+   "type": "receiver|同类替换",
+   "score": 0.9817
+  },
+  {
+   "id": "c06",
+   "type": "receiver|字面歧义",
+   "score": 0.7514
+  },
+  {
+   "id": "c07",
+   "type": "relation|金额近似(±4%)",
+   "score": 0.9968
+  },
+  {
+   "id": "c08",
+   "type": "relation|数量级(×10)",
+   "score": 0.997
+  },
+  {
+   "id": "c09",
+   "type": "relation|总额/单价混淆",
+   "score": 0.9961
+  },
+  {
+   "id": "c10",
+   "type": "relation|极性反转",
+   "score": 0.9869
+  },
+  {
+   "id": "c11",
+   "type": "time|具体化矛盾",
+   "score": 0.9902
+  },
+  {
+   "id": "c12",
+   "type": "TRUE",
+   "score": 0.9825
+  },
+  {
+   "id": "c13",
+   "type": "TRUE|时间格式等价",
+   "score": 0.9791
+  },
+  {
+   "id": "c14",
+   "type": "time|±1天",
+   "score": 0.9789
+  },
+  {
+   "id": "c15",
+   "type": "time|±1月",
+   "score": 0.9761
+  },
+  {
+   "id": "c16",
+   "type": "time|±1年",
+   "score": 0.9668
+  },
+  {
+   "id": "c17",
+   "type": "time|跨事件混淆",
+   "score": 0.9765
+  },
+  {
+   "id": "c18",
+   "type": "issuer|同类城市",
+   "score": 0.9714
+  },
+  {
+   "id": "c19",
+   "type": "issuer|性质近似",
+   "score": 0.9849
+  },
+  {
+   "id": "c20",
+   "type": "relation|极性反转",
+   "score": 0.9734
+  },
+  {
+   "id": "c21",
+   "type": "TRUE|关系等价改写",
+   "score": 0.9869
+  },
+  {
+   "id": "c22",
+   "type": "TRUE",
+   "score": 0.9983
+  },
+  {
+   "id": "c23",
+   "type": "time|±1天",
+   "score": 0.9981
+  },
+  {
+   "id": "c24",
+   "type": "time|跨事件混淆",
+   "score": 0.9981
+  },
+  {
+   "id": "c25",
+   "type": "time|±1年",
+   "score": 0.9983
+  },
+  {
+   "id": "c26",
+   "type": "relation|上限→固定",
+   "score": 0.998
+  },
+  {
+   "id": "c27",
+   "type": "relation|初始额混淆",
+   "score": 0.9983
+  },
+  {
+   "id": "c28",
+   "type": "issuer|范围放宽",
+   "score": 0.9983
+  },
+  {
+   "id": "c29",
+   "type": "issuer|型号近似",
+   "score": 0.9969
+  },
+  {
+   "id": "c30",
+   "type": "TRUE",
+   "score": 0.982
+  },
+  {
+   "id": "c31",
+   "type": "TRUE|承受者等价",
+   "score": 0.9856
+  },
+  {
+   "id": "c32",
+   "type": "issuer|角色混淆",
+   "score": 0.7695
+  },
+  {
+   "id": "c33",
+   "type": "time|无中生有",
+   "score": 0.9851
+  },
+  {
+   "id": "c34",
+   "type": "relation|性质替换",
+   "score": 0.8269
+  },
+  {
+   "id": "c35",
+   "type": "TRUE",
+   "score": 0.9993
+  },
+  {
+   "id": "c36",
+   "type": "time|起点+1天",
+   "score": 0.9993
+  },
+  {
+   "id": "c37",
+   "type": "time|终点-1天",
+   "score": 0.9994
+  },
+  {
+   "id": "c38",
+   "type": "time|双年份前移",
+   "score": 0.9993
+  },
+  {
+   "id": "c39",
+   "type": "receiver|型号近似",
+   "score": 0.9993
+  },
+  {
+   "id": "c40",
+   "type": "relation|添加限定",
+   "score": 0.9994
+  }
+ ],
+ "entity_laya": [
+  {
+   "entity": "Apple",
+   "group": "A",
+   "score": 0.7876
+  },
+  {
+   "entity": "Apple Inc.",
+   "group": "A",
+   "score": 0.5911
+  },
+  {
+   "entity": "iPhone",
+   "group": "A",
+   "score": 0.8739
+  },
+  {
+   "entity": "iPhone 15 Pro",
+   "group": "A",
+   "score": 0.5243
+  },
+  {
+   "entity": "Siri",
+   "group": "A",
+   "score": 0.4441
+  },
+  {
+   "entity": "Apple Intelligence",
+   "group": "A",
+   "score": 0.7897
+  },
+  {
+   "entity": "Ryan Clarkson",
+   "group": "A",
+   "score": 0.6104
+  },
+  {
+   "entity": "Clarkson Law Firm",
+   "group": "A",
+   "score": 0.9136
+  },
+  {
+   "entity": "CBS News",
+   "group": "A",
+   "score": 0.502
+  },
+  {
+   "entity": "PayPal",
+   "group": "A",
+   "score": 0.3446
+  },
+  {
+   "entity": "Venmo",
+   "group": "A",
+   "score": 0.908
+  },
+  {
+   "entity": "San Jose",
+   "group": "A",
+   "score": 0.6586
+  },
+  {
+   "entity": "Landsheft",
+   "group": "A",
+   "score": 0.2988
+  },
+  {
+   "entity": "Samsung",
+   "group": "B",
+   "score": 0.5101
+  },
+  {
+   "entity": "Google",
+   "group": "B",
+   "score": 0.6523
+  },
+  {
+   "entity": "Elon Musk",
+   "group": "B",
+   "score": 0.5259
+  },
+  {
+   "entity": "Tim Cook",
+   "group": "B",
+   "score": 0.9011
+  },
+  {
+   "entity": "Microsoft",
+   "group": "B",
+   "score": 0.8766
+  },
+  {
+   "entity": "Amazon",
+   "group": "B",
+   "score": 0.495
+  },
+  {
+   "entity": "iPad",
+   "group": "C",
+   "score": 0.9435
+  },
+  {
+   "entity": "iPhone 17",
+   "group": "C",
+   "score": 0.9461
+  },
+  {
+   "entity": "Android",
+   "group": "C",
+   "score": 0.9827
+  },
+  {
+   "entity": "Federal Trade Commission",
+   "group": "C",
+   "score": 0.3467
+  },
+  {
+   "entity": "Clarson Law Firm",
+   "group": "D",
+   "score": 0.1266
+  },
+  {
+   "entity": "Appel Inc.",
+   "group": "D",
+   "score": 0.7087
+  },
+  {
+   "entity": "Ryan Clark",
+   "group": "D",
+   "score": 0.9209
+  },
+  {
+   "entity": "Clarkson University",
+   "group": "D",
+   "score": 0.6458
+  },
+  {
+   "entity": "Venmon",
+   "group": "D",
+   "score": 0.2282
+  },
+  {
+   "entity": "Cupertin",
+   "group": "D",
+   "score": 0.094
+  }
+ ],
+ "event_laya": [
+  {
+   "id": "c01",
+   "type": "TRUE",
+   "overall": 0.9519,
+   "issuer": 0.9545,
+   "receiver": 0.9629,
+   "relation": 0.9444,
+   "time": 0.9442
+  },
+  {
+   "id": "c02",
+   "type": "issuer|同类替换",
+   "overall": 0.9577,
+   "issuer": 0.9558,
+   "receiver": 0.9556,
+   "relation": 0.9557,
+   "time": 0.9459
+  },
+  {
+   "id": "c03",
+   "type": "issuer|近似拼写",
+   "overall": 0.9228,
+   "issuer": 0.9334,
+   "receiver": 0.9568,
+   "relation": 0.9408,
+   "time": 0.9234
+  },
+  {
+   "id": "c04",
+   "type": "issuer+receiver|角色对调",
+   "overall": 0.9382,
+   "issuer": 0.9307,
+   "receiver": 0.936,
+   "relation": 0.945,
+   "time": 0.9487
+  },
+  {
+   "id": "c05",
+   "type": "receiver|同类替换",
+   "overall": 0.9671,
+   "issuer": 0.9744,
+   "receiver": 0.9606,
+   "relation": 0.9629,
+   "time": 0.9655
+  },
+  {
+   "id": "c06",
+   "type": "receiver|字面歧义",
+   "overall": 0.9819,
+   "issuer": 0.9433,
+   "receiver": 0.9589,
+   "relation": 0.9759,
+   "time": 0.9763
+  },
+  {
+   "id": "c07",
+   "type": "relation|金额近似(±4%)",
+   "overall": 0.9673,
+   "issuer": 0.9696,
+   "receiver": 0.9648,
+   "relation": 0.9555,
+   "time": 0.9563
+  },
+  {
+   "id": "c08",
+   "type": "relation|数量级(×10)",
+   "overall": 0.9629,
+   "issuer": 0.9575,
+   "receiver": 0.9581,
+   "relation": 0.9381,
+   "time": 0.943
+  },
+  {
+   "id": "c09",
+   "type": "relation|总额/单价混淆",
+   "overall": 0.981,
+   "issuer": 0.9853,
+   "receiver": 0.9757,
+   "relation": 0.975,
+   "time": 0.9785
+  },
+  {
+   "id": "c10",
+   "type": "relation|极性反转",
+   "overall": 0.9738,
+   "issuer": 0.9798,
+   "receiver": 0.9746,
+   "relation": 0.9712,
+   "time": 0.9773
+  },
+  {
+   "id": "c11",
+   "type": "time|具体化矛盾",
+   "overall": 0.9107,
+   "issuer": 0.903,
+   "receiver": 0.9267,
+   "relation": 0.8488,
+   "time": 0.8555
+  },
+  {
+   "id": "c12",
+   "type": "TRUE",
+   "overall": 0.7746,
+   "issuer": 0.8965,
+   "receiver": 0.5238,
+   "relation": 0.4725,
+   "time": 0.7968
+  },
+  {
+   "id": "c13",
+   "type": "TRUE|时间格式等价",
+   "overall": 0.4156,
+   "issuer": 0.6437,
+   "receiver": 0.4697,
+   "relation": 0.3522,
+   "time": 0.4518
+  },
+  {
+   "id": "c14",
+   "type": "time|±1天",
+   "overall": 0.6617,
+   "issuer": 0.8623,
+   "receiver": 0.5356,
+   "relation": 0.4896,
+   "time": 0.808
+  },
+  {
+   "id": "c15",
+   "type": "time|±1月",
+   "overall": 0.8592,
+   "issuer": 0.8935,
+   "receiver": 0.5749,
+   "relation": 0.6344,
+   "time": 0.8969
+  },
+  {
+   "id": "c16",
+   "type": "time|±1年",
+   "overall": 0.6311,
+   "issuer": 0.8637,
+   "receiver": 0.4728,
+   "relation": 0.3744,
+   "time": 0.787
+  },
+  {
+   "id": "c17",
+   "type": "time|跨事件混淆",
+   "overall": 0.7263,
+   "issuer": 0.8666,
+   "receiver": 0.526,
+   "relation": 0.4118,
+   "time": 0.782
+  },
+  {
+   "id": "c18",
+   "type": "issuer|同类城市",
+   "overall": 0.3762,
+   "issuer": 0.7874,
+   "receiver": 0.3719,
+   "relation": 0.3283,
+   "time": 0.7474
+  },
+  {
+   "id": "c19",
+   "type": "issuer|性质近似",
+   "overall": 0.7171,
+   "issuer": 0.8064,
+   "receiver": 0.4707,
+   "relation": 0.4255,
+   "time": 0.7668
+  },
+  {
+   "id": "c20",
+   "type": "relation|极性反转",
+   "overall": 0.6512,
+   "issuer": 0.9137,
+   "receiver": 0.4249,
+   "relation": 0.5609,
+   "time": 0.7927
+  },
+  {
+   "id": "c21",
+   "type": "TRUE|关系等价改写",
+   "overall": 0.5911,
+   "issuer": 0.888,
+   "receiver": 0.6514,
+   "relation": 0.4933,
+   "time": 0.7911
+  },
+  {
+   "id": "c22",
+   "type": "TRUE",
+   "overall": 0.9697,
+   "issuer": 0.9842,
+   "receiver": 0.98,
+   "relation": 0.9643,
+   "time": 0.9709
+  },
+  {
+   "id": "c23",
+   "type": "time|±1天",
+   "overall": 0.9713,
+   "issuer": 0.9851,
+   "receiver": 0.9804,
+   "relation": 0.9644,
+   "time": 0.9726
+  },
+  {
+   "id": "c24",
+   "type": "time|跨事件混淆",
+   "overall": 0.976,
+   "issuer": 0.9845,
+   "receiver": 0.9819,
+   "relation": 0.9649,
+   "time": 0.9734
+  },
+  {
+   "id": "c25",
+   "type": "time|±1年",
+   "overall": 0.9678,
+   "issuer": 0.9845,
+   "receiver": 0.9791,
+   "relation": 0.9629,
+   "time": 0.9715
+  },
+  {
+   "id": "c26",
+   "type": "relation|上限→固定",
+   "overall": 0.9591,
+   "issuer": 0.9696,
+   "receiver": 0.9721,
+   "relation": 0.9409,
+   "time": 0.955
+  },
+  {
+   "id": "c27",
+   "type": "relation|初始额混淆",
+   "overall": 0.9584,
+   "issuer": 0.9673,
+   "receiver": 0.9734,
+   "relation": 0.9463,
+   "time": 0.9566
+  },
+  {
+   "id": "c28",
+   "type": "issuer|范围放宽",
+   "overall": 0.9738,
+   "issuer": 0.984,
+   "receiver": 0.969,
+   "relation": 0.9636,
+   "time": 0.9749
+  },
+  {
+   "id": "c29",
+   "type": "issuer|型号近似",
+   "overall": 0.9529,
+   "issuer": 0.9606,
+   "receiver": 0.9559,
+   "relation": 0.9356,
+   "time": 0.9552
+  },
+  {
+   "id": "c30",
+   "type": "TRUE",
+   "overall": 0.0054,
+   "issuer": 0.0049,
+   "receiver": 0.0131,
+   "relation": 0.0085,
+   "time": 0.0078
+  },
+  {
+   "id": "c31",
+   "type": "TRUE|承受者等价",
+   "overall": 0.2043,
+   "issuer": 0.1208,
+   "receiver": 0.0255,
+   "relation": 0.0447,
+   "time": 0.0315
+  },
+  {
+   "id": "c32",
+   "type": "issuer|角色混淆",
+   "overall": 0.0021,
+   "issuer": 0.0016,
+   "receiver": 0.0023,
+   "relation": 0.002,
+   "time": 0.0017
+  },
+  {
+   "id": "c33",
+   "type": "time|无中生有",
+   "overall": 0.0038,
+   "issuer": 0.0019,
+   "receiver": 0.0067,
+   "relation": 0.0048,
+   "time": 0.0032
+  },
+  {
+   "id": "c34",
+   "type": "relation|性质替换",
+   "overall": 0.012,
+   "issuer": 0.0085,
+   "receiver": 0.0189,
+   "relation": 0.0215,
+   "time": 0.0098
+  },
+  {
+   "id": "c35",
+   "type": "TRUE",
+   "overall": 0.9513,
+   "issuer": 0.9326,
+   "receiver": 0.9279,
+   "relation": 0.9406,
+   "time": 0.9495
+  },
+  {
+   "id": "c36",
+   "type": "time|起点+1天",
+   "overall": 0.9475,
+   "issuer": 0.9323,
+   "receiver": 0.9272,
+   "relation": 0.9378,
+   "time": 0.9482
+  },
+  {
+   "id": "c37",
+   "type": "time|终点-1天",
+   "overall": 0.9487,
+   "issuer": 0.9406,
+   "receiver": 0.9385,
+   "relation": 0.9375,
+   "time": 0.9511
+  },
+  {
+   "id": "c38",
+   "type": "time|双年份前移",
+   "overall": 0.9414,
+   "issuer": 0.9332,
+   "receiver": 0.9261,
+   "relation": 0.9387,
+   "time": 0.9457
+  },
+  {
+   "id": "c39",
+   "type": "receiver|型号近似",
+   "overall": 0.9483,
+   "issuer": 0.948,
+   "receiver": 0.9181,
+   "relation": 0.9409,
+   "time": 0.9475
+  },
+  {
+   "id": "c40",
+   "type": "relation|添加限定",
+   "overall": 0.9091,
+   "issuer": 0.8331,
+   "receiver": 0.8132,
+   "relation": 0.8568,
+   "time": 0.8929
+  }
+ ],
+ "entity_laya_flat": [
+  {
+   "entity": "Apple",
+   "group": "A",
+   "score": 0.7864
+  },
+  {
+   "entity": "Apple Inc.",
+   "group": "A",
+   "score": 0.7093
+  },
+  {
+   "entity": "iPhone",
+   "group": "A",
+   "score": 0.8105
+  },
+  {
+   "entity": "iPhone 15 Pro",
+   "group": "A",
+   "score": 0.9106
+  },
+  {
+   "entity": "Siri",
+   "group": "A",
+   "score": 0.356
+  },
+  {
+   "entity": "Apple Intelligence",
+   "group": "A",
+   "score": 0.7169
+  },
+  {
+   "entity": "Ryan Clarkson",
+   "group": "A",
+   "score": 0.6324
+  },
+  {
+   "entity": "Clarkson Law Firm",
+   "group": "A",
+   "score": 0.1528
+  },
+  {
+   "entity": "CBS News",
+   "group": "A",
+   "score": 0.1836
+  },
+  {
+   "entity": "PayPal",
+   "group": "A",
+   "score": 0.1776
+  },
+  {
+   "entity": "Venmo",
+   "group": "A",
+   "score": 0.1193
+  },
+  {
+   "entity": "San Jose",
+   "group": "A",
+   "score": 0.7467
+  },
+  {
+   "entity": "Landsheft",
+   "group": "A",
+   "score": 0.2704
+  },
+  {
+   "entity": "Samsung",
+   "group": "B",
+   "score": 0.4859
+  },
+  {
+   "entity": "Google",
+   "group": "B",
+   "score": 0.687
+  },
+  {
+   "entity": "Elon Musk",
+   "group": "B",
+   "score": 0.0745
+  },
+  {
+   "entity": "Tim Cook",
+   "group": "B",
+   "score": 0.6326
+  },
+  {
+   "entity": "Microsoft",
+   "group": "B",
+   "score": 0.8787
+  },
+  {
+   "entity": "Amazon",
+   "group": "B",
+   "score": 0.8123
+  },
+  {
+   "entity": "iPad",
+   "group": "C",
+   "score": 0.7907
+  },
+  {
+   "entity": "iPhone 17",
+   "group": "C",
+   "score": 0.371
+  },
+  {
+   "entity": "Android",
+   "group": "C",
+   "score": 0.3632
+  },
+  {
+   "entity": "Federal Trade Commission",
+   "group": "C",
+   "score": 0.8136
+  },
+  {
+   "entity": "Clarson Law Firm",
+   "group": "D",
+   "score": 0.0503
+  },
+  {
+   "entity": "Appel Inc.",
+   "group": "D",
+   "score": 0.5658
+  },
+  {
+   "entity": "Ryan Clark",
+   "group": "D",
+   "score": 0.9021
+  },
+  {
+   "entity": "Clarkson University",
+   "group": "D",
+   "score": 0.1672
+  },
+  {
+   "entity": "Venmon",
+   "group": "D",
+   "score": 0.8318
+  },
+  {
+   "entity": "Cupertin",
+   "group": "D",
+   "score": 0.249
+  }
+ ],
+ "event_laya_flat": [
+  {
+   "id": "c01",
+   "type": "TRUE",
+   "overall": 0.9768,
+   "issuer": 0.9751,
+   "receiver": 0.9467,
+   "relation": 0.9686,
+   "time": 0.9446
+  },
+  {
+   "id": "c02",
+   "type": "issuer|同类替换",
+   "overall": 0.976,
+   "issuer": 0.9729,
+   "receiver": 0.9379,
+   "relation": 0.9697,
+   "time": 0.9292
+  },
+  {
+   "id": "c03",
+   "type": "issuer|近似拼写",
+   "overall": 0.9755,
+   "issuer": 0.973,
+   "receiver": 0.9393,
+   "relation": 0.9702,
+   "time": 0.9273
+  },
+  {
+   "id": "c04",
+   "type": "issuer+receiver|角色对调",
+   "overall": 0.9733,
+   "issuer": 0.9669,
+   "receiver": 0.9189,
+   "relation": 0.9719,
+   "time": 0.92
+  },
+  {
+   "id": "c05",
+   "type": "receiver|同类替换",
+   "overall": 0.9746,
+   "issuer": 0.9585,
+   "receiver": 0.8394,
+   "relation": 0.9649,
+   "time": 0.9195
+  },
+  {
+   "id": "c06",
+   "type": "receiver|字面歧义",
+   "overall": 0.9564,
+   "issuer": 0.9653,
+   "receiver": 0.8892,
+   "relation": 0.9687,
+   "time": 0.9388
+  },
+  {
+   "id": "c07",
+   "type": "relation|金额近似(±4%)",
+   "overall": 0.9721,
+   "issuer": 0.9716,
+   "receiver": 0.9124,
+   "relation": 0.9705,
+   "time": 0.9387
+  },
+  {
+   "id": "c08",
+   "type": "relation|数量级(×10)",
+   "overall": 0.9744,
+   "issuer": 0.9654,
+   "receiver": 0.9034,
+   "relation": 0.9689,
+   "time": 0.9265
+  },
+  {
+   "id": "c09",
+   "type": "relation|总额/单价混淆",
+   "overall": 0.9766,
+   "issuer": 0.9712,
+   "receiver": 0.9186,
+   "relation": 0.9706,
+   "time": 0.9318
+  },
+  {
+   "id": "c10",
+   "type": "relation|极性反转",
+   "overall": 0.9761,
+   "issuer": 0.968,
+   "receiver": 0.942,
+   "relation": 0.9674,
+   "time": 0.9258
+  },
+  {
+   "id": "c11",
+   "type": "time|具体化矛盾",
+   "overall": 0.9777,
+   "issuer": 0.9699,
+   "receiver": 0.9394,
+   "relation": 0.97,
+   "time": 0.919
+  },
+  {
+   "id": "c12",
+   "type": "TRUE",
+   "overall": 0.9763,
+   "issuer": 0.9708,
+   "receiver": 0.9513,
+   "relation": 0.9692,
+   "time": 0.9372
+  },
+  {
+   "id": "c13",
+   "type": "TRUE|时间格式等价",
+   "overall": 0.9732,
+   "issuer": 0.9744,
+   "receiver": 0.9467,
+   "relation": 0.9711,
+   "time": 0.9398
+  },
+  {
+   "id": "c14",
+   "type": "time|±1天",
+   "overall": 0.9715,
+   "issuer": 0.9695,
+   "receiver": 0.9501,
+   "relation": 0.9676,
+   "time": 0.9444
+  },
+  {
+   "id": "c15",
+   "type": "time|±1月",
+   "overall": 0.9736,
+   "issuer": 0.9677,
+   "receiver": 0.9266,
+   "relation": 0.9661,
+   "time": 0.9398
+  },
+  {
+   "id": "c16",
+   "type": "time|±1年",
+   "overall": 0.9676,
+   "issuer": 0.9709,
+   "receiver": 0.9231,
+   "relation": 0.9685,
+   "time": 0.9379
+  },
+  {
+   "id": "c17",
+   "type": "time|跨事件混淆",
+   "overall": 0.9766,
+   "issuer": 0.9726,
+   "receiver": 0.9568,
+   "relation": 0.9694,
+   "time": 0.9219
+  },
+  {
+   "id": "c18",
+   "type": "issuer|同类城市",
+   "overall": 0.9727,
+   "issuer": 0.9714,
+   "receiver": 0.9485,
+   "relation": 0.9704,
+   "time": 0.9227
+  },
+  {
+   "id": "c19",
+   "type": "issuer|性质近似",
+   "overall": 0.979,
+   "issuer": 0.9745,
+   "receiver": 0.9513,
+   "relation": 0.9728,
+   "time": 0.9075
+  },
+  {
+   "id": "c20",
+   "type": "relation|极性反转",
+   "overall": 0.9719,
+   "issuer": 0.9722,
+   "receiver": 0.9442,
+   "relation": 0.968,
+   "time": 0.9332
+  },
+  {
+   "id": "c21",
+   "type": "TRUE|关系等价改写",
+   "overall": 0.9745,
+   "issuer": 0.9714,
+   "receiver": 0.9258,
+   "relation": 0.9655,
+   "time": 0.9552
+  },
+  {
+   "id": "c22",
+   "type": "TRUE",
+   "overall": 0.9733,
+   "issuer": 0.9728,
+   "receiver": 0.9382,
+   "relation": 0.9709,
+   "time": 0.935
+  },
+  {
+   "id": "c23",
+   "type": "time|±1天",
+   "overall": 0.9753,
+   "issuer": 0.9736,
+   "receiver": 0.9555,
+   "relation": 0.9712,
+   "time": 0.9381
+  },
+  {
+   "id": "c24",
+   "type": "time|跨事件混淆",
+   "overall": 0.9725,
+   "issuer": 0.9731,
+   "receiver": 0.9419,
+   "relation": 0.9709,
+   "time": 0.9463
+  },
+  {
+   "id": "c25",
+   "type": "time|±1年",
+   "overall": 0.9545,
+   "issuer": 0.9655,
+   "receiver": 0.8206,
+   "relation": 0.9678,
+   "time": 0.9279
+  },
+  {
+   "id": "c26",
+   "type": "relation|上限→固定",
+   "overall": 0.9619,
+   "issuer": 0.9682,
+   "receiver": 0.911,
+   "relation": 0.9708,
+   "time": 0.9531
+  },
+  {
+   "id": "c27",
+   "type": "relation|初始额混淆",
+   "overall": 0.9746,
+   "issuer": 0.9766,
+   "receiver": 0.9614,
+   "relation": 0.9733,
+   "time": 0.9481
+  },
+  {
+   "id": "c28",
+   "type": "issuer|范围放宽",
+   "overall": 0.9757,
+   "issuer": 0.9733,
+   "receiver": 0.9561,
+   "relation": 0.9726,
+   "time": 0.9437
+  },
+  {
+   "id": "c29",
+   "type": "issuer|型号近似",
+   "overall": 0.9706,
+   "issuer": 0.9694,
+   "receiver": 0.9263,
+   "relation": 0.9704,
+   "time": 0.9192
+  },
+  {
+   "id": "c30",
+   "type": "TRUE",
+   "overall": 0.9774,
+   "issuer": 0.9724,
+   "receiver": 0.944,
+   "relation": 0.9697,
+   "time": 0.9018
+  },
+  {
+   "id": "c31",
+   "type": "TRUE|承受者等价",
+   "overall": 0.9795,
+   "issuer": 0.976,
+   "receiver": 0.9587,
+   "relation": 0.9744,
+   "time": 0.9306
+  },
+  {
+   "id": "c32",
+   "type": "issuer|角色混淆",
+   "overall": 0.9747,
+   "issuer": 0.9753,
+   "receiver": 0.9517,
+   "relation": 0.9723,
+   "time": 0.9355
+  },
+  {
+   "id": "c33",
+   "type": "time|无中生有",
+   "overall": 0.9769,
+   "issuer": 0.9752,
+   "receiver": 0.9598,
+   "relation": 0.9753,
+   "time": 0.9489
+  },
+  {
+   "id": "c34",
+   "type": "relation|性质替换",
+   "overall": 0.971,
+   "issuer": 0.9699,
+   "receiver": 0.9523,
+   "relation": 0.9714,
+   "time": 0.9374
+  },
+  {
+   "id": "c35",
+   "type": "TRUE",
+   "overall": 0.9684,
+   "issuer": 0.9716,
+   "receiver": 0.93,
+   "relation": 0.9734,
+   "time": 0.9155
+  },
+  {
+   "id": "c36",
+   "type": "time|起点+1天",
+   "overall": 0.9705,
+   "issuer": 0.971,
+   "receiver": 0.9445,
+   "relation": 0.9712,
+   "time": 0.9339
+  },
+  {
+   "id": "c37",
+   "type": "time|终点-1天",
+   "overall": 0.976,
+   "issuer": 0.9725,
+   "receiver": 0.9532,
+   "relation": 0.9735,
+   "time": 0.9273
+  },
+  {
+   "id": "c38",
+   "type": "time|双年份前移",
+   "overall": 0.9773,
+   "issuer": 0.9725,
+   "receiver": 0.9604,
+   "relation": 0.9717,
+   "time": 0.9162
+  },
+  {
+   "id": "c39",
+   "type": "receiver|型号近似",
+   "overall": 0.9794,
+   "issuer": 0.9732,
+   "receiver": 0.9576,
+   "relation": 0.9741,
+   "time": 0.9137
+  },
+  {
+   "id": "c40",
+   "type": "relation|添加限定",
+   "overall": 0.978,
+   "issuer": 0.9733,
+   "receiver": 0.9447,
+   "relation": 0.9733,
+   "time": 0.9256
+  }
+ ]
+}

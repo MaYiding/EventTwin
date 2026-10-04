@@ -1,0 +1,282 @@
+[
+ {
+  "id": "c01",
+  "type": "TRUE",
+  "note": "基准真值",
+  "zh_max": 0.9929,
+  "en_max": 0.9863
+ },
+ {
+  "id": "c02",
+  "type": "issuer|同类替换",
+  "note": "Google 顶替 Apple",
+  "zh_max": 0.9823,
+  "en_max": 0.9802
+ },
+ {
+  "id": "c03",
+  "type": "issuer|近似拼写",
+  "note": "Appel 伪造",
+  "zh_max": 0.99,
+  "en_max": 0.9846
+ },
+ {
+  "id": "c04",
+  "type": "issuer+receiver|角色对调",
+  "note": "原被告互换",
+  "zh_max": 0.9592,
+  "en_max": 0.9867
+ },
+ {
+  "id": "c05",
+  "type": "receiver|同类替换",
+  "note": "Android 用户",
+  "zh_max": 0.9705,
+  "en_max": 0.9874
+ },
+ {
+  "id": "c06",
+  "type": "receiver|字面歧义",
+  "note": "Apple=苹果水果 陷阱",
+  "zh_max": 0.6807,
+  "en_max": 0.9803
+ },
+ {
+  "id": "c07",
+  "type": "relation|金额近似(±4%)",
+  "note": "2.5亿→2.4亿",
+  "zh_max": 0.9939,
+  "en_max": 0.9913
+ },
+ {
+  "id": "c08",
+  "type": "relation|数量级(×10)",
+  "note": "2.5亿→25亿",
+  "zh_max": 0.9945,
+  "en_max": 0.9938
+ },
+ {
+  "id": "c09",
+  "type": "relation|总额/单价混淆",
+  "note": "总额95美元",
+  "zh_max": 0.9954,
+  "en_max": 0.9925
+ },
+ {
+  "id": "c10",
+  "type": "relation|极性反转",
+  "note": "拒付+否认",
+  "zh_max": 0.9777,
+  "en_max": 0.9644
+ },
+ {
+  "id": "c11",
+  "type": "time|具体化矛盾",
+  "note": "文章只说今年早些时候",
+  "zh_max": 0.9902,
+  "en_max": 0.9749
+ },
+ {
+  "id": "c12",
+  "type": "TRUE",
+  "note": "基准真值",
+  "zh_max": 0.9825,
+  "en_max": 0.9961
+ },
+ {
+  "id": "c13",
+  "type": "TRUE|时间格式等价",
+  "note": "同一日期英文写法",
+  "zh_max": 0.9791,
+  "en_max": 0.9928
+ },
+ {
+  "id": "c14",
+  "type": "time|±1天",
+  "note": "2/24→2/25",
+  "zh_max": 0.9789,
+  "en_max": 0.9958
+ },
+ {
+  "id": "c15",
+  "type": "time|±1月",
+  "note": "2/24→3/24",
+  "zh_max": 0.9761,
+  "en_max": 0.9966
+ },
+ {
+  "id": "c16",
+  "type": "time|±1年",
+  "note": "2027→2026",
+  "zh_max": 0.9668,
+  "en_max": 0.9937
+ },
+ {
+  "id": "c17",
+  "type": "time|跨事件混淆",
+  "note": "把索赔截止日安到听证会",
+  "zh_max": 0.9765,
+  "en_max": 0.9932
+ },
+ {
+  "id": "c18",
+  "type": "issuer|同类城市",
+  "note": "圣何塞→洛杉矶(文中出现)",
+  "zh_max": 0.9714,
+  "en_max": 0.9964
+ },
+ {
+  "id": "c19",
+  "type": "issuer|性质近似",
+  "note": "联邦→州法院",
+  "zh_max": 0.9849,
+  "en_max": 0.9901
+ },
+ {
+  "id": "c20",
+  "type": "relation|极性反转",
+  "note": "批准→驳回",
+  "zh_max": 0.9734,
+  "en_max": 0.9944
+ },
+ {
+  "id": "c21",
+  "type": "TRUE|关系等价改写",
+  "note": "语义等价",
+  "zh_max": 0.9869,
+  "en_max": 0.9947
+ },
+ {
+  "id": "c22",
+  "type": "TRUE",
+  "note": "基准真值",
+  "zh_max": 0.9983,
+  "en_max": 0.9984
+ },
+ {
+  "id": "c23",
+  "type": "time|±1天",
+  "note": "12/21→12/22",
+  "zh_max": 0.9981,
+  "en_max": 0.9984
+ },
+ {
+  "id": "c24",
+  "type": "time|跨事件混淆",
+  "note": "听证会日期",
+  "zh_max": 0.9981,
+  "en_max": 0.9982
+ },
+ {
+  "id": "c25",
+  "type": "time|±1年",
+  "note": "2026→2027",
+  "zh_max": 0.9983,
+  "en_max": 0.9986
+ },
+ {
+  "id": "c26",
+  "type": "relation|上限→固定",
+  "note": "最高95→固定95",
+  "zh_max": 0.998,
+  "en_max": 0.9988
+ },
+ {
+  "id": "c27",
+  "type": "relation|初始额混淆",
+  "note": "25 当最终额",
+  "zh_max": 0.9983,
+  "en_max": 0.9987
+ },
+ {
+  "id": "c28",
+  "type": "issuer|范围放宽",
+  "note": "限定→所有用户",
+  "zh_max": 0.9983,
+  "en_max": 0.9988
+ },
+ {
+  "id": "c29",
+  "type": "issuer|型号近似",
+  "note": "14 Pro 不在范围",
+  "zh_max": 0.9969,
+  "en_max": 0.9987
+ },
+ {
+  "id": "c30",
+  "type": "TRUE",
+  "note": "基准真值(时间缺失)",
+  "zh_max": 0.982,
+  "en_max": 0.9627
+ },
+ {
+  "id": "c31",
+  "type": "TRUE|承受者等价",
+  "note": "Apple 无 Inc.",
+  "zh_max": 0.9856,
+  "en_max": 0.9492
+ },
+ {
+  "id": "c32",
+  "type": "issuer|角色混淆",
+  "note": "律师当原告",
+  "zh_max": 0.7695,
+  "en_max": 0.8564
+ },
+ {
+  "id": "c33",
+  "type": "time|无中生有",
+  "note": "文章未提时间",
+  "zh_max": 0.9851,
+  "en_max": 0.9601
+ },
+ {
+  "id": "c34",
+  "type": "relation|性质替换",
+  "note": "民事→刑事",
+  "zh_max": 0.8269,
+  "en_max": 0.8418
+ },
+ {
+  "id": "c35",
+  "type": "TRUE",
+  "note": "基准真值",
+  "zh_max": 0.9993,
+  "en_max": 0.999
+ },
+ {
+  "id": "c36",
+  "type": "time|起点+1天",
+  "note": "6/10→6/11",
+  "zh_max": 0.9993,
+  "en_max": 0.999
+ },
+ {
+  "id": "c37",
+  "type": "time|终点-1天",
+  "note": "3/29→3/28",
+  "zh_max": 0.9994,
+  "en_max": 0.999
+ },
+ {
+  "id": "c38",
+  "type": "time|双年份前移",
+  "note": "整体前移一年",
+  "zh_max": 0.9993,
+  "en_max": 0.9992
+ },
+ {
+  "id": "c39",
+  "type": "receiver|型号近似",
+  "note": "14 Pro/15 不在范围",
+  "zh_max": 0.9993,
+  "en_max": 0.9981
+ },
+ {
+  "id": "c40",
+  "type": "relation|添加限定",
+  "note": "官方渠道(文章未限定)",
+  "zh_max": 0.9994,
+  "en_max": 0.9989
+ }
+]

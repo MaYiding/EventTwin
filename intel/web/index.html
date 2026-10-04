@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>企业外部情报系统 · 事件图谱</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">情</div>
+      <div>
+        <div class="t1">外部情报系统</div>
+        <div class="t2">Event-KG · v1.0</div>
+      </div>
+    </div>
+    <div class="nav-group">观测</div>
+    <button class="nav-item active" data-view="overview"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg><span>概览</span></button>
+    <button class="nav-item" data-view="feed"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg><span>实时流水</span></button>
+    <button class="nav-item" data-view="decisions"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3a9 9 0 1 0 9 9"/><circle cx="12" cy="12" r="3"/></svg><span>归类决策</span></button>
+    <div class="nav-group">数据</div>
+    <button class="nav-item" data-view="graph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="5" cy="6" r="2.5"/><circle cx="19" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M7.2 7.1 10 15.6M16.8 7.1 14 15.6M7.5 6h9"/></svg><span>知识图谱</span></button>
+    <button class="nav-item" data-view="facts"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg><span>事实与断言</span></button>
+    <button class="nav-item" data-view="changes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a9 9 0 1 1-2.6-6.4"/><polyline points="21 3 21 9 15 9"/></svg><span>变化卡</span></button>
+    <div class="nav-group">问答</div>
+    <button class="nav-item" data-view="qa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.4 0-2.8-.3-4-1L3 21l2-5.5c-.7-1.2-1-2.6-1-4A8.5 8.5 0 0 1 12.5 3 8.5 8.5 0 0 1 21 11.5z"/></svg><span>带证据问答</span></button>
+    <div class="spacer"></div>
+    <button class="run-btn" id="runPipeline">▶ 运行流水线</button>
+    <div class="side-foot">SQLite · BM25+ANN<br>Qwen3-8B / Emb-4B / RR-0.6B</div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <div class="crumb" id="crumb">
+        <span class="hide-sm">企业外部情报系统</span><span class="sep hide-sm">/</span><b id="crumbCur">概览</b>
+      </div>
+      <div class="right">
+        <div class="live-dot" id="liveDot"><span class="dot"></span><span>实时流未连接</span></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <!-- 概览 -->
+      <section class="view active" id="view-overview">
+        <div class="grid cols-4" id="statCards"></div>
+        <div class="grid cols-2 mt">
+          <div class="card">
+            <h3 class="sec">流水线阶段 <span class="tag">ingest → extract → entity → vector → resolve → assertion → project</span></h3>
+            <div id="stageList"></div>
+          </div>
+          <div class="card">
+            <h3 class="sec">运行清单 <span class="tag">Run Manifest · 可复现凭据</span></h3>
+            <div id="manifestBox" class="dl"></div>
+            <h3 class="sec mt">模型服务</h3>
+            <div id="modelHealth" class="row"></div>
+          </div>
+        </div>
+        <div class="card mt">
+          <h3 class="sec">最近事件流 <span class="tag">最近 12 条 · 详见「实时流水」</span></h3>
+          <div id="miniFeed"></div>
+        </div>
+      </section>
+
+      <!-- 实时流水 -->
+      <section class="view" id="view-feed">
+        <div class="card">
+          <div class="row" style="justify-content:space-between">
+            <h3 class="sec" style="margin:0">流水事件流 <span class="tag" id="feedCount">0 条</span></h3>
+            <div class="row">
+              <select class="input" id="feedStage" style="width:130px">
+                <option value="">全部阶段</option>
+              </select>
+              <select class="input" id="feedLevel" style="width:110px">
+                <option value="">全部级别</option><option value="info">info</option>
+                <option value="warn">warn</option><option value="error">error</option>
+              </select>
+              <button class="btn ghost sm" id="feedPause">暂停</button>
+              <button class="btn ghost sm" id="feedClear">清空</button>
+            </div>
+          </div>
+          <div class="feed mt" id="feedList"></div>
+        </div>
+      </section>
+
+      <!-- 归类决策 -->
+      <section class="view" id="view-decisions">
+        <div class="card">
+          <h3 class="sec">同事件判别决策 <span class="tag">attach / create / judge / pending —— 每条含召回、特征分与理由</span></h3>
+          <div class="row" style="margin-bottom:10px">
+            <select class="input" id="decFilter" style="width:170px">
+              <option value="">全部动作</option>
+              <option value="attach">attach 规则归并</option>
+              <option value="create_provisional">create 新建</option>
+              <option value="judge_attach">judge 判别归并</option>
+              <option value="judge_create">judge 判别新建</option>
+              <option value="pending">pending 待判</option>
+            </select>
+            <button class="btn ghost sm" id="decRefresh">刷新</button>
+          </div>
+          <div style="overflow-x:auto"><table class="tbl" id="decTable">
+            <thead><tr><th style="width:120px">时间</th><th style="width:110px">动作</th>
+            <th>新提及（框架）</th><th style="width:150px">目标事件</th><th style="width:80px">最高分</th>
+            <th>理由</th><th style="width:60px"></th></tr></thead>
+            <tbody></tbody>
+          </table></div>
+        </div>
+      </section>
+
+      <!-- 知识图谱 -->
+      <section class="view" id="view-graph">
+        <div class="grid" style="grid-template-columns: 1fr 320px; gap:14px">
+          <div class="card" style="padding:10px">
+            <div class="graph-wrap">
+              <canvas id="graphCanvas"></canvas>
+              <div class="graph-tools">
+                <select class="input" id="graphMode" style="width:130px">
+                  <option value="aggregate">企业聚合</option>
+                  <option value="full">实体-事件全图</option>
+                </select>
+                <select class="input" id="graphFocus" style="width:180px"><option value="">全图（按重要度采样）</option></select>
+                <input class="input search" id="graphSearch" placeholder="🔍 搜索节点…" list="graphSearchList" autocomplete="off">
+                <datalist id="graphSearchList"></datalist>
+                <button class="btn ghost sm" id="graphRefresh">刷新</button>
+                <button class="btn ghost sm" id="graphAddNode">＋ 实体</button>
+                <button class="btn ghost sm" id="graphAddEvent">＋ 事件</button>
+                <button class="btn ghost sm" id="graphAddEdge">＋ 连边</button>
+              </div>
+              <div class="zoom-ctl">
+                <button id="zoomIn" title="放大">＋</button>
+                <button id="zoomOut" title="缩小">－</button>
+                <button id="zoomFit" title="适配全图" style="font-size:13px">⛶</button>
+              </div>
+              <div class="graph-legend" id="graphLegend">
+                <span class="legend-chip" data-type="entity"><i class="legend-dot" style="background:#2563eb"></i>实体</span>
+                <span class="legend-chip" data-type="event"><i class="legend-dot" style="background:#f59e0b"></i>事件</span>
+                <span class="legend-chip" data-type="process"><i class="legend-dot" style="background:#7c5cf0"></i>过程</span>
+                <span class="legend-chip" data-type="assertion"><i class="legend-dot" style="background:#10b981"></i>断言</span>
+                <span class="legend-hint">拖拽 · 滚轮缩放 · 点击查看 · 点图例筛选</span>
+              </div>
+              <div class="gtip" id="graphTip"></div>
+            </div>
+          </div>
+          <div class="card detail-pane" id="graphDetail">
+            <div class="empty"><div class="icon">⬡</div>点击图谱节点<br>查看详情与操作</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 事实与断言 -->
+      <section class="view" id="view-facts">
+        <div class="card">
+          <h3 class="sec">双时间事实查询 <span class="tag">valid_as_of（事实有效时点）× known_as_of（系统认知时点）</span></h3>
+          <div class="row">
+            <label style="font-size:12.5px;color:var(--ink-2)">有效时点</label>
+            <input type="datetime-local" class="input" id="validAsOf" style="width:200px">
+            <label style="font-size:12.5px;color:var(--ink-2)">认知时点</label>
+            <input type="datetime-local" class="input" id="knownAsOf" style="width:200px">
+            <button class="btn sm" id="factQuery">查询</button>
+            <button class="btn ghost sm" id="factNow">回到当前</button>
+            <span class="tag" id="factMode" style="color:var(--accent);font-size:12px"></span>
+          </div>
+        </div>
+        <div class="card mt">
+          <h3 class="sec">实体演化史 <span class="tag">选企业 → 该实体全部槽位版本时间线 + 事件链</span></h3>
+          <div class="row">
+            <input class="input" id="histEntity" style="width:240px" list="histEntityList"
+                   placeholder="🔍 输入企业名搜索…" autocomplete="off">
+            <datalist id="histEntityList"></datalist>
+            <button class="btn sm" id="histLoad">查看</button>
+            <span class="tag" id="histSummary" style="color:var(--ink-3)"></span>
+          </div>
+          <div id="histBox" class="mt"></div>
+        </div>
+        <div class="row mt" style="justify-content:space-between">
+          <h3 class="sec" style="margin:0">事实卡 <span class="tag" id="factCount"></span></h3>
+          <input class="input" id="factFilter" placeholder="🔍 按主体/槽位过滤…" style="width:220px">
+        </div>
+        <div class="grid cols-2 mt" id="factList"></div>
+        <div class="card mt">
+          <h3 class="sec">事件时间线 <span class="tag">按发生时间排序</span></h3>
+          <div style="overflow-x:auto;max-height:380px;overflow-y:auto">
+            <table class="tbl" id="tlTable">
+              <thead><tr><th style="width:150px">发生时间</th><th style="width:100px">类型</th>
+              <th>事件</th><th style="width:70px">成员</th><th style="width:90px">状态</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 变化卡 -->
+      <section class="view" id="view-changes">
+        <div class="card">
+          <h3 class="sec">变化记录 <span class="tag">state_transition / correction / conflict / first_seen —— 转载不触发</span></h3>
+          <div id="changeList"></div>
+        </div>
+      </section>
+
+      <!-- 问答 -->
+      <section class="view" id="view-qa">
+        <div class="qa-layout">
+          <div class="card qa-chat">
+            <h3 class="sec">带证据问答 <span class="tag">先取证据包，再流式生成；无证据不编造</span></h3>
+            <div class="qa-msgs" id="qaMsgs">
+              <div class="empty" style="margin:auto"><div class="icon">💬</div>
+              试试：「特斯拉 Model 3 现在多少钱？」<br>「比亚迪 2025 年调了几次价？」<br>「2025-03-19 当时系统知道 Model Y 什么价格？」</div>
+            </div>
+            <div class="qa-input">
+              <textarea class="input" id="qaInput" placeholder="输入问题，Enter 发送（Shift+Enter 换行）"></textarea>
+              <button class="btn" id="qaSend">发送</button>
+            </div>
+          </div>
+          <div class="card ev-panel">
+            <h3 class="sec">证据包 <span class="tag">Evidence Pack</span></h3>
+            <div id="qaEvidence"><div class="empty"><div class="icon">🗂</div>提问后展示<br>结构化事实 / 文本证据 / 冲突与更正</div></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<!-- 通用弹窗 -->
+<div class="mask" id="mask"><div class="modal">
+  <div class="m-head"><span id="modalTitle">对话框</span><button class="x" id="modalClose">✕</button></div>
+  <div class="m-body" id="modalBody"></div>
+</div></div>
+<div class="toast-wrap" id="toasts"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

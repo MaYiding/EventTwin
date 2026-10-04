@@ -1,0 +1,117 @@
+{
+ "documents": 4587,
+ "document_versions": 4597,
+ "duplicates": 0,
+ "mentions_valid": 10277,
+ "mentions_invalid": 673,
+ "mentions_invalid_rate": 0.0615,
+ "mentions_per_doc": 2.24,
+ "clusters_active": 9514,
+ "clusters_provisional": 8986,
+ "clusters_resolved": 528,
+ "resolved_ratio": 0.0555,
+ "card_coverage": 1.0,
+ "processes": 7057,
+ "entities": 9995,
+ "entity_aliases": 10027,
+ "assertions": 16777,
+ "selections": 12197,
+ "changes": 6743,
+ "avg_members_per_cluster": 1.073,
+ "avg_groups_per_cluster": 1.073,
+ "avg_claims_per_cluster": 1.371,
+ "single_member_clusters": 8986,
+ "single_member_ratio": 0.9445,
+ "multi_group_clusters": 528,
+ "multi_group_ratio": 0.0555,
+ "mentions_to_cluster_ratio": 1.08,
+ "avg_claims_per_mention": 1.482,
+ "decisions": {
+  "attach": 314,
+  "create_provisional": 9497,
+  "judge_attach": 385,
+  "judge_create": 17,
+  "pending": 64
+ },
+ "decisions_ratio": {
+  "attach": 0.0306,
+  "create_provisional": 0.9241,
+  "judge_attach": 0.0375,
+  "judge_create": 0.0017,
+  "pending": 0.0062
+ },
+ "judge_decisions": {
+  "insufficient": 64,
+  "new_event": 11,
+  "related_process": 6,
+  "same_event": 385
+ },
+ "assertion_status": {
+  "active": 16777
+ },
+ "selection_disposition": {
+  "accepted": 11418,
+  "conflicted": 779
+ },
+ "conflict_rate": 0.0639,
+ "relations": {
+  "brand_of": 52,
+  "contradicts": 1254,
+  "corrects": 3,
+  "part_of_process": 9796,
+  "participates_in": 22011,
+  "precedes": 2014,
+  "related_to": 1,
+  "subsidiary_of": 13
+ },
+ "relation_total": 35144,
+ "hub_top10_degree": [
+  438,
+  403,
+  297,
+  285,
+  275,
+  274,
+  274,
+  265,
+  248,
+  229
+ ],
+ "vectors_by_role": {
+  "cluster_centroid": 9514,
+  "cluster_rep": 10192,
+  "doc_chunk": 400,
+  "event_card": 9514,
+  "evidence": 10784,
+  "mention_frame": 10277
+ },
+ "cache_models": {
+  "qwen3-8b": 23465,
+  "qwen3-embedding-4b": 842,
+  "qwen3-reranker-0.6b": 62604,
+  "qwen3.8-27b": 4593,
+  "typesafe/jev-1.13-20260917": 13115
+ },
+ "cache_stages": {
+  "rerank.same_event": 62592,
+  "judge": 17919,
+  "jev.p_same": 12395,
+  "extract": 10702,
+  "embed.event_card": 268,
+  "embed.frame": 267,
+  "embed.evidence": 228,
+  "embed.chunk": 72,
+  "pair.judge": 42,
+  "data.neg_verify": 40,
+  "bm.prelabel": 17,
+  "judge2.E.rank": 12,
+  "judge2.E": 12,
+  "search.event_rerank": 10,
+  "search.rerank": 9,
+  "extract.retry": 8,
+  "search.query": 5,
+  "judge2.C": 4,
+  "extract.wider": 4,
+  "search.event_query": 2
+ }
+}

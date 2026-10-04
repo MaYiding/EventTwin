@@ -1,0 +1,6602 @@
+[
+ {
+  "id": "T001",
+  "choice": "L052",
+  "confidence": 0.99,
+  "top3": [
+   "L052",
+   "L038",
+   "L017"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 1.03,
+  "cost": 0.000515298,
+  "usage": {
+   "input_tokens": 12269,
+   "output_tokens": 1821,
+   "cost": 0.000515298
+  }
+ },
+ {
+  "id": "T002",
+  "choice": "L126",
+  "confidence": 0.75,
+  "top3": [
+   "L126",
+   "L131",
+   "L114"
+  ],
+  "top3_p": [
+   0.76,
+   0.09,
+   0.06
+  ],
+  "latency_s": 1.23,
+  "cost": 0.000518616,
+  "usage": {
+   "input_tokens": 12348,
+   "output_tokens": 1821,
+   "cost": 0.000518616
+  }
+ },
+ {
+  "id": "T003",
+  "choice": "L052",
+  "confidence": 0.92,
+  "top3": [
+   "L052",
+   "L049",
+   "L001"
+  ],
+  "top3_p": [
+   0.93,
+   0.03,
+   0.01
+  ],
+  "latency_s": 1.08,
+  "cost": 0.000519162,
+  "usage": {
+   "input_tokens": 12361,
+   "output_tokens": 1821,
+   "cost": 0.000519162
+  }
+ },
+ {
+  "id": "T004",
+  "choice": "L052",
+  "confidence": 0.99,
+  "top3": [
+   "L052",
+   "L053",
+   "L180"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 1.1,
+  "cost": 0.000518532,
+  "usage": {
+   "input_tokens": 12346,
+   "output_tokens": 1821,
+   "cost": 0.000518532
+  }
+ },
+ {
+  "id": "T005",
+  "choice": "L049",
+  "confidence": 0.99,
+  "top3": [
+   "L049",
+   "L001",
+   "L120"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.73,
+  "cost": 0.000518742,
+  "usage": {
+   "input_tokens": 12351,
+   "output_tokens": 1821,
+   "cost": 0.000518742
+  }
+ },
+ {
+  "id": "T006",
+  "choice": "L052",
+  "confidence": 0.75,
+  "top3": [
+   "L052",
+   "L060",
+   "L055"
+  ],
+  "top3_p": [
+   0.76,
+   0.09,
+   0.04
+  ],
+  "latency_s": 0.67,
+  "cost": 0.000518112,
+  "usage": {
+   "input_tokens": 12336,
+   "output_tokens": 1821,
+   "cost": 0.000518112
+  }
+ },
+ {
+  "id": "T007",
+  "choice": "L067",
+  "confidence": 0.53,
+  "top3": [
+   "L067",
+   "L068",
+   "L066"
+  ],
+  "top3_p": [
+   0.54,
+   0.27,
+   0.06
+  ],
+  "latency_s": 0.68,
+  "cost": 0.00051807,
+  "usage": {
+   "input_tokens": 12335,
+   "output_tokens": 1821,
+   "cost": 0.00051807
+  }
+ },
+ {
+  "id": "T008",
+  "choice": "L054",
+  "confidence": 0.89,
+  "top3": [
+   "L054",
+   "L066",
+   "L049"
+  ],
+  "top3_p": [
+   0.9,
+   0.03,
+   0.03
+  ],
+  "latency_s": 1.1,
+  "cost": 0.000519204,
+  "usage": {
+   "input_tokens": 12362,
+   "output_tokens": 1821,
+   "cost": 0.000519204
+  }
+ },
+ {
+  "id": "T009",
+  "choice": "L001",
+  "confidence": 0.51,
+  "top3": [
+   "L001",
+   "L157",
+   "L169"
+  ],
+  "top3_p": [
+   0.52,
+   0.29,
+   0.13
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000517944,
+  "usage": {
+   "input_tokens": 12332,
+   "output_tokens": 1821,
+   "cost": 0.000517944
+  }
+ },
+ {
+  "id": "T010",
+  "choice": "L049",
+  "confidence": 0.97,
+  "top3": [
+   "L049",
+   "L051",
+   "L001"
+  ],
+  "top3_p": [
+   0.98,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.63,
+  "cost": 0.000516222,
+  "usage": {
+   "input_tokens": 12291,
+   "output_tokens": 1821,
+   "cost": 0.000516222
+  }
+ },
+ {
+  "id": "T011",
+  "choice": "L049",
+  "confidence": 0.98,
+  "top3": [
+   "L049",
+   "L001",
+   "L179"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.68,
+  "cost": 0.00051786,
+  "usage": {
+   "input_tokens": 12330,
+   "output_tokens": 1821,
+   "cost": 0.00051786
+  }
+ },
+ {
+  "id": "T012",
+  "choice": "L056",
+  "confidence": 0.95,
+  "top3": [
+   "L056",
+   "L055",
+   "L008"
+  ],
+  "top3_p": [
+   0.96,
+   0.03,
+   0.01
+  ],
+  "latency_s": 0.67,
+  "cost": 0.000519288,
+  "usage": {
+   "input_tokens": 12364,
+   "output_tokens": 1821,
+   "cost": 0.000519288
+  }
+ },
+ {
+  "id": "T013",
+  "choice": "L068",
+  "confidence": 0.95,
+  "top3": [
+   "L068",
+   "L056",
+   "L061"
+  ],
+  "top3_p": [
+   0.96,
+   0.03,
+   0.01
+  ],
+  "latency_s": 0.75,
+  "cost": 0.000512442,
+  "usage": {
+   "input_tokens": 12201,
+   "output_tokens": 1821,
+   "cost": 0.000512442
+  }
+ },
+ {
+  "id": "T014",
+  "choice": "L052",
+  "confidence": 0.95,
+  "top3": [
+   "L052",
+   "L076",
+   "L064"
+  ],
+  "top3_p": [
+   0.96,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000518742,
+  "usage": {
+   "input_tokens": 12351,
+   "output_tokens": 1821,
+   "cost": 0.000518742
+  }
+ },
+ {
+  "id": "T015",
+  "choice": "L004",
+  "confidence": 0.94,
+  "top3": [
+   "L004",
+   "L003",
+   "L016"
+  ],
+  "top3_p": [
+   0.95,
+   0.04,
+   0.01
+  ],
+  "latency_s": 1.18,
+  "cost": 0.000518238,
+  "usage": {
+   "input_tokens": 12339,
+   "output_tokens": 1821,
+   "cost": 0.000518238
+  }
+ },
+ {
+  "id": "T016",
+  "choice": "L153",
+  "confidence": 0.93,
+  "top3": [
+   "L153",
+   "L146",
+   "L057"
+  ],
+  "top3_p": [
+   0.94,
+   0.05,
+   0
+  ],
+  "latency_s": 0.57,
+  "cost": 0.000516474,
+  "usage": {
+   "input_tokens": 12297,
+   "output_tokens": 1821,
+   "cost": 0.000516474
+  }
+ },
+ {
+  "id": "T017",
+  "choice": "L032",
+  "confidence": 0.49,
+  "top3": [
+   "L032",
+   "L008",
+   "L020"
+  ],
+  "top3_p": [
+   0.5,
+   0.49,
+   0.01
+  ],
+  "latency_s": 0.52,
+  "cost": 0.000513702,
+  "usage": {
+   "input_tokens": 12231,
+   "output_tokens": 1821,
+   "cost": 0.000513702
+  }
+ },
+ {
+  "id": "T018",
+  "choice": "L001",
+  "confidence": 0.97,
+  "top3": [
+   "L001",
+   "L013",
+   "L025"
+  ],
+  "top3_p": [
+   0.97,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.74,
+  "cost": 0.00051618,
+  "usage": {
+   "input_tokens": 12290,
+   "output_tokens": 1821,
+   "cost": 0.00051618
+  }
+ },
+ {
+  "id": "T019",
+  "choice": "L052",
+  "confidence": 0.99,
+  "top3": [
+   "L052",
+   "L001",
+   "L038"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.56,
+  "cost": 0.000517608,
+  "usage": {
+   "input_tokens": 12324,
+   "output_tokens": 1821,
+   "cost": 0.000517608
+  }
+ },
+ {
+  "id": "T020",
+  "choice": "L128",
+  "confidence": 0.93,
+  "top3": [
+   "L128",
+   "L116",
+   "L140"
+  ],
+  "top3_p": [
+   0.93,
+   0.05,
+   0.01
+  ],
+  "latency_s": 0.67,
+  "cost": 0.000519162,
+  "usage": {
+   "input_tokens": 12361,
+   "output_tokens": 1821,
+   "cost": 0.000519162
+  }
+ },
+ {
+  "id": "T021",
+  "choice": "L013",
+  "confidence": 0.93,
+  "top3": [
+   "L013",
+   "L157",
+   "L014"
+  ],
+  "top3_p": [
+   0.93,
+   0.04,
+   0.01
+  ],
+  "latency_s": 0.92,
+  "cost": 0.000509124,
+  "usage": {
+   "input_tokens": 12122,
+   "output_tokens": 1821,
+   "cost": 0.000509124
+  }
+ },
+ {
+  "id": "T022",
+  "choice": "L002",
+  "confidence": 0.87,
+  "top3": [
+   "L002",
+   "L158",
+   "L014"
+  ],
+  "top3_p": [
+   0.88,
+   0.1,
+   0.01
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000516852,
+  "usage": {
+   "input_tokens": 12306,
+   "output_tokens": 1821,
+   "cost": 0.000516852
+  }
+ },
+ {
+  "id": "T023",
+  "choice": "L025",
+  "confidence": 1,
+  "top3": [
+   "L025",
+   "L122",
+   "L156"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.8,
+  "cost": 0.000516054,
+  "usage": {
+   "input_tokens": 12287,
+   "output_tokens": 1821,
+   "cost": 0.000516054
+  }
+ },
+ {
+  "id": "T024",
+  "choice": "L049",
+  "confidence": 0.99,
+  "top3": [
+   "L049",
+   "L021",
+   "L113"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.66,
+  "cost": 0.000517314,
+  "usage": {
+   "input_tokens": 12317,
+   "output_tokens": 1821,
+   "cost": 0.000517314
+  }
+ },
+ {
+  "id": "T025",
+  "choice": "L052",
+  "confidence": 0.55,
+  "top3": [
+   "L052",
+   "L049",
+   "L064"
+  ],
+  "top3_p": [
+   0.56,
+   0.39,
+   0.02
+  ],
+  "latency_s": 0.53,
+  "cost": 0.000513282,
+  "usage": {
+   "input_tokens": 12221,
+   "output_tokens": 1821,
+   "cost": 0.000513282
+  }
+ },
+ {
+  "id": "T026",
+  "choice": "L052",
+  "confidence": 0.99,
+  "top3": [
+   "L052",
+   "L049",
+   "L122"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.6,
+  "cost": 0.000515298,
+  "usage": {
+   "input_tokens": 12269,
+   "output_tokens": 1821,
+   "cost": 0.000515298
+  }
+ },
+ {
+  "id": "T027",
+  "choice": "L056",
+  "confidence": 0.58,
+  "top3": [
+   "L056",
+   "L008",
+   "L128"
+  ],
+  "top3_p": [
+   0.6,
+   0.14,
+   0.09
+  ],
+  "latency_s": 0.77,
+  "cost": 0.00051828,
+  "usage": {
+   "input_tokens": 12340,
+   "output_tokens": 1821,
+   "cost": 0.00051828
+  }
+ },
+ {
+  "id": "T028",
+  "choice": "L051",
+  "confidence": 0.99,
+  "top3": [
+   "L051",
+   "L098",
+   "L136"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.69,
+  "cost": 0.00051744,
+  "usage": {
+   "input_tokens": 12320,
+   "output_tokens": 1821,
+   "cost": 0.00051744
+  }
+ },
+ {
+  "id": "T029",
+  "choice": "L012",
+  "confidence": 0.36,
+  "top3": [
+   "L012",
+   "L001",
+   "L168"
+  ],
+  "top3_p": [
+   0.37,
+   0.32,
+   0.1
+  ],
+  "latency_s": 0.57,
+  "cost": 0.000516516,
+  "usage": {
+   "input_tokens": 12298,
+   "output_tokens": 1821,
+   "cost": 0.000516516
+  }
+ },
+ {
+  "id": "T030",
+  "choice": "L019",
+  "confidence": 0.71,
+  "top3": [
+   "L019",
+   "L020",
+   "L018"
+  ],
+  "top3_p": [
+   0.72,
+   0.17,
+   0.04
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000517566,
+  "usage": {
+   "input_tokens": 12323,
+   "output_tokens": 1821,
+   "cost": 0.000517566
+  }
+ },
+ {
+  "id": "T031",
+  "choice": "L016",
+  "confidence": 0.91,
+  "top3": [
+   "L016",
+   "L160",
+   "L088"
+  ],
+  "top3_p": [
+   0.92,
+   0.05,
+   0.02
+  ],
+  "latency_s": 0.6,
+  "cost": 0.00051681,
+  "usage": {
+   "input_tokens": 12305,
+   "output_tokens": 1821,
+   "cost": 0.00051681
+  }
+ },
+ {
+  "id": "T032",
+  "choice": "L051",
+  "confidence": 0.99,
+  "top3": [
+   "L051",
+   "L038",
+   "L017"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.52,
+  "cost": 0.00051786,
+  "usage": {
+   "input_tokens": 12330,
+   "output_tokens": 1821,
+   "cost": 0.00051786
+  }
+ },
+ {
+  "id": "T033",
+  "choice": "L049",
+  "confidence": 0.97,
+  "top3": [
+   "L049",
+   "L001",
+   "L046"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000518952,
+  "usage": {
+   "input_tokens": 12356,
+   "output_tokens": 1821,
+   "cost": 0.000518952
+  }
+ },
+ {
+  "id": "T034",
+  "choice": "L052",
+  "confidence": 1,
+  "top3": [
+   "L052",
+   "L146",
+   "L100"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.67,
+  "cost": 0.000513618,
+  "usage": {
+   "input_tokens": 12229,
+   "output_tokens": 1821,
+   "cost": 0.000513618
+  }
+ },
+ {
+  "id": "T035",
+  "choice": "L062",
+  "confidence": 0.67,
+  "top3": [
+   "L062",
+   "L061",
+   "L050"
+  ],
+  "top3_p": [
+   0.68,
+   0.18,
+   0.05
+  ],
+  "latency_s": 0.56,
+  "cost": 0.000519372,
+  "usage": {
+   "input_tokens": 12366,
+   "output_tokens": 1821,
+   "cost": 0.000519372
+  }
+ },
+ {
+  "id": "T036",
+  "choice": "L052",
+  "confidence": 0.87,
+  "top3": [
+   "L052",
+   "L049",
+   "L180"
+  ],
+  "top3_p": [
+   0.88,
+   0.11,
+   0.01
+  ],
+  "latency_s": 1.31,
+  "cost": 0.000514584,
+  "usage": {
+   "input_tokens": 12252,
+   "output_tokens": 1821,
+   "cost": 0.000514584
+  }
+ },
+ {
+  "id": "T037",
+  "choice": "L025",
+  "confidence": 1,
+  "top3": [
+   "L025",
+   "L047",
+   "L006"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.75,
+  "cost": 0.000516348,
+  "usage": {
+   "input_tokens": 12294,
+   "output_tokens": 1821,
+   "cost": 0.000516348
+  }
+ },
+ {
+  "id": "T038",
+  "choice": "L008",
+  "confidence": 0.5,
+  "top3": [
+   "L008",
+   "L056",
+   "L080"
+  ],
+  "top3_p": [
+   0.51,
+   0.45,
+   0.02
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000517902,
+  "usage": {
+   "input_tokens": 12331,
+   "output_tokens": 1821,
+   "cost": 0.000517902
+  }
+ },
+ {
+  "id": "T039",
+  "choice": "L117",
+  "confidence": 0.72,
+  "top3": [
+   "L117",
+   "L129",
+   "L021"
+  ],
+  "top3_p": [
+   0.73,
+   0.27,
+   0
+  ],
+  "latency_s": 0.78,
+  "cost": 0.00051639,
+  "usage": {
+   "input_tokens": 12295,
+   "output_tokens": 1821,
+   "cost": 0.00051639
+  }
+ },
+ {
+  "id": "T040",
+  "choice": "L008",
+  "confidence": 0.44,
+  "top3": [
+   "L008",
+   "L044",
+   "L020"
+  ],
+  "top3_p": [
+   0.45,
+   0.33,
+   0.21
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000510258,
+  "usage": {
+   "input_tokens": 12149,
+   "output_tokens": 1821,
+   "cost": 0.000510258
+  }
+ },
+ {
+  "id": "T041",
+  "choice": "L152",
+  "confidence": 0.95,
+  "top3": [
+   "L152",
+   "L128",
+   "L164"
+  ],
+  "top3_p": [
+   0.96,
+   0.03,
+   0.01
+  ],
+  "latency_s": 0.69,
+  "cost": 0.000516768,
+  "usage": {
+   "input_tokens": 12304,
+   "output_tokens": 1821,
+   "cost": 0.000516768
+  }
+ },
+ {
+  "id": "T042",
+  "choice": "L051",
+  "confidence": 0.94,
+  "top3": [
+   "L051",
+   "L052",
+   "L003"
+  ],
+  "top3_p": [
+   0.95,
+   0.03,
+   0.01
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000519162,
+  "usage": {
+   "input_tokens": 12361,
+   "output_tokens": 1821,
+   "cost": 0.000519162
+  }
+ },
+ {
+  "id": "T043",
+  "choice": "L067",
+  "confidence": 0.99,
+  "top3": [
+   "L067",
+   "L021",
+   "L113"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.74,
+  "cost": 0.000517398,
+  "usage": {
+   "input_tokens": 12319,
+   "output_tokens": 1821,
+   "cost": 0.000517398
+  }
+ },
+ {
+  "id": "T044",
+  "choice": "L049",
+  "confidence": 0.5,
+  "top3": [
+   "L049",
+   "L052",
+   "L179"
+  ],
+  "top3_p": [
+   0.51,
+   0.47,
+   0.01
+  ],
+  "latency_s": 0.57,
+  "cost": 0.00051723,
+  "usage": {
+   "input_tokens": 12315,
+   "output_tokens": 1821,
+   "cost": 0.00051723
+  }
+ },
+ {
+  "id": "T045",
+  "choice": "L052",
+  "confidence": 0.99,
+  "top3": [
+   "L052",
+   "L030",
+   "L101"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.69,
+  "cost": 0.000517776,
+  "usage": {
+   "input_tokens": 12328,
+   "output_tokens": 1821,
+   "cost": 0.000517776
+  }
+ },
+ {
+  "id": "T046",
+  "choice": "L052",
+  "confidence": 0.98,
+  "top3": [
+   "L052",
+   "L054",
+   "L146"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.59,
+  "cost": 0.00051702,
+  "usage": {
+   "input_tokens": 12310,
+   "output_tokens": 1821,
+   "cost": 0.00051702
+  }
+ },
+ {
+  "id": "T047",
+  "choice": "L056",
+  "confidence": 0.96,
+  "top3": [
+   "L056",
+   "L008",
+   "L080"
+  ],
+  "top3_p": [
+   0.97,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.55,
+  "cost": 0.000512568,
+  "usage": {
+   "input_tokens": 12204,
+   "output_tokens": 1821,
+   "cost": 0.000512568
+  }
+ },
+ {
+  "id": "T048",
+  "choice": "L001",
+  "confidence": 0.46,
+  "top3": [
+   "L001",
+   "L049",
+   "L157"
+  ],
+  "top3_p": [
+   0.48,
+   0.35,
+   0.08
+  ],
+  "latency_s": 0.56,
+  "cost": 0.000513954,
+  "usage": {
+   "input_tokens": 12237,
+   "output_tokens": 1821,
+   "cost": 0.000513954
+  }
+ },
+ {
+  "id": "T049",
+  "choice": "L052",
+  "confidence": 0.66,
+  "top3": [
+   "L052",
+   "L049",
+   "L001"
+  ],
+  "top3_p": [
+   0.68,
+   0.24,
+   0.03
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000510132,
+  "usage": {
+   "input_tokens": 12146,
+   "output_tokens": 1821,
+   "cost": 0.000510132
+  }
+ },
+ {
+  "id": "T050",
+  "choice": "L049",
+  "confidence": 0.89,
+  "top3": [
+   "L049",
+   "L001",
+   "L046"
+  ],
+  "top3_p": [
+   0.9,
+   0.1,
+   0
+  ],
+  "latency_s": 0.54,
+  "cost": 0.00051891,
+  "usage": {
+   "input_tokens": 12355,
+   "output_tokens": 1821,
+   "cost": 0.00051891
+  }
+ },
+ {
+  "id": "T051",
+  "choice": "L049",
+  "confidence": 0.98,
+  "top3": [
+   "L049",
+   "L001",
+   "L061"
+  ],
+  "top3_p": [
+   0.98,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.79,
+  "cost": 0.00050799,
+  "usage": {
+   "input_tokens": 12095,
+   "output_tokens": 1821,
+   "cost": 0.00050799
+  }
+ },
+ {
+  "id": "T052",
+  "choice": "L052",
+  "confidence": 0.97,
+  "top3": [
+   "L052",
+   "L064",
+   "L049"
+  ],
+  "top3_p": [
+   0.98,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.77,
+  "cost": 0.000519456,
+  "usage": {
+   "input_tokens": 12368,
+   "output_tokens": 1821,
+   "cost": 0.000519456
+  }
+ },
+ {
+  "id": "T053",
+  "choice": "L074",
+  "confidence": 0.34,
+  "top3": [
+   "L074",
+   "L081",
+   "L077"
+  ],
+  "top3_p": [
+   0.35,
+   0.17,
+   0.11
+  ],
+  "latency_s": 0.66,
+  "cost": 0.000507276,
+  "usage": {
+   "input_tokens": 12078,
+   "output_tokens": 1821,
+   "cost": 0.000507276
+  }
+ },
+ {
+  "id": "T054",
+  "choice": "L154",
+  "confidence": 0.57,
+  "top3": [
+   "L154",
+   "L155",
+   "L153"
+  ],
+  "top3_p": [
+   0.58,
+   0.24,
+   0.07
+  ],
+  "latency_s": 0.6,
+  "cost": 0.000519582,
+  "usage": {
+   "input_tokens": 12371,
+   "output_tokens": 1821,
+   "cost": 0.000519582
+  }
+ },
+ {
+  "id": "T055",
+  "choice": "L003",
+  "confidence": 0.92,
+  "top3": [
+   "L003",
+   "L001",
+   "L027"
+  ],
+  "top3_p": [
+   0.93,
+   0.06,
+   0.01
+  ],
+  "latency_s": 0.74,
+  "cost": 0.000515718,
+  "usage": {
+   "input_tokens": 12279,
+   "output_tokens": 1821,
+   "cost": 0.000515718
+  }
+ },
+ {
+  "id": "T056",
+  "choice": "L004",
+  "confidence": 0.96,
+  "top3": [
+   "L004",
+   "L016",
+   "L003"
+  ],
+  "top3_p": [
+   0.97,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.61,
+  "cost": 0.00051723,
+  "usage": {
+   "input_tokens": 12315,
+   "output_tokens": 1821,
+   "cost": 0.00051723
+  }
+ },
+ {
+  "id": "T057",
+  "choice": "L049",
+  "confidence": 0.91,
+  "top3": [
+   "L049",
+   "L001",
+   "L038"
+  ],
+  "top3_p": [
+   0.92,
+   0.08,
+   0
+  ],
+  "latency_s": 0.55,
+  "cost": 0.000518238,
+  "usage": {
+   "input_tokens": 12339,
+   "output_tokens": 1821,
+   "cost": 0.000518238
+  }
+ },
+ {
+  "id": "T058",
+  "choice": "L049",
+  "confidence": 0.98,
+  "top3": [
+   "L049",
+   "L001",
+   "L167"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000509208,
+  "usage": {
+   "input_tokens": 12124,
+   "output_tokens": 1821,
+   "cost": 0.000509208
+  }
+ },
+ {
+  "id": "T059",
+  "choice": "L049",
+  "confidence": 0.51,
+  "top3": [
+   "L049",
+   "L073",
+   "L074"
+  ],
+  "top3_p": [
+   0.52,
+   0.27,
+   0.18
+  ],
+  "latency_s": 0.63,
+  "cost": 0.000514962,
+  "usage": {
+   "input_tokens": 12261,
+   "output_tokens": 1821,
+   "cost": 0.000514962
+  }
+ },
+ {
+  "id": "T060",
+  "choice": "L052",
+  "confidence": 0.98,
+  "top3": [
+   "L052",
+   "L049",
+   "L122"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000513408,
+  "usage": {
+   "input_tokens": 12224,
+   "output_tokens": 1821,
+   "cost": 0.000513408
+  }
+ },
+ {
+  "id": "T061",
+  "choice": "L052",
+  "confidence": 1,
+  "top3": [
+   "L052",
+   "L158",
+   "L150"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.67,
+  "cost": 0.000513156,
+  "usage": {
+   "input_tokens": 12218,
+   "output_tokens": 1821,
+   "cost": 0.000513156
+  }
+ },
+ {
+  "id": "T062",
+  "choice": "L103",
+  "confidence": 0.68,
+  "top3": [
+   "L103",
+   "L102",
+   "L163"
+  ],
+  "top3_p": [
+   0.69,
+   0.13,
+   0.08
+  ],
+  "latency_s": 0.71,
+  "cost": 0.000518112,
+  "usage": {
+   "input_tokens": 12336,
+   "output_tokens": 1821,
+   "cost": 0.000518112
+  }
+ },
+ {
+  "id": "T063",
+  "choice": "L052",
+  "confidence": 0.99,
+  "top3": [
+   "L052",
+   "L001",
+   "L038"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.53,
+  "cost": 0.000510972,
+  "usage": {
+   "input_tokens": 12166,
+   "output_tokens": 1821,
+   "cost": 0.000510972
+  }
+ },
+ {
+  "id": "T064",
+  "choice": "L056",
+  "confidence": 0.99,
+  "top3": [
+   "L056",
+   "L150",
+   "L180"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.68,
+  "cost": 0.000515424,
+  "usage": {
+   "input_tokens": 12272,
+   "output_tokens": 1821,
+   "cost": 0.000515424
+  }
+ },
+ {
+  "id": "T065",
+  "choice": "L052",
+  "confidence": 0.93,
+  "top3": [
+   "L052",
+   "L076",
+   "L049"
+  ],
+  "top3_p": [
+   0.94,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.7,
+  "cost": 0.000515424,
+  "usage": {
+   "input_tokens": 12272,
+   "output_tokens": 1821,
+   "cost": 0.000515424
+  }
+ },
+ {
+  "id": "T066",
+  "choice": "L164",
+  "confidence": 0.62,
+  "top3": [
+   "L164",
+   "L008",
+   "L128"
+  ],
+  "top3_p": [
+   0.63,
+   0.34,
+   0.02
+  ],
+  "latency_s": 0.61,
+  "cost": 0.000517524,
+  "usage": {
+   "input_tokens": 12322,
+   "output_tokens": 1821,
+   "cost": 0.000517524
+  }
+ },
+ {
+  "id": "T067",
+  "choice": "L008",
+  "confidence": 0.67,
+  "top3": [
+   "L008",
+   "L164",
+   "L020"
+  ],
+  "top3_p": [
+   0.68,
+   0.3,
+   0.01
+  ],
+  "latency_s": 0.53,
+  "cost": 0.000518238,
+  "usage": {
+   "input_tokens": 12339,
+   "output_tokens": 1821,
+   "cost": 0.000518238
+  }
+ },
+ {
+  "id": "T068",
+  "choice": "L054",
+  "confidence": 0.99,
+  "top3": [
+   "L054",
+   "L010",
+   "L075"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000517146,
+  "usage": {
+   "input_tokens": 12313,
+   "output_tokens": 1821,
+   "cost": 0.000517146
+  }
+ },
+ {
+  "id": "T069",
+  "choice": "L004",
+  "confidence": 0.84,
+  "top3": [
+   "L004",
+   "L003",
+   "L016"
+  ],
+  "top3_p": [
+   0.85,
+   0.14,
+   0.01
+  ],
+  "latency_s": 0.67,
+  "cost": 0.000506646,
+  "usage": {
+   "input_tokens": 12063,
+   "output_tokens": 1821,
+   "cost": 0.000506646
+  }
+ },
+ {
+  "id": "T070",
+  "choice": "L004",
+  "confidence": 0.8,
+  "top3": [
+   "L004",
+   "L003",
+   "L016"
+  ],
+  "top3_p": [
+   0.81,
+   0.14,
+   0.02
+  ],
+  "latency_s": 0.53,
+  "cost": 0.000517314,
+  "usage": {
+   "input_tokens": 12317,
+   "output_tokens": 1821,
+   "cost": 0.000517314
+  }
+ },
+ {
+  "id": "T071",
+  "choice": "L052",
+  "confidence": 1,
+  "top3": [
+   "L052",
+   "L156",
+   "L154"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.67,
+  "cost": 0.000516012,
+  "usage": {
+   "input_tokens": 12286,
+   "output_tokens": 1821,
+   "cost": 0.000516012
+  }
+ },
+ {
+  "id": "T072",
+  "choice": "L056",
+  "confidence": 0.76,
+  "top3": [
+   "L056",
+   "L068",
+   "L080"
+  ],
+  "top3_p": [
+   0.77,
+   0.2,
+   0.02
+  ],
+  "latency_s": 0.63,
+  "cost": 0.000509502,
+  "usage": {
+   "input_tokens": 12131,
+   "output_tokens": 1821,
+   "cost": 0.000509502
+  }
+ },
+ {
+  "id": "T073",
+  "choice": "L049",
+  "confidence": 0.99,
+  "top3": [
+   "L049",
+   "L001",
+   "L156"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000517482,
+  "usage": {
+   "input_tokens": 12321,
+   "output_tokens": 1821,
+   "cost": 0.000517482
+  }
+ },
+ {
+  "id": "T074",
+  "choice": "L009",
+  "confidence": 0.71,
+  "top3": [
+   "L009",
+   "L021",
+   "L011"
+  ],
+  "top3_p": [
+   0.72,
+   0.1,
+   0.06
+  ],
+  "latency_s": 0.49,
+  "cost": 0.000508326,
+  "usage": {
+   "input_tokens": 12103,
+   "output_tokens": 1821,
+   "cost": 0.000508326
+  }
+ },
+ {
+  "id": "T075",
+  "choice": "L164",
+  "confidence": 0.55,
+  "top3": [
+   "L164",
+   "L008",
+   "L176"
+  ],
+  "top3_p": [
+   0.56,
+   0.31,
+   0.07
+  ],
+  "latency_s": 0.68,
+  "cost": 0.000512316,
+  "usage": {
+   "input_tokens": 12198,
+   "output_tokens": 1821,
+   "cost": 0.000512316
+  }
+ },
+ {
+  "id": "T076",
+  "choice": "L116",
+  "confidence": 0.99,
+  "top3": [
+   "L116",
+   "L008",
+   "L132"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.56,
+  "cost": 0.000517188,
+  "usage": {
+   "input_tokens": 12314,
+   "output_tokens": 1821,
+   "cost": 0.000517188
+  }
+ },
+ {
+  "id": "T077",
+  "choice": "L009",
+  "confidence": 0.95,
+  "top3": [
+   "L009",
+   "L021",
+   "L165"
+  ],
+  "top3_p": [
+   0.96,
+   0.03,
+   0.01
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000518406,
+  "usage": {
+   "input_tokens": 12343,
+   "output_tokens": 1821,
+   "cost": 0.000518406
+  }
+ },
+ {
+  "id": "T078",
+  "choice": "L010",
+  "confidence": 0.44,
+  "top3": [
+   "L010",
+   "L011",
+   "L023"
+  ],
+  "top3_p": [
+   0.46,
+   0.25,
+   0.14
+  ],
+  "latency_s": 0.6,
+  "cost": 0.000512568,
+  "usage": {
+   "input_tokens": 12204,
+   "output_tokens": 1821,
+   "cost": 0.000512568
+  }
+ },
+ {
+  "id": "T079",
+  "choice": "L067",
+  "confidence": 0.68,
+  "top3": [
+   "L067",
+   "L068",
+   "L055"
+  ],
+  "top3_p": [
+   0.69,
+   0.14,
+   0.05
+  ],
+  "latency_s": 0.66,
+  "cost": 0.000508746,
+  "usage": {
+   "input_tokens": 12113,
+   "output_tokens": 1821,
+   "cost": 0.000508746
+  }
+ },
+ {
+  "id": "T080",
+  "choice": "L051",
+  "confidence": 0.99,
+  "top3": [
+   "L051",
+   "L010",
+   "L023"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.73,
+  "cost": 0.000516306,
+  "usage": {
+   "input_tokens": 12293,
+   "output_tokens": 1821,
+   "cost": 0.000516306
+  }
+ },
+ {
+  "id": "T081",
+  "choice": "L002",
+  "confidence": 0.17,
+  "top3": [
+   "L002",
+   "L001",
+   "L007"
+  ],
+  "top3_p": [
+   0.18,
+   0.18,
+   0.17
+  ],
+  "latency_s": 0.95,
+  "cost": 0.00051765,
+  "usage": {
+   "input_tokens": 12325,
+   "output_tokens": 1821,
+   "cost": 0.00051765
+  }
+ },
+ {
+  "id": "T082",
+  "choice": "L168",
+  "confidence": 0.94,
+  "top3": [
+   "L168",
+   "L132",
+   "L158"
+  ],
+  "top3_p": [
+   0.95,
+   0.04,
+   0.01
+  ],
+  "latency_s": 0.7,
+  "cost": 0.000517104,
+  "usage": {
+   "input_tokens": 12312,
+   "output_tokens": 1821,
+   "cost": 0.000517104
+  }
+ },
+ {
+  "id": "T083",
+  "choice": "L056",
+  "confidence": 0.91,
+  "top3": [
+   "L056",
+   "L080",
+   "L164"
+  ],
+  "top3_p": [
+   0.92,
+   0.06,
+   0.01
+  ],
+  "latency_s": 0.55,
+  "cost": 0.000518616,
+  "usage": {
+   "input_tokens": 12348,
+   "output_tokens": 1821,
+   "cost": 0.000518616
+  }
+ },
+ {
+  "id": "T084",
+  "choice": "L010",
+  "confidence": 0.51,
+  "top3": [
+   "L010",
+   "L011",
+   "L023"
+  ],
+  "top3_p": [
+   0.52,
+   0.33,
+   0.08
+  ],
+  "latency_s": 0.81,
+  "cost": 0.000517734,
+  "usage": {
+   "input_tokens": 12327,
+   "output_tokens": 1821,
+   "cost": 0.000517734
+  }
+ },
+ {
+  "id": "T085",
+  "choice": "L112",
+  "confidence": 0.54,
+  "top3": [
+   "L112",
+   "L111",
+   "L115"
+  ],
+  "top3_p": [
+   0.55,
+   0.21,
+   0.09
+  ],
+  "latency_s": 1.08,
+  "cost": 0.00051807,
+  "usage": {
+   "input_tokens": 12335,
+   "output_tokens": 1821,
+   "cost": 0.00051807
+  }
+ },
+ {
+  "id": "T086",
+  "choice": "L015",
+  "confidence": 0.95,
+  "top3": [
+   "L015",
+   "L003",
+   "L030"
+  ],
+  "top3_p": [
+   0.96,
+   0.04,
+   0
+  ],
+  "latency_s": 0.53,
+  "cost": 0.000515046,
+  "usage": {
+   "input_tokens": 12263,
+   "output_tokens": 1821,
+   "cost": 0.000515046
+  }
+ },
+ {
+  "id": "T087",
+  "choice": "L091",
+  "confidence": 0.4,
+  "top3": [
+   "L091",
+   "L103",
+   "L055"
+  ],
+  "top3_p": [
+   0.41,
+   0.28,
+   0.19
+  ],
+  "latency_s": 0.59,
+  "cost": 0.000516348,
+  "usage": {
+   "input_tokens": 12294,
+   "output_tokens": 1821,
+   "cost": 0.000516348
+  }
+ },
+ {
+  "id": "T088",
+  "choice": "L160",
+  "confidence": 0.44,
+  "top3": [
+   "L160",
+   "L016",
+   "L159"
+  ],
+  "top3_p": [
+   0.45,
+   0.38,
+   0.05
+  ],
+  "latency_s": 0.57,
+  "cost": 0.00051597,
+  "usage": {
+   "input_tokens": 12285,
+   "output_tokens": 1821,
+   "cost": 0.00051597
+  }
+ },
+ {
+  "id": "T089",
+  "choice": "L013",
+  "confidence": 0.82,
+  "top3": [
+   "L013",
+   "L157",
+   "L001"
+  ],
+  "top3_p": [
+   0.84,
+   0.12,
+   0.02
+  ],
+  "latency_s": 0.52,
+  "cost": 0.000513744,
+  "usage": {
+   "input_tokens": 12232,
+   "output_tokens": 1821,
+   "cost": 0.000513744
+  }
+ },
+ {
+  "id": "T090",
+  "choice": "L164",
+  "confidence": 0.72,
+  "top3": [
+   "L164",
+   "L116",
+   "L008"
+  ],
+  "top3_p": [
+   0.73,
+   0.13,
+   0.08
+  ],
+  "latency_s": 0.77,
+  "cost": 0.000517062,
+  "usage": {
+   "input_tokens": 12311,
+   "output_tokens": 1821,
+   "cost": 0.000517062
+  }
+ },
+ {
+  "id": "T091",
+  "choice": "L068",
+  "confidence": 0.97,
+  "top3": [
+   "L068",
+   "L067",
+   "L058"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 0.69,
+  "cost": 0.000517146,
+  "usage": {
+   "input_tokens": 12313,
+   "output_tokens": 1821,
+   "cost": 0.000517146
+  }
+ },
+ {
+  "id": "T092",
+  "choice": "L128",
+  "confidence": 0.94,
+  "top3": [
+   "L128",
+   "L116",
+   "L122"
+  ],
+  "top3_p": [
+   0.95,
+   0.03,
+   0.02
+  ],
+  "latency_s": 0.85,
+  "cost": 0.000517734,
+  "usage": {
+   "input_tokens": 12327,
+   "output_tokens": 1821,
+   "cost": 0.000517734
+  }
+ },
+ {
+  "id": "T093",
+  "choice": "L158",
+  "confidence": 0.76,
+  "top3": [
+   "L158",
+   "L168",
+   "L122"
+  ],
+  "top3_p": [
+   0.77,
+   0.16,
+   0.04
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000514878,
+  "usage": {
+   "input_tokens": 12259,
+   "output_tokens": 1821,
+   "cost": 0.000514878
+  }
+ },
+ {
+  "id": "T094",
+  "choice": "L052",
+  "confidence": 0.89,
+  "top3": [
+   "L052",
+   "L055",
+   "L054"
+  ],
+  "top3_p": [
+   0.9,
+   0.03,
+   0.03
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000517986,
+  "usage": {
+   "input_tokens": 12333,
+   "output_tokens": 1821,
+   "cost": 0.000517986
+  }
+ },
+ {
+  "id": "T095",
+  "choice": "L114",
+  "confidence": 0.88,
+  "top3": [
+   "L114",
+   "L115",
+   "L138"
+  ],
+  "top3_p": [
+   0.89,
+   0.05,
+   0.04
+  ],
+  "latency_s": 0.59,
+  "cost": 0.000515592,
+  "usage": {
+   "input_tokens": 12276,
+   "output_tokens": 1821,
+   "cost": 0.000515592
+  }
+ },
+ {
+  "id": "T096",
+  "choice": "L163",
+  "confidence": 0.51,
+  "top3": [
+   "L163",
+   "L079",
+   "L007"
+  ],
+  "top3_p": [
+   0.52,
+   0.12,
+   0.06
+  ],
+  "latency_s": 0.61,
+  "cost": 0.000518406,
+  "usage": {
+   "input_tokens": 12343,
+   "output_tokens": 1821,
+   "cost": 0.000518406
+  }
+ },
+ {
+  "id": "T097",
+  "choice": "L056",
+  "confidence": 0.99,
+  "top3": [
+   "L056",
+   "L059",
+   "L013"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 1.09,
+  "cost": 0.00051849,
+  "usage": {
+   "input_tokens": 12345,
+   "output_tokens": 1821,
+   "cost": 0.00051849
+  }
+ },
+ {
+  "id": "T098",
+  "choice": "L052",
+  "confidence": 0.99,
+  "top3": [
+   "L052",
+   "L013",
+   "L082"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.63,
+  "cost": 0.000515172,
+  "usage": {
+   "input_tokens": 12266,
+   "output_tokens": 1821,
+   "cost": 0.000515172
+  }
+ },
+ {
+  "id": "T099",
+  "choice": "L123",
+  "confidence": 0.11,
+  "top3": [
+   "L123",
+   "L115",
+   "L135"
+  ],
+  "top3_p": [
+   0.12,
+   0.11,
+   0.11
+  ],
+  "latency_s": 0.57,
+  "cost": 0.000518826,
+  "usage": {
+   "input_tokens": 12353,
+   "output_tokens": 1821,
+   "cost": 0.000518826
+  }
+ },
+ {
+  "id": "T100",
+  "choice": "L110",
+  "confidence": 0.82,
+  "top3": [
+   "L110",
+   "L158",
+   "L001"
+  ],
+  "top3_p": [
+   0.83,
+   0.15,
+   0.02
+  ],
+  "latency_s": 0.99,
+  "cost": 0.000516726,
+  "usage": {
+   "input_tokens": 12303,
+   "output_tokens": 1821,
+   "cost": 0.000516726
+  }
+ },
+ {
+  "id": "T101",
+  "choice": "L001",
+  "confidence": 0.99,
+  "top3": [
+   "L001",
+   "L018",
+   "L089"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000519498,
+  "usage": {
+   "input_tokens": 12369,
+   "output_tokens": 1821,
+   "cost": 0.000519498
+  }
+ },
+ {
+  "id": "T102",
+  "choice": "L090",
+  "confidence": 0.52,
+  "top3": [
+   "L090",
+   "L088",
+   "L085"
+  ],
+  "top3_p": [
+   0.54,
+   0.29,
+   0.04
+  ],
+  "latency_s": 0.75,
+  "cost": 0.000515298,
+  "usage": {
+   "input_tokens": 12269,
+   "output_tokens": 1821,
+   "cost": 0.000515298
+  }
+ },
+ {
+  "id": "T103",
+  "choice": "L066",
+  "confidence": 0.97,
+  "top3": [
+   "L066",
+   "L067",
+   "L110"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000504546,
+  "usage": {
+   "input_tokens": 12013,
+   "output_tokens": 1821,
+   "cost": 0.000504546
+  }
+ },
+ {
+  "id": "T104",
+  "choice": "L068",
+  "confidence": 0.99,
+  "top3": [
+   "L068",
+   "L054",
+   "L085"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.98,
+  "cost": 0.000518364,
+  "usage": {
+   "input_tokens": 12342,
+   "output_tokens": 1821,
+   "cost": 0.000518364
+  }
+ },
+ {
+  "id": "T105",
+  "choice": "L004",
+  "confidence": 0.92,
+  "top3": [
+   "L004",
+   "L016",
+   "L003"
+  ],
+  "top3_p": [
+   0.93,
+   0.05,
+   0.01
+  ],
+  "latency_s": 0.85,
+  "cost": 0.00051387,
+  "usage": {
+   "input_tokens": 12235,
+   "output_tokens": 1821,
+   "cost": 0.00051387
+  }
+ },
+ {
+  "id": "T106",
+  "choice": "L119",
+  "confidence": 0.14,
+  "top3": [
+   "L119",
+   "L167",
+   "L168"
+  ],
+  "top3_p": [
+   0.16,
+   0.13,
+   0.08
+  ],
+  "latency_s": 0.71,
+  "cost": 0.000520002,
+  "usage": {
+   "input_tokens": 12381,
+   "output_tokens": 1821,
+   "cost": 0.000520002
+  }
+ },
+ {
+  "id": "T107",
+  "choice": "L052",
+  "confidence": 0.96,
+  "top3": [
+   "L052",
+   "L049",
+   "L021"
+  ],
+  "top3_p": [
+   0.97,
+   0.03,
+   0
+  ],
+  "latency_s": 0.6,
+  "cost": 0.000519288,
+  "usage": {
+   "input_tokens": 12364,
+   "output_tokens": 1821,
+   "cost": 0.000519288
+  }
+ },
+ {
+  "id": "T108",
+  "choice": "L004",
+  "confidence": 0.98,
+  "top3": [
+   "L004",
+   "L016",
+   "L003"
+  ],
+  "top3_p": [
+   0.98,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000511854,
+  "usage": {
+   "input_tokens": 12187,
+   "output_tokens": 1821,
+   "cost": 0.000511854
+  }
+ },
+ {
+  "id": "T109",
+  "choice": "L067",
+  "confidence": 0.77,
+  "top3": [
+   "L067",
+   "L066",
+   "L007"
+  ],
+  "top3_p": [
+   0.78,
+   0.16,
+   0.02
+  ],
+  "latency_s": 0.56,
+  "cost": 0.000518196,
+  "usage": {
+   "input_tokens": 12338,
+   "output_tokens": 1821,
+   "cost": 0.000518196
+  }
+ },
+ {
+  "id": "T110",
+  "choice": "L052",
+  "confidence": 0.98,
+  "top3": [
+   "L052",
+   "L064",
+   "L080"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.64,
+  "cost": 0.000506646,
+  "usage": {
+   "input_tokens": 12063,
+   "output_tokens": 1821,
+   "cost": 0.000506646
+  }
+ },
+ {
+  "id": "T111",
+  "choice": "L132",
+  "confidence": 0.82,
+  "top3": [
+   "L132",
+   "L120",
+   "L168"
+  ],
+  "top3_p": [
+   0.83,
+   0.04,
+   0.04
+  ],
+  "latency_s": 0.83,
+  "cost": 0.000515298,
+  "usage": {
+   "input_tokens": 12269,
+   "output_tokens": 1821,
+   "cost": 0.000515298
+  }
+ },
+ {
+  "id": "T112",
+  "choice": "L049",
+  "confidence": 0.88,
+  "top3": [
+   "L049",
+   "L056",
+   "L110"
+  ],
+  "top3_p": [
+   0.89,
+   0.11,
+   0
+  ],
+  "latency_s": 0.51,
+  "cost": 0.000518994,
+  "usage": {
+   "input_tokens": 12357,
+   "output_tokens": 1821,
+   "cost": 0.000518994
+  }
+ },
+ {
+  "id": "T113",
+  "choice": "L008",
+  "confidence": 0.97,
+  "top3": [
+   "L008",
+   "L020",
+   "L001"
+  ],
+  "top3_p": [
+   0.97,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.53,
+  "cost": 0.000517356,
+  "usage": {
+   "input_tokens": 12318,
+   "output_tokens": 1821,
+   "cost": 0.000517356
+  }
+ },
+ {
+  "id": "T114",
+  "choice": "L052",
+  "confidence": 0.99,
+  "top3": [
+   "L052",
+   "L076",
+   "L047"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000515466,
+  "usage": {
+   "input_tokens": 12273,
+   "output_tokens": 1821,
+   "cost": 0.000515466
+  }
+ },
+ {
+  "id": "T115",
+  "choice": "L020",
+  "confidence": 0.84,
+  "top3": [
+   "L020",
+   "L164",
+   "L008"
+  ],
+  "top3_p": [
+   0.86,
+   0.11,
+   0.03
+  ],
+  "latency_s": 0.69,
+  "cost": 0.000512988,
+  "usage": {
+   "input_tokens": 12214,
+   "output_tokens": 1821,
+   "cost": 0.000512988
+  }
+ },
+ {
+  "id": "T116",
+  "choice": "L068",
+  "confidence": 0.99,
+  "top3": [
+   "L068",
+   "L056",
+   "L132"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.73,
+  "cost": 0.000509628,
+  "usage": {
+   "input_tokens": 12134,
+   "output_tokens": 1821,
+   "cost": 0.000509628
+  }
+ },
+ {
+  "id": "T117",
+  "choice": "L130",
+  "confidence": 0.39,
+  "top3": [
+   "L130",
+   "L166",
+   "L131"
+  ],
+  "top3_p": [
+   0.41,
+   0.19,
+   0.14
+  ],
+  "latency_s": 0.6,
+  "cost": 0.000509502,
+  "usage": {
+   "input_tokens": 12131,
+   "output_tokens": 1821,
+   "cost": 0.000509502
+  }
+ },
+ {
+  "id": "T118",
+  "choice": "L003",
+  "confidence": 0.99,
+  "top3": [
+   "L003",
+   "L177",
+   "L169"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.63,
+  "cost": 0.000515928,
+  "usage": {
+   "input_tokens": 12284,
+   "output_tokens": 1821,
+   "cost": 0.000515928
+  }
+ },
+ {
+  "id": "T119",
+  "choice": "L113",
+  "confidence": 0.95,
+  "top3": [
+   "L113",
+   "L137",
+   "L125"
+  ],
+  "top3_p": [
+   0.96,
+   0.02,
+   0.02
+  ],
+  "latency_s": 0.61,
+  "cost": 0.000517944,
+  "usage": {
+   "input_tokens": 12332,
+   "output_tokens": 1821,
+   "cost": 0.000517944
+  }
+ },
+ {
+  "id": "T120",
+  "choice": "L049",
+  "confidence": 0.99,
+  "top3": [
+   "L049",
+   "L073",
+   "L158"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000518028,
+  "usage": {
+   "input_tokens": 12334,
+   "output_tokens": 1821,
+   "cost": 0.000518028
+  }
+ },
+ {
+  "id": "T121",
+  "choice": "L052",
+  "confidence": 0.97,
+  "top3": [
+   "L052",
+   "L076",
+   "L060"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 0.82,
+  "cost": 0.000512988,
+  "usage": {
+   "input_tokens": 12214,
+   "output_tokens": 1821,
+   "cost": 0.000512988
+  }
+ },
+ {
+  "id": "T122",
+  "choice": "L025",
+  "confidence": 0.99,
+  "top3": [
+   "L025",
+   "L111",
+   "L180"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.55,
+  "cost": 0.000505344,
+  "usage": {
+   "input_tokens": 12032,
+   "output_tokens": 1821,
+   "cost": 0.000505344
+  }
+ },
+ {
+  "id": "T123",
+  "choice": "L158",
+  "confidence": 0.99,
+  "top3": [
+   "L158",
+   "L011",
+   "L109"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.81,
+  "cost": 0.000518112,
+  "usage": {
+   "input_tokens": 12336,
+   "output_tokens": 1821,
+   "cost": 0.000518112
+  }
+ },
+ {
+  "id": "T124",
+  "choice": "L074",
+  "confidence": 0.83,
+  "top3": [
+   "L074",
+   "L084",
+   "L158"
+  ],
+  "top3_p": [
+   0.84,
+   0.07,
+   0.04
+  ],
+  "latency_s": 0.66,
+  "cost": 0.000514122,
+  "usage": {
+   "input_tokens": 12241,
+   "output_tokens": 1821,
+   "cost": 0.000514122
+  }
+ },
+ {
+  "id": "T125",
+  "choice": "L001",
+  "confidence": 0.94,
+  "top3": [
+   "L001",
+   "L157",
+   "L013"
+  ],
+  "top3_p": [
+   0.95,
+   0.03,
+   0.01
+  ],
+  "latency_s": 0.89,
+  "cost": 0.00051408,
+  "usage": {
+   "input_tokens": 12240,
+   "output_tokens": 1821,
+   "cost": 0.00051408
+  }
+ },
+ {
+  "id": "T126",
+  "choice": "L163",
+  "confidence": 0.43,
+  "top3": [
+   "L115",
+   "L163",
+   "L114"
+  ],
+  "top3_p": [
+   0.44,
+   0.44,
+   0.03
+  ],
+  "latency_s": 0.54,
+  "cost": 0.000518532,
+  "usage": {
+   "input_tokens": 12346,
+   "output_tokens": 1821,
+   "cost": 0.000518532
+  }
+ },
+ {
+  "id": "T127",
+  "choice": "L052",
+  "confidence": 0.97,
+  "top3": [
+   "L052",
+   "L076",
+   "L064"
+  ],
+  "top3_p": [
+   0.98,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000516516,
+  "usage": {
+   "input_tokens": 12298,
+   "output_tokens": 1821,
+   "cost": 0.000516516
+  }
+ },
+ {
+  "id": "T128",
+  "choice": "L001",
+  "confidence": 0.99,
+  "top3": [
+   "L001",
+   "L038",
+   "L078"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.66,
+  "cost": 0.000518238,
+  "usage": {
+   "input_tokens": 12339,
+   "output_tokens": 1821,
+   "cost": 0.000518238
+  }
+ },
+ {
+  "id": "T129",
+  "choice": "L051",
+  "confidence": 0.99,
+  "top3": [
+   "L051",
+   "L146",
+   "L123"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.55,
+  "cost": 0.000517608,
+  "usage": {
+   "input_tokens": 12324,
+   "output_tokens": 1821,
+   "cost": 0.000517608
+  }
+ },
+ {
+  "id": "T130",
+  "choice": "L117",
+  "confidence": 0.79,
+  "top3": [
+   "L117",
+   "L119",
+   "L118"
+  ],
+  "top3_p": [
+   0.8,
+   0.09,
+   0.07
+  ],
+  "latency_s": 0.68,
+  "cost": 0.000516096,
+  "usage": {
+   "input_tokens": 12288,
+   "output_tokens": 1821,
+   "cost": 0.000516096
+  }
+ },
+ {
+  "id": "T131",
+  "choice": "L004",
+  "confidence": 0.88,
+  "top3": [
+   "L004",
+   "L003",
+   "L016"
+  ],
+  "top3_p": [
+   0.89,
+   0.1,
+   0.01
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000517944,
+  "usage": {
+   "input_tokens": 12332,
+   "output_tokens": 1821,
+   "cost": 0.000517944
+  }
+ },
+ {
+  "id": "T132",
+  "choice": "L052",
+  "confidence": 0.96,
+  "top3": [
+   "L052",
+   "L055",
+   "L049"
+  ],
+  "top3_p": [
+   0.97,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.55,
+  "cost": 0.000515004,
+  "usage": {
+   "input_tokens": 12262,
+   "output_tokens": 1821,
+   "cost": 0.000515004
+  }
+ },
+ {
+  "id": "T133",
+  "choice": "L006",
+  "confidence": 0.24,
+  "top3": [
+   "L006",
+   "L018",
+   "L090"
+  ],
+  "top3_p": [
+   0.26,
+   0.13,
+   0.1
+  ],
+  "latency_s": 0.57,
+  "cost": 0.00051933,
+  "usage": {
+   "input_tokens": 12365,
+   "output_tokens": 1821,
+   "cost": 0.00051933
+  }
+ },
+ {
+  "id": "T134",
+  "choice": "L001",
+  "confidence": 0.99,
+  "top3": [
+   "L001",
+   "L013",
+   "L030"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.61,
+  "cost": 0.000513156,
+  "usage": {
+   "input_tokens": 12218,
+   "output_tokens": 1821,
+   "cost": 0.000513156
+  }
+ },
+ {
+  "id": "T135",
+  "choice": "L158",
+  "confidence": 0.83,
+  "top3": [
+   "L158",
+   "L014",
+   "L170"
+  ],
+  "top3_p": [
+   0.85,
+   0.09,
+   0.02
+  ],
+  "latency_s": 0.53,
+  "cost": 0.000516726,
+  "usage": {
+   "input_tokens": 12303,
+   "output_tokens": 1821,
+   "cost": 0.000516726
+  }
+ },
+ {
+  "id": "T136",
+  "choice": "L052",
+  "confidence": 0.83,
+  "top3": [
+   "L052",
+   "L051",
+   "L049"
+  ],
+  "top3_p": [
+   0.84,
+   0.09,
+   0.03
+  ],
+  "latency_s": 0.97,
+  "cost": 0.000518196,
+  "usage": {
+   "input_tokens": 12338,
+   "output_tokens": 1821,
+   "cost": 0.000518196
+  }
+ },
+ {
+  "id": "T137",
+  "choice": "L052",
+  "confidence": 1,
+  "top3": [
+   "L052",
+   "L047",
+   "L014"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.65,
+  "cost": 0.000516894,
+  "usage": {
+   "input_tokens": 12307,
+   "output_tokens": 1821,
+   "cost": 0.000516894
+  }
+ },
+ {
+  "id": "T138",
+  "choice": "L165",
+  "confidence": 0.71,
+  "top3": [
+   "L165",
+   "L081",
+   "L117"
+  ],
+  "top3_p": [
+   0.72,
+   0.19,
+   0.05
+  ],
+  "latency_s": 0.52,
+  "cost": 0.000516642,
+  "usage": {
+   "input_tokens": 12301,
+   "output_tokens": 1821,
+   "cost": 0.000516642
+  }
+ },
+ {
+  "id": "T139",
+  "choice": "L052",
+  "confidence": 0.55,
+  "top3": [
+   "L052",
+   "L076",
+   "L174"
+  ],
+  "top3_p": [
+   0.57,
+   0.43,
+   0
+  ],
+  "latency_s": 0.68,
+  "cost": 0.000515046,
+  "usage": {
+   "input_tokens": 12263,
+   "output_tokens": 1821,
+   "cost": 0.000515046
+  }
+ },
+ {
+  "id": "T140",
+  "choice": "L084",
+  "confidence": 0.62,
+  "top3": [
+   "L084",
+   "L060",
+   "L168"
+  ],
+  "top3_p": [
+   0.63,
+   0.1,
+   0.08
+  ],
+  "latency_s": 0.64,
+  "cost": 0.000511644,
+  "usage": {
+   "input_tokens": 12182,
+   "output_tokens": 1821,
+   "cost": 0.000511644
+  }
+ },
+ {
+  "id": "T141",
+  "choice": "L055",
+  "confidence": 0.42,
+  "top3": [
+   "L055",
+   "L054",
+   "L057"
+  ],
+  "top3_p": [
+   0.44,
+   0.42,
+   0.07
+  ],
+  "latency_s": 0.56,
+  "cost": 0.000512652,
+  "usage": {
+   "input_tokens": 12206,
+   "output_tokens": 1821,
+   "cost": 0.000512652
+  }
+ },
+ {
+  "id": "T142",
+  "choice": "L049",
+  "confidence": 0.99,
+  "top3": [
+   "L049",
+   "L014",
+   "L170"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.54,
+  "cost": 0.000515004,
+  "usage": {
+   "input_tokens": 12262,
+   "output_tokens": 1821,
+   "cost": 0.000515004
+  }
+ },
+ {
+  "id": "T143",
+  "choice": "L049",
+  "confidence": 0.55,
+  "top3": [
+   "L049",
+   "L061",
+   "L058"
+  ],
+  "top3_p": [
+   0.57,
+   0.09,
+   0.07
+  ],
+  "latency_s": 0.81,
+  "cost": 0.000519666,
+  "usage": {
+   "input_tokens": 12373,
+   "output_tokens": 1821,
+   "cost": 0.000519666
+  }
+ },
+ {
+  "id": "T144",
+  "choice": "L163",
+  "confidence": 0.8,
+  "top3": [
+   "L163",
+   "L157",
+   "L067"
+  ],
+  "top3_p": [
+   0.81,
+   0.06,
+   0.05
+  ],
+  "latency_s": 0.72,
+  "cost": 0.00050988,
+  "usage": {
+   "input_tokens": 12140,
+   "output_tokens": 1821,
+   "cost": 0.00050988
+  }
+ },
+ {
+  "id": "T145",
+  "choice": "L164",
+  "confidence": 0.72,
+  "top3": [
+   "L164",
+   "L020",
+   "L008"
+  ],
+  "top3_p": [
+   0.74,
+   0.23,
+   0.03
+  ],
+  "latency_s": 0.63,
+  "cost": 0.000519036,
+  "usage": {
+   "input_tokens": 12358,
+   "output_tokens": 1821,
+   "cost": 0.000519036
+  }
+ },
+ {
+  "id": "T146",
+  "choice": "L049",
+  "confidence": 0.98,
+  "top3": [
+   "L049",
+   "L001",
+   "L038"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000517482,
+  "usage": {
+   "input_tokens": 12321,
+   "output_tokens": 1821,
+   "cost": 0.000517482
+  }
+ },
+ {
+  "id": "T147",
+  "choice": "L087",
+  "confidence": 0.49,
+  "top3": [
+   "L087",
+   "L083",
+   "L073"
+  ],
+  "top3_p": [
+   0.51,
+   0.17,
+   0.09
+  ],
+  "latency_s": 0.53,
+  "cost": 0.000519456,
+  "usage": {
+   "input_tokens": 12368,
+   "output_tokens": 1821,
+   "cost": 0.000519456
+  }
+ },
+ {
+  "id": "T148",
+  "choice": "L067",
+  "confidence": 0.84,
+  "top3": [
+   "L067",
+   "L066",
+   "L055"
+  ],
+  "top3_p": [
+   0.86,
+   0.1,
+   0.03
+  ],
+  "latency_s": 0.84,
+  "cost": 0.00051639,
+  "usage": {
+   "input_tokens": 12295,
+   "output_tokens": 1821,
+   "cost": 0.00051639
+  }
+ },
+ {
+  "id": "T149",
+  "choice": "L051",
+  "confidence": 0.99,
+  "top3": [
+   "L051",
+   "L052",
+   "L045"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.67,
+  "cost": 0.00051513,
+  "usage": {
+   "input_tokens": 12265,
+   "output_tokens": 1821,
+   "cost": 0.00051513
+  }
+ },
+ {
+  "id": "T150",
+  "choice": "L052",
+  "confidence": 0.99,
+  "top3": [
+   "L052",
+   "L060",
+   "L180"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.74,
+  "cost": 0.00051933,
+  "usage": {
+   "input_tokens": 12365,
+   "output_tokens": 1821,
+   "cost": 0.00051933
+  }
+ },
+ {
+  "id": "T151",
+  "choice": "L051",
+  "confidence": 0.97,
+  "top3": [
+   "L051",
+   "L075",
+   "L052"
+  ],
+  "top3_p": [
+   0.98,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.87,
+  "cost": 0.000515928,
+  "usage": {
+   "input_tokens": 12284,
+   "output_tokens": 1821,
+   "cost": 0.000515928
+  }
+ },
+ {
+  "id": "T152",
+  "choice": "L049",
+  "confidence": 0.99,
+  "top3": [
+   "L049",
+   "L001",
+   "L109"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.77,
+  "cost": 0.000519876,
+  "usage": {
+   "input_tokens": 12378,
+   "output_tokens": 1821,
+   "cost": 0.000519876
+  }
+ },
+ {
+  "id": "T153",
+  "choice": "L052",
+  "confidence": 0.97,
+  "top3": [
+   "L052",
+   "L179",
+   "L180"
+  ],
+  "top3_p": [
+   0.98,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.63,
+  "cost": 0.00051555,
+  "usage": {
+   "input_tokens": 12275,
+   "output_tokens": 1821,
+   "cost": 0.00051555
+  }
+ },
+ {
+  "id": "T154",
+  "choice": "L056",
+  "confidence": 0.93,
+  "top3": [
+   "L056",
+   "L068",
+   "L008"
+  ],
+  "top3_p": [
+   0.94,
+   0.04,
+   0.01
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000517524,
+  "usage": {
+   "input_tokens": 12322,
+   "output_tokens": 1821,
+   "cost": 0.000517524
+  }
+ },
+ {
+  "id": "T155",
+  "choice": "L067",
+  "confidence": 0.93,
+  "top3": [
+   "L067",
+   "L055",
+   "L061"
+  ],
+  "top3_p": [
+   0.94,
+   0.03,
+   0.01
+  ],
+  "latency_s": 0.71,
+  "cost": 0.000516684,
+  "usage": {
+   "input_tokens": 12302,
+   "output_tokens": 1821,
+   "cost": 0.000516684
+  }
+ },
+ {
+  "id": "T156",
+  "choice": "L056",
+  "confidence": 1,
+  "top3": [
+   "L056",
+   "L177",
+   "L169"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.62,
+  "cost": 0.00051891,
+  "usage": {
+   "input_tokens": 12355,
+   "output_tokens": 1821,
+   "cost": 0.00051891
+  }
+ },
+ {
+  "id": "T157",
+  "choice": "L049",
+  "confidence": 0.93,
+  "top3": [
+   "L049",
+   "L074",
+   "L056"
+  ],
+  "top3_p": [
+   0.94,
+   0.03,
+   0.01
+  ],
+  "latency_s": 0.95,
+  "cost": 0.000517398,
+  "usage": {
+   "input_tokens": 12319,
+   "output_tokens": 1821,
+   "cost": 0.000517398
+  }
+ },
+ {
+  "id": "T158",
+  "choice": "L051",
+  "confidence": 0.96,
+  "top3": [
+   "L051",
+   "L075",
+   "L049"
+  ],
+  "top3_p": [
+   0.97,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.54,
+  "cost": 0.00051618,
+  "usage": {
+   "input_tokens": 12290,
+   "output_tokens": 1821,
+   "cost": 0.00051618
+  }
+ },
+ {
+  "id": "T159",
+  "choice": "L061",
+  "confidence": 0.99,
+  "top3": [
+   "L061",
+   "L044",
+   "L092"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.56,
+  "cost": 0.000517944,
+  "usage": {
+   "input_tokens": 12332,
+   "output_tokens": 1821,
+   "cost": 0.000517944
+  }
+ },
+ {
+  "id": "T160",
+  "choice": "L056",
+  "confidence": 0.96,
+  "top3": [
+   "L056",
+   "L068",
+   "L044"
+  ],
+  "top3_p": [
+   0.97,
+   0.03,
+   0
+  ],
+  "latency_s": 0.72,
+  "cost": 0.00051135,
+  "usage": {
+   "input_tokens": 12175,
+   "output_tokens": 1821,
+   "cost": 0.00051135
+  }
+ },
+ {
+  "id": "T161",
+  "choice": "L068",
+  "confidence": 0.73,
+  "top3": [
+   "L068",
+   "L067",
+   "L056"
+  ],
+  "top3_p": [
+   0.74,
+   0.12,
+   0.1
+  ],
+  "latency_s": 0.52,
+  "cost": 0.000516138,
+  "usage": {
+   "input_tokens": 12289,
+   "output_tokens": 1821,
+   "cost": 0.000516138
+  }
+ },
+ {
+  "id": "T162",
+  "choice": "L001",
+  "confidence": 0.5,
+  "top3": [
+   "L001",
+   "L002",
+   "L026"
+  ],
+  "top3_p": [
+   0.51,
+   0.36,
+   0.09
+  ],
+  "latency_s": 0.61,
+  "cost": 0.000510426,
+  "usage": {
+   "input_tokens": 12153,
+   "output_tokens": 1821,
+   "cost": 0.000510426
+  }
+ },
+ {
+  "id": "T163",
+  "choice": "L049",
+  "confidence": 0.93,
+  "top3": [
+   "L049",
+   "L074",
+   "L051"
+  ],
+  "top3_p": [
+   0.94,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.52,
+  "cost": 0.000517314,
+  "usage": {
+   "input_tokens": 12317,
+   "output_tokens": 1821,
+   "cost": 0.000517314
+  }
+ },
+ {
+  "id": "T164",
+  "choice": "L049",
+  "confidence": 0.96,
+  "top3": [
+   "L049",
+   "L073",
+   "L001"
+  ],
+  "top3_p": [
+   0.97,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.56,
+  "cost": 0.00051849,
+  "usage": {
+   "input_tokens": 12345,
+   "output_tokens": 1821,
+   "cost": 0.00051849
+  }
+ },
+ {
+  "id": "T165",
+  "choice": "L158",
+  "confidence": 0.98,
+  "top3": [
+   "L158",
+   "L122",
+   "L030"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.84,
+  "cost": 0.000516936,
+  "usage": {
+   "input_tokens": 12308,
+   "output_tokens": 1821,
+   "cost": 0.000516936
+  }
+ },
+ {
+  "id": "T166",
+  "choice": "L052",
+  "confidence": 0.99,
+  "top3": [
+   "L052",
+   "L038",
+   "L017"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.7,
+  "cost": 0.000508956,
+  "usage": {
+   "input_tokens": 12118,
+   "output_tokens": 1821,
+   "cost": 0.000508956
+  }
+ },
+ {
+  "id": "T167",
+  "choice": "L003",
+  "confidence": 0.71,
+  "top3": [
+   "L003",
+   "L001",
+   "L015"
+  ],
+  "top3_p": [
+   0.73,
+   0.26,
+   0.01
+  ],
+  "latency_s": 0.53,
+  "cost": 0.0005166,
+  "usage": {
+   "input_tokens": 12300,
+   "output_tokens": 1821,
+   "cost": 0.0005166
+  }
+ },
+ {
+  "id": "T168",
+  "choice": "L057",
+  "confidence": 0.97,
+  "top3": [
+   "L057",
+   "L049",
+   "L021"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000508242,
+  "usage": {
+   "input_tokens": 12101,
+   "output_tokens": 1821,
+   "cost": 0.000508242
+  }
+ },
+ {
+  "id": "T169",
+  "choice": "L052",
+  "confidence": 0.93,
+  "top3": [
+   "L052",
+   "L049",
+   "L004"
+  ],
+  "top3_p": [
+   0.94,
+   0.02,
+   0.02
+  ],
+  "latency_s": 0.6,
+  "cost": 0.00051744,
+  "usage": {
+   "input_tokens": 12320,
+   "output_tokens": 1821,
+   "cost": 0.00051744
+  }
+ },
+ {
+  "id": "T170",
+  "choice": "L051",
+  "confidence": 0.99,
+  "top3": [
+   "L051",
+   "L009",
+   "L148"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000515004,
+  "usage": {
+   "input_tokens": 12262,
+   "output_tokens": 1821,
+   "cost": 0.000515004
+  }
+ },
+ {
+  "id": "T171",
+  "choice": "L088",
+  "confidence": 0.66,
+  "top3": [
+   "L088",
+   "L085",
+   "L164"
+  ],
+  "top3_p": [
+   0.67,
+   0.09,
+   0.05
+  ],
+  "latency_s": 0.79,
+  "cost": 0.000517272,
+  "usage": {
+   "input_tokens": 12316,
+   "output_tokens": 1821,
+   "cost": 0.000517272
+  }
+ },
+ {
+  "id": "T172",
+  "choice": "L114",
+  "confidence": 0.64,
+  "top3": [
+   "L114",
+   "L115",
+   "L180"
+  ],
+  "top3_p": [
+   0.65,
+   0.33,
+   0.01
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000516264,
+  "usage": {
+   "input_tokens": 12292,
+   "output_tokens": 1821,
+   "cost": 0.000516264
+  }
+ },
+ {
+  "id": "T173",
+  "choice": "L004",
+  "confidence": 0.96,
+  "top3": [
+   "L004",
+   "L003",
+   "L016"
+  ],
+  "top3_p": [
+   0.97,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.64,
+  "cost": 0.000515928,
+  "usage": {
+   "input_tokens": 12284,
+   "output_tokens": 1821,
+   "cost": 0.000515928
+  }
+ },
+ {
+  "id": "T174",
+  "choice": "L057",
+  "confidence": 0.9,
+  "top3": [
+   "L057",
+   "L049",
+   "L093"
+  ],
+  "top3_p": [
+   0.91,
+   0.04,
+   0.02
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000518406,
+  "usage": {
+   "input_tokens": 12343,
+   "output_tokens": 1821,
+   "cost": 0.000518406
+  }
+ },
+ {
+  "id": "T175",
+  "choice": "L010",
+  "confidence": 0.78,
+  "top3": [
+   "L010",
+   "L011",
+   "L023"
+  ],
+  "top3_p": [
+   0.79,
+   0.11,
+   0.04
+  ],
+  "latency_s": 0.65,
+  "cost": 0.00051387,
+  "usage": {
+   "input_tokens": 12235,
+   "output_tokens": 1821,
+   "cost": 0.00051387
+  }
+ },
+ {
+  "id": "T176",
+  "choice": "L052",
+  "confidence": 0.98,
+  "top3": [
+   "L052",
+   "L076",
+   "L044"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.71,
+  "cost": 0.000517104,
+  "usage": {
+   "input_tokens": 12312,
+   "output_tokens": 1821,
+   "cost": 0.000517104
+  }
+ },
+ {
+  "id": "T177",
+  "choice": "L052",
+  "confidence": 0.98,
+  "top3": [
+   "L052",
+   "L064",
+   "L049"
+  ],
+  "top3_p": [
+   0.98,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.69,
+  "cost": 0.000518406,
+  "usage": {
+   "input_tokens": 12343,
+   "output_tokens": 1821,
+   "cost": 0.000518406
+  }
+ },
+ {
+  "id": "T178",
+  "choice": "L163",
+  "confidence": 0.46,
+  "top3": [
+   "L163",
+   "L055",
+   "L079"
+  ],
+  "top3_p": [
+   0.47,
+   0.36,
+   0.06
+  ],
+  "latency_s": 0.74,
+  "cost": 0.000515508,
+  "usage": {
+   "input_tokens": 12274,
+   "output_tokens": 1821,
+   "cost": 0.000515508
+  }
+ },
+ {
+  "id": "T179",
+  "choice": "L049",
+  "confidence": 0.99,
+  "top3": [
+   "L049",
+   "L001",
+   "L047"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.7,
+  "cost": 0.000508914,
+  "usage": {
+   "input_tokens": 12117,
+   "output_tokens": 1821,
+   "cost": 0.000508914
+  }
+ },
+ {
+  "id": "T180",
+  "choice": "L056",
+  "confidence": 0.98,
+  "top3": [
+   "L056",
+   "L051",
+   "L068"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.57,
+  "cost": 0.000516348,
+  "usage": {
+   "input_tokens": 12294,
+   "output_tokens": 1821,
+   "cost": 0.000516348
+  }
+ },
+ {
+  "id": "T181",
+  "choice": "L056",
+  "confidence": 0.99,
+  "top3": [
+   "L056",
+   "L073",
+   "L070"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.72,
+  "cost": 0.00051744,
+  "usage": {
+   "input_tokens": 12320,
+   "output_tokens": 1821,
+   "cost": 0.00051744
+  }
+ },
+ {
+  "id": "T182",
+  "choice": "L148",
+  "confidence": 0.5,
+  "top3": [
+   "L148",
+   "L146",
+   "L152"
+  ],
+  "top3_p": [
+   0.51,
+   0.28,
+   0.04
+  ],
+  "latency_s": 0.97,
+  "cost": 0.000518448,
+  "usage": {
+   "input_tokens": 12344,
+   "output_tokens": 1821,
+   "cost": 0.000518448
+  }
+ },
+ {
+  "id": "T183",
+  "choice": "L084",
+  "confidence": 0.75,
+  "top3": [
+   "L084",
+   "L060",
+   "L168"
+  ],
+  "top3_p": [
+   0.76,
+   0.09,
+   0.08
+  ],
+  "latency_s": 1.04,
+  "cost": 0.0005145,
+  "usage": {
+   "input_tokens": 12250,
+   "output_tokens": 1821,
+   "cost": 0.0005145
+  }
+ },
+ {
+  "id": "T184",
+  "choice": "L049",
+  "confidence": 0.96,
+  "top3": [
+   "L049",
+   "L001",
+   "L047"
+  ],
+  "top3_p": [
+   0.97,
+   0.03,
+   0
+  ],
+  "latency_s": 0.55,
+  "cost": 0.000519162,
+  "usage": {
+   "input_tokens": 12361,
+   "output_tokens": 1821,
+   "cost": 0.000519162
+  }
+ },
+ {
+  "id": "T185",
+  "choice": "L001",
+  "confidence": 0.99,
+  "top3": [
+   "L001",
+   "L013",
+   "L010"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000504966,
+  "usage": {
+   "input_tokens": 12023,
+   "output_tokens": 1821,
+   "cost": 0.000504966
+  }
+ },
+ {
+  "id": "T186",
+  "choice": "L053",
+  "confidence": 1,
+  "top3": [
+   "L053",
+   "L051",
+   "L165"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.78,
+  "cost": 0.000516264,
+  "usage": {
+   "input_tokens": 12292,
+   "output_tokens": 1821,
+   "cost": 0.000516264
+  }
+ },
+ {
+  "id": "T187",
+  "choice": "L052",
+  "confidence": 0.71,
+  "top3": [
+   "L052",
+   "L049",
+   "L051"
+  ],
+  "top3_p": [
+   0.72,
+   0.2,
+   0.03
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000513996,
+  "usage": {
+   "input_tokens": 12238,
+   "output_tokens": 1821,
+   "cost": 0.000513996
+  }
+ },
+ {
+  "id": "T188",
+  "choice": "L052",
+  "confidence": 0.97,
+  "top3": [
+   "L052",
+   "L055",
+   "L047"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 0.57,
+  "cost": 0.00051807,
+  "usage": {
+   "input_tokens": 12335,
+   "output_tokens": 1821,
+   "cost": 0.00051807
+  }
+ },
+ {
+  "id": "T189",
+  "choice": "L049",
+  "confidence": 0.98,
+  "top3": [
+   "L049",
+   "L001",
+   "L114"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.66,
+  "cost": 0.000519246,
+  "usage": {
+   "input_tokens": 12363,
+   "output_tokens": 1821,
+   "cost": 0.000519246
+  }
+ },
+ {
+  "id": "T190",
+  "choice": "L002",
+  "confidence": 0.91,
+  "top3": [
+   "L002",
+   "L158",
+   "L014"
+  ],
+  "top3_p": [
+   0.92,
+   0.04,
+   0.02
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000518028,
+  "usage": {
+   "input_tokens": 12334,
+   "output_tokens": 1821,
+   "cost": 0.000518028
+  }
+ },
+ {
+  "id": "T191",
+  "choice": "L163",
+  "confidence": 0.27,
+  "top3": [
+   "L163",
+   "L115",
+   "L114"
+  ],
+  "top3_p": [
+   0.28,
+   0.15,
+   0.12
+  ],
+  "latency_s": 0.53,
+  "cost": 0.000510888,
+  "usage": {
+   "input_tokens": 12164,
+   "output_tokens": 1821,
+   "cost": 0.000510888
+  }
+ },
+ {
+  "id": "T192",
+  "choice": "L049",
+  "confidence": 0.54,
+  "top3": [
+   "L049",
+   "L001",
+   "L025"
+  ],
+  "top3_p": [
+   0.55,
+   0.42,
+   0.02
+  ],
+  "latency_s": 1.03,
+  "cost": 0.000515088,
+  "usage": {
+   "input_tokens": 12264,
+   "output_tokens": 1821,
+   "cost": 0.000515088
+  }
+ },
+ {
+  "id": "T193",
+  "choice": "L103",
+  "confidence": 0.53,
+  "top3": [
+   "L103",
+   "L102",
+   "L163"
+  ],
+  "top3_p": [
+   0.55,
+   0.27,
+   0.07
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000515676,
+  "usage": {
+   "input_tokens": 12278,
+   "output_tokens": 1821,
+   "cost": 0.000515676
+  }
+ },
+ {
+  "id": "T194",
+  "choice": "L052",
+  "confidence": 0.8,
+  "top3": [
+   "L052",
+   "L049",
+   "L076"
+  ],
+  "top3_p": [
+   0.81,
+   0.1,
+   0.05
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000515844,
+  "usage": {
+   "input_tokens": 12282,
+   "output_tokens": 1821,
+   "cost": 0.000515844
+  }
+ },
+ {
+  "id": "T195",
+  "choice": "L090",
+  "confidence": 0.38,
+  "top3": [
+   "L090",
+   "L006",
+   "L102"
+  ],
+  "top3_p": [
+   0.39,
+   0.11,
+   0.09
+  ],
+  "latency_s": 0.64,
+  "cost": 0.000518112,
+  "usage": {
+   "input_tokens": 12336,
+   "output_tokens": 1821,
+   "cost": 0.000518112
+  }
+ },
+ {
+  "id": "T196",
+  "choice": "L158",
+  "confidence": 0.68,
+  "top3": [
+   "L158",
+   "L164",
+   "L110"
+  ],
+  "top3_p": [
+   0.69,
+   0.08,
+   0.07
+  ],
+  "latency_s": 0.67,
+  "cost": 0.00051786,
+  "usage": {
+   "input_tokens": 12330,
+   "output_tokens": 1821,
+   "cost": 0.00051786
+  }
+ },
+ {
+  "id": "T197",
+  "choice": "L056",
+  "confidence": 0.97,
+  "top3": [
+   "L056",
+   "L080",
+   "L180"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 1.16,
+  "cost": 0.00051744,
+  "usage": {
+   "input_tokens": 12320,
+   "output_tokens": 1821,
+   "cost": 0.00051744
+  }
+ },
+ {
+  "id": "T198",
+  "choice": "L175",
+  "confidence": 0.57,
+  "top3": [
+   "L175",
+   "L163",
+   "L162"
+  ],
+  "top3_p": [
+   0.58,
+   0.4,
+   0.02
+  ],
+  "latency_s": 0.74,
+  "cost": 0.000516222,
+  "usage": {
+   "input_tokens": 12291,
+   "output_tokens": 1821,
+   "cost": 0.000516222
+  }
+ },
+ {
+  "id": "T199",
+  "choice": "L095",
+  "confidence": 0.26,
+  "top3": [
+   "L095",
+   "L010",
+   "L011"
+  ],
+  "top3_p": [
+   0.28,
+   0.12,
+   0.09
+  ],
+  "latency_s": 0.67,
+  "cost": 0.000519792,
+  "usage": {
+   "input_tokens": 12376,
+   "output_tokens": 1821,
+   "cost": 0.000519792
+  }
+ },
+ {
+  "id": "T200",
+  "choice": "L025",
+  "confidence": 0.99,
+  "top3": [
+   "L025",
+   "L001",
+   "L010"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000514122,
+  "usage": {
+   "input_tokens": 12241,
+   "output_tokens": 1821,
+   "cost": 0.000514122
+  }
+ },
+ {
+  "id": "T201",
+  "choice": "L127",
+  "confidence": 0.39,
+  "top3": [
+   "L127",
+   "L115",
+   "L114"
+  ],
+  "top3_p": [
+   0.41,
+   0.36,
+   0.08
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000515718,
+  "usage": {
+   "input_tokens": 12279,
+   "output_tokens": 1821,
+   "cost": 0.000515718
+  }
+ },
+ {
+  "id": "T202",
+  "choice": "L083",
+  "confidence": 0.59,
+  "top3": [
+   "L083",
+   "L059",
+   "L049"
+  ],
+  "top3_p": [
+   0.6,
+   0.35,
+   0.03
+  ],
+  "latency_s": 0.8,
+  "cost": 0.000519372,
+  "usage": {
+   "input_tokens": 12366,
+   "output_tokens": 1821,
+   "cost": 0.000519372
+  }
+ },
+ {
+  "id": "T203",
+  "choice": "L008",
+  "confidence": 0.49,
+  "top3": [
+   "L008",
+   "L164",
+   "L002"
+  ],
+  "top3_p": [
+   0.5,
+   0.37,
+   0.05
+  ],
+  "latency_s": 0.76,
+  "cost": 0.000515424,
+  "usage": {
+   "input_tokens": 12272,
+   "output_tokens": 1821,
+   "cost": 0.000515424
+  }
+ },
+ {
+  "id": "T204",
+  "choice": "L114",
+  "confidence": 0.47,
+  "top3": [
+   "L114",
+   "L006",
+   "L018"
+  ],
+  "top3_p": [
+   0.48,
+   0.39,
+   0.11
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000514962,
+  "usage": {
+   "input_tokens": 12261,
+   "output_tokens": 1821,
+   "cost": 0.000514962
+  }
+ },
+ {
+  "id": "T205",
+  "choice": "L119",
+  "confidence": 0.66,
+  "top3": [
+   "L119",
+   "L131",
+   "L011"
+  ],
+  "top3_p": [
+   0.67,
+   0.29,
+   0.02
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000514416,
+  "usage": {
+   "input_tokens": 12248,
+   "output_tokens": 1821,
+   "cost": 0.000514416
+  }
+ },
+ {
+  "id": "T206",
+  "choice": "L044",
+  "confidence": 0.4,
+  "top3": [
+   "L044",
+   "L008",
+   "L164"
+  ],
+  "top3_p": [
+   0.41,
+   0.31,
+   0.13
+  ],
+  "latency_s": 0.96,
+  "cost": 0.000519834,
+  "usage": {
+   "input_tokens": 12377,
+   "output_tokens": 1821,
+   "cost": 0.000519834
+  }
+ },
+ {
+  "id": "T207",
+  "choice": "L067",
+  "confidence": 0.64,
+  "top3": [
+   "L067",
+   "L066",
+   "L064"
+  ],
+  "top3_p": [
+   0.65,
+   0.1,
+   0.1
+  ],
+  "latency_s": 0.68,
+  "cost": 0.00051828,
+  "usage": {
+   "input_tokens": 12340,
+   "output_tokens": 1821,
+   "cost": 0.00051828
+  }
+ },
+ {
+  "id": "T208",
+  "choice": "L020",
+  "confidence": 0.52,
+  "top3": [
+   "L020",
+   "L164",
+   "L008"
+  ],
+  "top3_p": [
+   0.53,
+   0.36,
+   0.11
+  ],
+  "latency_s": 0.61,
+  "cost": 0.00050778,
+  "usage": {
+   "input_tokens": 12090,
+   "output_tokens": 1821,
+   "cost": 0.00050778
+  }
+ },
+ {
+  "id": "T209",
+  "choice": "L008",
+  "confidence": 0.96,
+  "top3": [
+   "L008",
+   "L020",
+   "L164"
+  ],
+  "top3_p": [
+   0.97,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.8,
+  "cost": 0.000518154,
+  "usage": {
+   "input_tokens": 12337,
+   "output_tokens": 1821,
+   "cost": 0.000518154
+  }
+ },
+ {
+  "id": "T210",
+  "choice": "L163",
+  "confidence": 0.99,
+  "top3": [
+   "L163",
+   "L162",
+   "L110"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.64,
+  "cost": 0.00051492,
+  "usage": {
+   "input_tokens": 12260,
+   "output_tokens": 1821,
+   "cost": 0.00051492
+  }
+ },
+ {
+  "id": "T211",
+  "choice": "L096",
+  "confidence": 0.44,
+  "top3": [
+   "L096",
+   "L108",
+   "L085"
+  ],
+  "top3_p": [
+   0.45,
+   0.31,
+   0.07
+  ],
+  "latency_s": 0.86,
+  "cost": 0.000519372,
+  "usage": {
+   "input_tokens": 12366,
+   "output_tokens": 1821,
+   "cost": 0.000519372
+  }
+ },
+ {
+  "id": "T212",
+  "choice": "L008",
+  "confidence": 0.76,
+  "top3": [
+   "L008",
+   "L032",
+   "L020"
+  ],
+  "top3_p": [
+   0.77,
+   0.16,
+   0.03
+  ],
+  "latency_s": 0.76,
+  "cost": 0.000517818,
+  "usage": {
+   "input_tokens": 12329,
+   "output_tokens": 1821,
+   "cost": 0.000517818
+  }
+ },
+ {
+  "id": "T213",
+  "choice": "L008",
+  "confidence": 0.98,
+  "top3": [
+   "L008",
+   "L032",
+   "L001"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000517566,
+  "usage": {
+   "input_tokens": 12323,
+   "output_tokens": 1821,
+   "cost": 0.000517566
+  }
+ },
+ {
+  "id": "T214",
+  "choice": "L008",
+  "confidence": 0.54,
+  "top3": [
+   "L008",
+   "L164",
+   "L020"
+  ],
+  "top3_p": [
+   0.55,
+   0.42,
+   0.02
+  ],
+  "latency_s": 0.74,
+  "cost": 0.00051114,
+  "usage": {
+   "input_tokens": 12170,
+   "output_tokens": 1821,
+   "cost": 0.00051114
+  }
+ },
+ {
+  "id": "T215",
+  "choice": "L056",
+  "confidence": 0.79,
+  "top3": [
+   "L056",
+   "L049",
+   "L080"
+  ],
+  "top3_p": [
+   0.8,
+   0.12,
+   0.02
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000518238,
+  "usage": {
+   "input_tokens": 12339,
+   "output_tokens": 1821,
+   "cost": 0.000518238
+  }
+ },
+ {
+  "id": "T216",
+  "choice": "L056",
+  "confidence": 0.97,
+  "top3": [
+   "L056",
+   "L116",
+   "L016"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000516978,
+  "usage": {
+   "input_tokens": 12309,
+   "output_tokens": 1821,
+   "cost": 0.000516978
+  }
+ },
+ {
+  "id": "T217",
+  "choice": "L056",
+  "confidence": 0.45,
+  "top3": [
+   "L056",
+   "L008",
+   "L116"
+  ],
+  "top3_p": [
+   0.46,
+   0.15,
+   0.05
+  ],
+  "latency_s": 0.75,
+  "cost": 0.000517188,
+  "usage": {
+   "input_tokens": 12314,
+   "output_tokens": 1821,
+   "cost": 0.000517188
+  }
+ },
+ {
+  "id": "T218",
+  "choice": "L056",
+  "confidence": 0.68,
+  "top3": [
+   "L056",
+   "L008",
+   "L116"
+  ],
+  "top3_p": [
+   0.69,
+   0.13,
+   0.04
+  ],
+  "latency_s": 0.77,
+  "cost": 0.000516012,
+  "usage": {
+   "input_tokens": 12286,
+   "output_tokens": 1821,
+   "cost": 0.000516012
+  }
+ },
+ {
+  "id": "T219",
+  "choice": "L008",
+  "confidence": 0.86,
+  "top3": [
+   "L008",
+   "L020",
+   "L001"
+  ],
+  "top3_p": [
+   0.87,
+   0.06,
+   0.03
+  ],
+  "latency_s": 0.66,
+  "cost": 0.000518616,
+  "usage": {
+   "input_tokens": 12348,
+   "output_tokens": 1821,
+   "cost": 0.000518616
+  }
+ },
+ {
+  "id": "T220",
+  "choice": "L163",
+  "confidence": 0.98,
+  "top3": [
+   "L163",
+   "L162",
+   "L180"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.63,
+  "cost": 0.000515172,
+  "usage": {
+   "input_tokens": 12266,
+   "output_tokens": 1821,
+   "cost": 0.000515172
+  }
+ },
+ {
+  "id": "T221",
+  "choice": "L164",
+  "confidence": 0.53,
+  "top3": [
+   "L164",
+   "L160",
+   "L158"
+  ],
+  "top3_p": [
+   0.55,
+   0.15,
+   0.07
+  ],
+  "latency_s": 0.71,
+  "cost": 0.00051891,
+  "usage": {
+   "input_tokens": 12355,
+   "output_tokens": 1821,
+   "cost": 0.00051891
+  }
+ },
+ {
+  "id": "T222",
+  "choice": "L115",
+  "confidence": 0.74,
+  "top3": [
+   "L115",
+   "L114",
+   "L127"
+  ],
+  "top3_p": [
+   0.75,
+   0.19,
+   0.02
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000510216,
+  "usage": {
+   "input_tokens": 12148,
+   "output_tokens": 1821,
+   "cost": 0.000510216
+  }
+ },
+ {
+  "id": "T223",
+  "choice": "L056",
+  "confidence": 0.99,
+  "top3": [
+   "L056",
+   "L017",
+   "L167"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.57,
+  "cost": 0.00051765,
+  "usage": {
+   "input_tokens": 12325,
+   "output_tokens": 1821,
+   "cost": 0.00051765
+  }
+ },
+ {
+  "id": "T224",
+  "choice": "L168",
+  "confidence": 0.76,
+  "top3": [
+   "L168",
+   "L132",
+   "L180"
+  ],
+  "top3_p": [
+   0.77,
+   0.21,
+   0.01
+  ],
+  "latency_s": 0.59,
+  "cost": 0.000514584,
+  "usage": {
+   "input_tokens": 12252,
+   "output_tokens": 1821,
+   "cost": 0.000514584
+  }
+ },
+ {
+  "id": "T225",
+  "choice": "L007",
+  "confidence": 0.62,
+  "top3": [
+   "L007",
+   "L006",
+   "L019"
+  ],
+  "top3_p": [
+   0.63,
+   0.16,
+   0.16
+  ],
+  "latency_s": 0.65,
+  "cost": 0.000516054,
+  "usage": {
+   "input_tokens": 12287,
+   "output_tokens": 1821,
+   "cost": 0.000516054
+  }
+ },
+ {
+  "id": "T226",
+  "choice": "L008",
+  "confidence": 0.79,
+  "top3": [
+   "L008",
+   "L032",
+   "L046"
+  ],
+  "top3_p": [
+   0.8,
+   0.2,
+   0
+  ],
+  "latency_s": 0.57,
+  "cost": 0.000517356,
+  "usage": {
+   "input_tokens": 12318,
+   "output_tokens": 1821,
+   "cost": 0.000517356
+  }
+ },
+ {
+  "id": "T227",
+  "choice": "L148",
+  "confidence": 0.72,
+  "top3": [
+   "L148",
+   "L153",
+   "L124"
+  ],
+  "top3_p": [
+   0.73,
+   0.19,
+   0.02
+  ],
+  "latency_s": 0.76,
+  "cost": 0.000512106,
+  "usage": {
+   "input_tokens": 12193,
+   "output_tokens": 1821,
+   "cost": 0.000512106
+  }
+ },
+ {
+  "id": "T228",
+  "choice": "L066",
+  "confidence": 0.88,
+  "top3": [
+   "L066",
+   "L054",
+   "L068"
+  ],
+  "top3_p": [
+   0.9,
+   0.06,
+   0.04
+  ],
+  "latency_s": 0.73,
+  "cost": 0.000519288,
+  "usage": {
+   "input_tokens": 12364,
+   "output_tokens": 1821,
+   "cost": 0.000519288
+  }
+ },
+ {
+  "id": "T229",
+  "choice": "L091",
+  "confidence": 0.81,
+  "top3": [
+   "L091",
+   "L090",
+   "L103"
+  ],
+  "top3_p": [
+   0.82,
+   0.11,
+   0.05
+  ],
+  "latency_s": 0.73,
+  "cost": 0.00051513,
+  "usage": {
+   "input_tokens": 12265,
+   "output_tokens": 1821,
+   "cost": 0.00051513
+  }
+ },
+ {
+  "id": "T230",
+  "choice": "L138",
+  "confidence": 0.46,
+  "top3": [
+   "L138",
+   "L126",
+   "L114"
+  ],
+  "top3_p": [
+   0.48,
+   0.47,
+   0.04
+  ],
+  "latency_s": 0.74,
+  "cost": 0.000519456,
+  "usage": {
+   "input_tokens": 12368,
+   "output_tokens": 1821,
+   "cost": 0.000519456
+  }
+ },
+ {
+  "id": "T231",
+  "choice": "L115",
+  "confidence": 0.6,
+  "top3": [
+   "L115",
+   "L114",
+   "L103"
+  ],
+  "top3_p": [
+   0.61,
+   0.11,
+   0.05
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000515172,
+  "usage": {
+   "input_tokens": 12266,
+   "output_tokens": 1821,
+   "cost": 0.000515172
+  }
+ },
+ {
+  "id": "T232",
+  "choice": "L131",
+  "confidence": 0.9,
+  "top3": [
+   "L131",
+   "L130",
+   "L119"
+  ],
+  "top3_p": [
+   0.91,
+   0.05,
+   0.03
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000508788,
+  "usage": {
+   "input_tokens": 12114,
+   "output_tokens": 1821,
+   "cost": 0.000508788
+  }
+ },
+ {
+  "id": "T233",
+  "choice": "L081",
+  "confidence": 0.53,
+  "top3": [
+   "L081",
+   "L057",
+   "L009"
+  ],
+  "top3_p": [
+   0.54,
+   0.21,
+   0.13
+  ],
+  "latency_s": 0.7,
+  "cost": 0.000516432,
+  "usage": {
+   "input_tokens": 12296,
+   "output_tokens": 1821,
+   "cost": 0.000516432
+  }
+ },
+ {
+  "id": "T234",
+  "choice": "L008",
+  "confidence": 0.74,
+  "top3": [
+   "L008",
+   "L128",
+   "L020"
+  ],
+  "top3_p": [
+   0.75,
+   0.11,
+   0.05
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000510258,
+  "usage": {
+   "input_tokens": 12149,
+   "output_tokens": 1821,
+   "cost": 0.000510258
+  }
+ },
+ {
+  "id": "T235",
+  "choice": "L164",
+  "confidence": 0.68,
+  "top3": [
+   "L164",
+   "L128",
+   "L122"
+  ],
+  "top3_p": [
+   0.7,
+   0.26,
+   0.02
+  ],
+  "latency_s": 0.6,
+  "cost": 0.000518448,
+  "usage": {
+   "input_tokens": 12344,
+   "output_tokens": 1821,
+   "cost": 0.000518448
+  }
+ },
+ {
+  "id": "T236",
+  "choice": "L058",
+  "confidence": 0.6,
+  "top3": [
+   "L058",
+   "L053",
+   "L049"
+  ],
+  "top3_p": [
+   0.61,
+   0.12,
+   0.1
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000515676,
+  "usage": {
+   "input_tokens": 12278,
+   "output_tokens": 1821,
+   "cost": 0.000515676
+  }
+ },
+ {
+  "id": "T237",
+  "choice": "L128",
+  "confidence": 0.86,
+  "top3": [
+   "L128",
+   "L116",
+   "L124"
+  ],
+  "top3_p": [
+   0.87,
+   0.05,
+   0.03
+  ],
+  "latency_s": 0.71,
+  "cost": 0.00051618,
+  "usage": {
+   "input_tokens": 12290,
+   "output_tokens": 1821,
+   "cost": 0.00051618
+  }
+ },
+ {
+  "id": "T238",
+  "choice": "L055",
+  "confidence": 0.83,
+  "top3": [
+   "L055",
+   "L054",
+   "L007"
+  ],
+  "top3_p": [
+   0.84,
+   0.09,
+   0.02
+  ],
+  "latency_s": 0.6,
+  "cost": 0.000518994,
+  "usage": {
+   "input_tokens": 12357,
+   "output_tokens": 1821,
+   "cost": 0.000518994
+  }
+ },
+ {
+  "id": "T239",
+  "choice": "L140",
+  "confidence": 0.62,
+  "top3": [
+   "L140",
+   "L116",
+   "L041"
+  ],
+  "top3_p": [
+   0.63,
+   0.37,
+   0
+  ],
+  "latency_s": 0.55,
+  "cost": 0.000518196,
+  "usage": {
+   "input_tokens": 12338,
+   "output_tokens": 1821,
+   "cost": 0.000518196
+  }
+ },
+ {
+  "id": "T240",
+  "choice": "L057",
+  "confidence": 0.97,
+  "top3": [
+   "L057",
+   "L081",
+   "L049"
+  ],
+  "top3_p": [
+   0.98,
+   0.01,
+   0.01
+  ],
+  "latency_s": 0.67,
+  "cost": 0.00051954,
+  "usage": {
+   "input_tokens": 12370,
+   "output_tokens": 1821,
+   "cost": 0.00051954
+  }
+ },
+ {
+  "id": "T241",
+  "choice": "L056",
+  "confidence": 0.99,
+  "top3": [
+   "L056",
+   "L174",
+   "L082"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 1.22,
+  "cost": 0.000516558,
+  "usage": {
+   "input_tokens": 12299,
+   "output_tokens": 1821,
+   "cost": 0.000516558
+  }
+ },
+ {
+  "id": "T242",
+  "choice": "L057",
+  "confidence": 0.96,
+  "top3": [
+   "L057",
+   "L081",
+   "L049"
+  ],
+  "top3_p": [
+   0.97,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.79,
+  "cost": 0.00051912,
+  "usage": {
+   "input_tokens": 12360,
+   "output_tokens": 1821,
+   "cost": 0.00051912
+  }
+ },
+ {
+  "id": "T243",
+  "choice": "L090",
+  "confidence": 0.83,
+  "top3": [
+   "L090",
+   "L091",
+   "L006"
+  ],
+  "top3_p": [
+   0.84,
+   0.05,
+   0.04
+  ],
+  "latency_s": 0.77,
+  "cost": 0.000515382,
+  "usage": {
+   "input_tokens": 12271,
+   "output_tokens": 1821,
+   "cost": 0.000515382
+  }
+ },
+ {
+  "id": "T244",
+  "choice": "L140",
+  "confidence": 0.72,
+  "top3": [
+   "L140",
+   "L116",
+   "L128"
+  ],
+  "top3_p": [
+   0.73,
+   0.22,
+   0.02
+  ],
+  "latency_s": 0.68,
+  "cost": 0.000519582,
+  "usage": {
+   "input_tokens": 12371,
+   "output_tokens": 1821,
+   "cost": 0.000519582
+  }
+ },
+ {
+  "id": "T245",
+  "choice": "L056",
+  "confidence": 0.8,
+  "top3": [
+   "L056",
+   "L140",
+   "L008"
+  ],
+  "top3_p": [
+   0.81,
+   0.11,
+   0.03
+  ],
+  "latency_s": 1.05,
+  "cost": 0.000518154,
+  "usage": {
+   "input_tokens": 12337,
+   "output_tokens": 1821,
+   "cost": 0.000518154
+  }
+ },
+ {
+  "id": "T246",
+  "choice": "L151",
+  "confidence": 0.72,
+  "top3": [
+   "L151",
+   "L150",
+   "L127"
+  ],
+  "top3_p": [
+   0.73,
+   0.25,
+   0.02
+  ],
+  "latency_s": 1.05,
+  "cost": 0.000517608,
+  "usage": {
+   "input_tokens": 12324,
+   "output_tokens": 1821,
+   "cost": 0.000517608
+  }
+ },
+ {
+  "id": "T247",
+  "choice": "L130",
+  "confidence": 0.38,
+  "top3": [
+   "L130",
+   "L129",
+   "L131"
+  ],
+  "top3_p": [
+   0.4,
+   0.3,
+   0.07
+  ],
+  "latency_s": 0.71,
+  "cost": 0.000509418,
+  "usage": {
+   "input_tokens": 12129,
+   "output_tokens": 1821,
+   "cost": 0.000509418
+  }
+ },
+ {
+  "id": "T248",
+  "choice": "L115",
+  "confidence": 0.47,
+  "top3": [
+   "L115",
+   "L114",
+   "L127"
+  ],
+  "top3_p": [
+   0.48,
+   0.21,
+   0.08
+  ],
+  "latency_s": 0.81,
+  "cost": 0.000506982,
+  "usage": {
+   "input_tokens": 12071,
+   "output_tokens": 1821,
+   "cost": 0.000506982
+  }
+ },
+ {
+  "id": "T249",
+  "choice": "L156",
+  "confidence": 0.51,
+  "top3": [
+   "L156",
+   "L148",
+   "L146"
+  ],
+  "top3_p": [
+   0.53,
+   0.39,
+   0.03
+  ],
+  "latency_s": 0.54,
+  "cost": 0.000511938,
+  "usage": {
+   "input_tokens": 12189,
+   "output_tokens": 1821,
+   "cost": 0.000511938
+  }
+ },
+ {
+  "id": "T250",
+  "choice": "L164",
+  "confidence": 0.9,
+  "top3": [
+   "L164",
+   "L020",
+   "L008"
+  ],
+  "top3_p": [
+   0.91,
+   0.07,
+   0.02
+  ],
+  "latency_s": 0.77,
+  "cost": 0.000509628,
+  "usage": {
+   "input_tokens": 12134,
+   "output_tokens": 1821,
+   "cost": 0.000509628
+  }
+ },
+ {
+  "id": "T251",
+  "choice": "L056",
+  "confidence": 0.97,
+  "top3": [
+   "L056",
+   "L060",
+   "L047"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 0.56,
+  "cost": 0.000519246,
+  "usage": {
+   "input_tokens": 12363,
+   "output_tokens": 1821,
+   "cost": 0.000519246
+  }
+ },
+ {
+  "id": "T252",
+  "choice": "L168",
+  "confidence": 0.45,
+  "top3": [
+   "L168",
+   "L002",
+   "L012"
+  ],
+  "top3_p": [
+   0.46,
+   0.18,
+   0.15
+  ],
+  "latency_s": 0.54,
+  "cost": 0.0005103,
+  "usage": {
+   "input_tokens": 12150,
+   "output_tokens": 1821,
+   "cost": 0.0005103
+  }
+ },
+ {
+  "id": "T253",
+  "choice": "L055",
+  "confidence": 0.81,
+  "top3": [
+   "L055",
+   "L049",
+   "L079"
+  ],
+  "top3_p": [
+   0.83,
+   0.09,
+   0.07
+  ],
+  "latency_s": 0.51,
+  "cost": 0.000517776,
+  "usage": {
+   "input_tokens": 12328,
+   "output_tokens": 1821,
+   "cost": 0.000517776
+  }
+ },
+ {
+  "id": "T254",
+  "choice": "L127",
+  "confidence": 0.28,
+  "top3": [
+   "L127",
+   "L126",
+   "L131"
+  ],
+  "top3_p": [
+   0.29,
+   0.13,
+   0.13
+  ],
+  "latency_s": 0.67,
+  "cost": 0.000517566,
+  "usage": {
+   "input_tokens": 12323,
+   "output_tokens": 1821,
+   "cost": 0.000517566
+  }
+ },
+ {
+  "id": "T255",
+  "choice": "L160",
+  "confidence": 0.35,
+  "top3": [
+   "L160",
+   "L124",
+   "L112"
+  ],
+  "top3_p": [
+   0.36,
+   0.13,
+   0.08
+  ],
+  "latency_s": 0.67,
+  "cost": 0.000518742,
+  "usage": {
+   "input_tokens": 12351,
+   "output_tokens": 1821,
+   "cost": 0.000518742
+  }
+ },
+ {
+  "id": "T256",
+  "choice": "L151",
+  "confidence": 0.71,
+  "top3": [
+   "L151",
+   "L150",
+   "L019"
+  ],
+  "top3_p": [
+   0.72,
+   0.23,
+   0.02
+  ],
+  "latency_s": 0.59,
+  "cost": 0.000510174,
+  "usage": {
+   "input_tokens": 12147,
+   "output_tokens": 1821,
+   "cost": 0.000510174
+  }
+ },
+ {
+  "id": "T257",
+  "choice": "L034",
+  "confidence": 0.99,
+  "top3": [
+   "L034",
+   "L029",
+   "L021"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.57,
+  "cost": 0.00051723,
+  "usage": {
+   "input_tokens": 12315,
+   "output_tokens": 1821,
+   "cost": 0.00051723
+  }
+ },
+ {
+  "id": "T258",
+  "choice": "L156",
+  "confidence": 0.35,
+  "top3": [
+   "L156",
+   "L148",
+   "L112"
+  ],
+  "top3_p": [
+   0.36,
+   0.34,
+   0.05
+  ],
+  "latency_s": 0.86,
+  "cost": 0.00051765,
+  "usage": {
+   "input_tokens": 12325,
+   "output_tokens": 1821,
+   "cost": 0.00051765
+  }
+ },
+ {
+  "id": "T259",
+  "choice": "L154",
+  "confidence": 0.95,
+  "top3": [
+   "L154",
+   "L130",
+   "L054"
+  ],
+  "top3_p": [
+   0.96,
+   0.04,
+   0
+  ],
+  "latency_s": 0.65,
+  "cost": 0.00050673,
+  "usage": {
+   "input_tokens": 12065,
+   "output_tokens": 1821,
+   "cost": 0.00050673
+  }
+ },
+ {
+  "id": "T260",
+  "choice": "L127",
+  "confidence": 0.35,
+  "top3": [
+   "L127",
+   "L163",
+   "L115"
+  ],
+  "top3_p": [
+   0.37,
+   0.29,
+   0.11
+  ],
+  "latency_s": 0.63,
+  "cost": 0.000515676,
+  "usage": {
+   "input_tokens": 12278,
+   "output_tokens": 1821,
+   "cost": 0.000515676
+  }
+ },
+ {
+  "id": "T261",
+  "choice": "L093",
+  "confidence": 0.48,
+  "top3": [
+   "L093",
+   "L090",
+   "L091"
+  ],
+  "top3_p": [
+   0.49,
+   0.15,
+   0.12
+  ],
+  "latency_s": 0.94,
+  "cost": 0.000519288,
+  "usage": {
+   "input_tokens": 12364,
+   "output_tokens": 1821,
+   "cost": 0.000519288
+  }
+ },
+ {
+  "id": "T262",
+  "choice": "L055",
+  "confidence": 0.96,
+  "top3": [
+   "L055",
+   "L054",
+   "L049"
+  ],
+  "top3_p": [
+   0.97,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.72,
+  "cost": 0.000510006,
+  "usage": {
+   "input_tokens": 12143,
+   "output_tokens": 1821,
+   "cost": 0.000510006
+  }
+ },
+ {
+  "id": "T263",
+  "choice": "L126",
+  "confidence": 0.92,
+  "top3": [
+   "L126",
+   "L162",
+   "L114"
+  ],
+  "top3_p": [
+   0.93,
+   0.03,
+   0.02
+  ],
+  "latency_s": 0.62,
+  "cost": 0.000515424,
+  "usage": {
+   "input_tokens": 12272,
+   "output_tokens": 1821,
+   "cost": 0.000515424
+  }
+ },
+ {
+  "id": "T264",
+  "choice": "L008",
+  "confidence": 0.52,
+  "top3": [
+   "L008",
+   "L005",
+   "L017"
+  ],
+  "top3_p": [
+   0.53,
+   0.43,
+   0.02
+  ],
+  "latency_s": 0.58,
+  "cost": 0.000512358,
+  "usage": {
+   "input_tokens": 12199,
+   "output_tokens": 1821,
+   "cost": 0.000512358
+  }
+ },
+ {
+  "id": "T265",
+  "choice": "L007",
+  "confidence": 0.67,
+  "top3": [
+   "L007",
+   "L019",
+   "L006"
+  ],
+  "top3_p": [
+   0.68,
+   0.16,
+   0.11
+  ],
+  "latency_s": 0.51,
+  "cost": 0.000517188,
+  "usage": {
+   "input_tokens": 12314,
+   "output_tokens": 1821,
+   "cost": 0.000517188
+  }
+ },
+ {
+  "id": "T266",
+  "choice": "L131",
+  "confidence": 0.61,
+  "top3": [
+   "L131",
+   "L129",
+   "L130"
+  ],
+  "top3_p": [
+   0.62,
+   0.16,
+   0.08
+  ],
+  "latency_s": 0.72,
+  "cost": 0.00051618,
+  "usage": {
+   "input_tokens": 12290,
+   "output_tokens": 1821,
+   "cost": 0.00051618
+  }
+ },
+ {
+  "id": "T267",
+  "choice": "L112",
+  "confidence": 0.69,
+  "top3": [
+   "L112",
+   "L111",
+   "L115"
+  ],
+  "top3_p": [
+   0.7,
+   0.08,
+   0.07
+  ],
+  "latency_s": 0.66,
+  "cost": 0.000518826,
+  "usage": {
+   "input_tokens": 12353,
+   "output_tokens": 1821,
+   "cost": 0.000518826
+  }
+ },
+ {
+  "id": "T268",
+  "choice": "L129",
+  "confidence": 0.88,
+  "top3": [
+   "L129",
+   "L165",
+   "L117"
+  ],
+  "top3_p": [
+   0.89,
+   0.1,
+   0.01
+  ],
+  "latency_s": 0.88,
+  "cost": 0.000517398,
+  "usage": {
+   "input_tokens": 12319,
+   "output_tokens": 1821,
+   "cost": 0.000517398
+  }
+ },
+ {
+  "id": "T269",
+  "choice": "L124",
+  "confidence": 0.59,
+  "top3": [
+   "L124",
+   "L132",
+   "L112"
+  ],
+  "top3_p": [
+   0.6,
+   0.13,
+   0.06
+  ],
+  "latency_s": 0.55,
+  "cost": 0.000516684,
+  "usage": {
+   "input_tokens": 12302,
+   "output_tokens": 1821,
+   "cost": 0.000516684
+  }
+ },
+ {
+  "id": "T270",
+  "choice": "L057",
+  "confidence": 0.97,
+  "top3": [
+   "L057",
+   "L081",
+   "L150"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 0.6,
+  "cost": 0.00051828,
+  "usage": {
+   "input_tokens": 12340,
+   "output_tokens": 1821,
+   "cost": 0.00051828
+  }
+ },
+ {
+  "id": "T271",
+  "choice": "L163",
+  "confidence": 0.38,
+  "top3": [
+   "L163",
+   "L007",
+   "L006"
+  ],
+  "top3_p": [
+   0.39,
+   0.14,
+   0.08
+  ],
+  "latency_s": 0.6,
+  "cost": 0.000519288,
+  "usage": {
+   "input_tokens": 12364,
+   "output_tokens": 1821,
+   "cost": 0.000519288
+  }
+ },
+ {
+  "id": "T272",
+  "choice": "L009",
+  "confidence": 0.91,
+  "top3": [
+   "L009",
+   "L021",
+   "L105"
+  ],
+  "top3_p": [
+   0.92,
+   0.04,
+   0.02
+  ],
+  "latency_s": 0.61,
+  "cost": 0.000516852,
+  "usage": {
+   "input_tokens": 12306,
+   "output_tokens": 1821,
+   "cost": 0.000516852
+  }
+ },
+ {
+  "id": "T273",
+  "choice": "L168",
+  "confidence": 0.83,
+  "top3": [
+   "L168",
+   "L132",
+   "L158"
+  ],
+  "top3_p": [
+   0.84,
+   0.08,
+   0.04
+  ],
+  "latency_s": 1.0,
+  "cost": 0.000514374,
+  "usage": {
+   "input_tokens": 12247,
+   "output_tokens": 1821,
+   "cost": 0.000514374
+  }
+ },
+ {
+  "id": "T274",
+  "choice": "L045",
+  "confidence": 0.57,
+  "top3": [
+   "L045",
+   "L009",
+   "L021"
+  ],
+  "top3_p": [
+   0.59,
+   0.32,
+   0.05
+  ],
+  "latency_s": 0.62,
+  "cost": 0.0005166,
+  "usage": {
+   "input_tokens": 12300,
+   "output_tokens": 1821,
+   "cost": 0.0005166
+  }
+ },
+ {
+  "id": "T275",
+  "choice": "L078",
+  "confidence": 0.32,
+  "top3": [
+   "L078",
+   "L054",
+   "L138"
+  ],
+  "top3_p": [
+   0.34,
+   0.31,
+   0.28
+  ],
+  "latency_s": 0.65,
+  "cost": 0.000515298,
+  "usage": {
+   "input_tokens": 12269,
+   "output_tokens": 1821,
+   "cost": 0.000515298
+  }
+ },
+ {
+  "id": "T276",
+  "choice": "L091",
+  "confidence": 0.63,
+  "top3": [
+   "L091",
+   "L090",
+   "L085"
+  ],
+  "top3_p": [
+   0.64,
+   0.18,
+   0.09
+  ],
+  "latency_s": 0.89,
+  "cost": 0.000517272,
+  "usage": {
+   "input_tokens": 12316,
+   "output_tokens": 1821,
+   "cost": 0.000517272
+  }
+ },
+ {
+  "id": "T277",
+  "choice": "L153",
+  "confidence": 0.64,
+  "top3": [
+   "L153",
+   "L146",
+   "L145"
+  ],
+  "top3_p": [
+   0.65,
+   0.31,
+   0.02
+  ],
+  "latency_s": 0.68,
+  "cost": 0.000517356,
+  "usage": {
+   "input_tokens": 12318,
+   "output_tokens": 1821,
+   "cost": 0.000517356
+  }
+ },
+ {
+  "id": "T278",
+  "choice": "L115",
+  "confidence": 0.77,
+  "top3": [
+   "L115",
+   "L114",
+   "L127"
+  ],
+  "top3_p": [
+   0.78,
+   0.18,
+   0.02
+  ],
+  "latency_s": 0.68,
+  "cost": 0.000516768,
+  "usage": {
+   "input_tokens": 12304,
+   "output_tokens": 1821,
+   "cost": 0.000516768
+  }
+ },
+ {
+  "id": "T279",
+  "choice": "L055",
+  "confidence": 0.96,
+  "top3": [
+   "L055",
+   "L079",
+   "L180"
+  ],
+  "top3_p": [
+   0.97,
+   0.02,
+   0.01
+  ],
+  "latency_s": 0.69,
+  "cost": 0.00051639,
+  "usage": {
+   "input_tokens": 12295,
+   "output_tokens": 1821,
+   "cost": 0.00051639
+  }
+ },
+ {
+  "id": "T280",
+  "choice": "L129",
+  "confidence": 0.27,
+  "top3": [
+   "L129",
+   "L165",
+   "L153"
+  ],
+  "top3_p": [
+   0.28,
+   0.19,
+   0.19
+  ],
+  "latency_s": 0.95,
+  "cost": 0.000517356,
+  "usage": {
+   "input_tokens": 12318,
+   "output_tokens": 1821,
+   "cost": 0.000517356
+  }
+ },
+ {
+  "id": "T281",
+  "choice": "L057",
+  "confidence": 0.99,
+  "top3": [
+   "L057",
+   "L054",
+   "L068"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.74,
+  "cost": 0.000518658,
+  "usage": {
+   "input_tokens": 12349,
+   "output_tokens": 1821,
+   "cost": 0.000518658
+  }
+ },
+ {
+  "id": "T282",
+  "choice": "L154",
+  "confidence": 0.99,
+  "top3": [
+   "L154",
+   "L146",
+   "L100"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.87,
+  "cost": 0.000516138,
+  "usage": {
+   "input_tokens": 12289,
+   "output_tokens": 1821,
+   "cost": 0.000516138
+  }
+ },
+ {
+  "id": "T283",
+  "choice": "L087",
+  "confidence": 0.41,
+  "top3": [
+   "L087",
+   "L094",
+   "L095"
+  ],
+  "top3_p": [
+   0.42,
+   0.16,
+   0.09
+  ],
+  "latency_s": 0.8,
+  "cost": 0.000519708,
+  "usage": {
+   "input_tokens": 12374,
+   "output_tokens": 1821,
+   "cost": 0.000519708
+  }
+ },
+ {
+  "id": "T284",
+  "choice": "L057",
+  "confidence": 0.99,
+  "top3": [
+   "L057",
+   "L110",
+   "L157"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.63,
+  "cost": 0.00051114,
+  "usage": {
+   "input_tokens": 12170,
+   "output_tokens": 1821,
+   "cost": 0.00051114
+  }
+ },
+ {
+  "id": "T285",
+  "choice": "L117",
+  "confidence": 0.99,
+  "top3": [
+   "L117",
+   "L135",
+   "L126"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.61,
+  "cost": 0.000518658,
+  "usage": {
+   "input_tokens": 12349,
+   "output_tokens": 1821,
+   "cost": 0.000518658
+  }
+ },
+ {
+  "id": "T286",
+  "choice": "L049",
+  "confidence": 0.94,
+  "top3": [
+   "L049",
+   "L001",
+   "L016"
+  ],
+  "top3_p": [
+   0.95,
+   0.05,
+   0
+  ],
+  "latency_s": 0.73,
+  "cost": 0.00051933,
+  "usage": {
+   "input_tokens": 12365,
+   "output_tokens": 1821,
+   "cost": 0.00051933
+  }
+ },
+ {
+  "id": "T287",
+  "choice": "L167",
+  "confidence": 0.32,
+  "top3": [
+   "L167",
+   "L131",
+   "L166"
+  ],
+  "top3_p": [
+   0.33,
+   0.31,
+   0.09
+  ],
+  "latency_s": 0.7,
+  "cost": 0.000513114,
+  "usage": {
+   "input_tokens": 12217,
+   "output_tokens": 1821,
+   "cost": 0.000513114
+  }
+ },
+ {
+  "id": "T288",
+  "choice": "L158",
+  "confidence": 0.78,
+  "top3": [
+   "L158",
+   "L168",
+   "L122"
+  ],
+  "top3_p": [
+   0.79,
+   0.14,
+   0.02
+  ],
+  "latency_s": 0.56,
+  "cost": 0.000516852,
+  "usage": {
+   "input_tokens": 12306,
+   "output_tokens": 1821,
+   "cost": 0.000516852
+  }
+ },
+ {
+  "id": "T289",
+  "choice": "L009",
+  "confidence": 0.98,
+  "top3": [
+   "L009",
+   "L045",
+   "L047"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.83,
+  "cost": 0.000518532,
+  "usage": {
+   "input_tokens": 12346,
+   "output_tokens": 1821,
+   "cost": 0.000518532
+  }
+ },
+ {
+  "id": "T290",
+  "choice": "L057",
+  "confidence": 0.99,
+  "top3": [
+   "L057",
+   "L038",
+   "L017"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.71,
+  "cost": 0.000514458,
+  "usage": {
+   "input_tokens": 12249,
+   "output_tokens": 1821,
+   "cost": 0.000514458
+  }
+ },
+ {
+  "id": "T291",
+  "choice": "L016",
+  "confidence": 0.67,
+  "top3": [
+   "L016",
+   "L013",
+   "L160"
+  ],
+  "top3_p": [
+   0.68,
+   0.19,
+   0.05
+  ],
+  "latency_s": 1.06,
+  "cost": 0.0005145,
+  "usage": {
+   "input_tokens": 12250,
+   "output_tokens": 1821,
+   "cost": 0.0005145
+  }
+ },
+ {
+  "id": "T292",
+  "choice": "L129",
+  "confidence": 0.97,
+  "top3": [
+   "L129",
+   "L117",
+   "L146"
+  ],
+  "top3_p": [
+   0.98,
+   0.02,
+   0
+  ],
+  "latency_s": 0.51,
+  "cost": 0.000508032,
+  "usage": {
+   "input_tokens": 12096,
+   "output_tokens": 1821,
+   "cost": 0.000508032
+  }
+ },
+ {
+  "id": "T293",
+  "choice": "L156",
+  "confidence": 0.87,
+  "top3": [
+   "L156",
+   "L168",
+   "L146"
+  ],
+  "top3_p": [
+   0.88,
+   0.07,
+   0.02
+  ],
+  "latency_s": 0.8,
+  "cost": 0.00051765,
+  "usage": {
+   "input_tokens": 12325,
+   "output_tokens": 1821,
+   "cost": 0.00051765
+  }
+ },
+ {
+  "id": "T294",
+  "choice": "L085",
+  "confidence": 0.32,
+  "top3": [
+   "L085",
+   "L091",
+   "L096"
+  ],
+  "top3_p": [
+   0.34,
+   0.12,
+   0.09
+  ],
+  "latency_s": 0.89,
+  "cost": 0.000518784,
+  "usage": {
+   "input_tokens": 12352,
+   "output_tokens": 1821,
+   "cost": 0.000518784
+  }
+ },
+ {
+  "id": "T295",
+  "choice": "L095",
+  "confidence": 0.67,
+  "top3": [
+   "L095",
+   "L092",
+   "L107"
+  ],
+  "top3_p": [
+   0.68,
+   0.21,
+   0.05
+  ],
+  "latency_s": 0.71,
+  "cost": 0.000518406,
+  "usage": {
+   "input_tokens": 12343,
+   "output_tokens": 1821,
+   "cost": 0.000518406
+  }
+ },
+ {
+  "id": "T296",
+  "choice": "L144",
+  "confidence": 0.96,
+  "top3": [
+   "L144",
+   "L120",
+   "L096"
+  ],
+  "top3_p": [
+   0.97,
+   0.03,
+   0
+  ],
+  "latency_s": 0.7,
+  "cost": 0.000513534,
+  "usage": {
+   "input_tokens": 12227,
+   "output_tokens": 1821,
+   "cost": 0.000513534
+  }
+ },
+ {
+  "id": "T297",
+  "choice": "L153",
+  "confidence": 1,
+  "top3": [
+   "L153",
+   "L134",
+   "L158"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.72,
+  "cost": 0.00051618,
+  "usage": {
+   "input_tokens": 12290,
+   "output_tokens": 1821,
+   "cost": 0.00051618
+  }
+ },
+ {
+  "id": "T298",
+  "choice": "L165",
+  "confidence": 0.98,
+  "top3": [
+   "L165",
+   "L177",
+   "L016"
+  ],
+  "top3_p": [
+   0.99,
+   0.01,
+   0
+  ],
+  "latency_s": 0.64,
+  "cost": 0.000512778,
+  "usage": {
+   "input_tokens": 12209,
+   "output_tokens": 1821,
+   "cost": 0.000512778
+  }
+ },
+ {
+  "id": "T299",
+  "choice": "L060",
+  "confidence": 0.48,
+  "top3": [
+   "L060",
+   "L168",
+   "L049"
+  ],
+  "top3_p": [
+   0.49,
+   0.12,
+   0.1
+  ],
+  "latency_s": 1.02,
+  "cost": 0.000515004,
+  "usage": {
+   "input_tokens": 12262,
+   "output_tokens": 1821,
+   "cost": 0.000515004
+  }
+ },
+ {
+  "id": "T300",
+  "choice": "L154",
+  "confidence": 0.99,
+  "top3": [
+   "L154",
+   "L017",
+   "L152"
+  ],
+  "top3_p": [
+   1,
+   0,
+   0
+  ],
+  "latency_s": 0.55,
+  "cost": 0.00051618,
+  "usage": {
+   "input_tokens": 12290,
+   "output_tokens": 1821,
+   "cost": 0.00051618
+  }
+ }
+]

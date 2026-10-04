@@ -1,0 +1,162 @@
+{
+ "n": 31,
+ "scores": [
+  0.74,
+  0.24,
+  0.16,
+  0.12,
+  0.1,
+  0.12,
+  0.15,
+  0.84,
+  0.51,
+  0.64,
+  0.64,
+  0.49,
+  0.5,
+  0.6,
+  0.47,
+  0.56,
+  0.6,
+  0.49,
+  0.68,
+  0.55,
+  0.53,
+  0.68,
+  0.39,
+  0.4,
+  0.34,
+  0.72,
+  0.84,
+  0.93,
+  0.78,
+  0.76,
+  0.66
+ ],
+ "meta": {
+  "x0": {
+   "frame": "类型:market_entry 阶段:completed 主体:阿里云 对象:全球市场 动作:举办全球峰会 范围:mar",
+   "score": null
+  },
+  "x1": {
+   "frame": "类型:market_entry 阶段:completed 主体:阿里云 对象:海外市场 动作:开拓海外市场 范围:mar",
+   "score": null
+  },
+  "x2": {
+   "frame": "类型:market_entry 阶段:completed 主体:阿里云 对象:海外市场 动作:提供多语言服务 范围:ma",
+   "score": null
+  },
+  "x3": {
+   "frame": "类型:market_entry 阶段:completed 主体:阿里云 对象:海外市场 动作:提供全球一致的响应 范围:",
+   "score": null
+  },
+  "x4": {
+   "frame": "类型:market_entry 阶段:completed 主体:阿里云 对象:海外市场 动作:提供全球领先的AI能力 范",
+   "score": null
+  },
+  "x5": {
+   "frame": "类型:market_entry 阶段:completed 主体:阿里云 对象:海外市场 动作:提供全球一张网 范围:ma",
+   "score": null
+  },
+  "x6": {
+   "frame": "类型:market_entry 阶段:completed 主体:阿里云 对象:海外市场 动作:提供本地化服务 范围:ma",
+   "score": null
+  },
+  "x7": {
+   "frame": "类型:sales_report 阶段:completed 主体:荣耀CEO李健 对象:Robot Phone 动作:透露",
+   "score": null
+  },
+  "x8": {
+   "frame": "类型:产品发布 阶段:planned 主体:荣耀 对象:Robot Phone 动作:发布Robot Phone 范围:",
+   "score": null
+  },
+  "x9": {
+   "frame": "类型:价格调整 阶段:effective 主体:荣耀 对象:Robot Phone 动作:公布售价 范围:market=",
+   "score": null
+  },
+  "x10": {
+   "frame": "类型:award 阶段:completed 主体:vivo创始人、总裁兼首席执行官沈炜 对象:vivo 动作:发表演讲 ",
+   "score": null
+  },
+  "x11": {
+   "frame": "类型:market_entry 阶段:completed 主体:vivo 对象:vivo X100系列 动作:集中上市 ",
+   "score": null
+  },
+  "x12": {
+   "frame": "类型:sales_report 阶段:completed 主体:Counterpoint 对象:vivo 动作:发布报告",
+   "score": null
+  },
+  "x13": {
+   "frame": "类型:价格调整 阶段:completed 主体:特斯拉 对象:特斯拉 动作:高开低走 范围:market=US、chan",
+   "score": null
+  },
+  "x14": {
+   "frame": "类型:价格调整 阶段:completed 主体:英伟达 对象:英伟达 动作:领涨 范围:market=US、channe",
+   "score": null
+  },
+  "x15": {
+   "frame": "类型:价格调整 阶段:completed 主体:苹果 对象:苹果 动作:连续七日创新高 范围:market=US、cha",
+   "score": null
+  },
+  "x16": {
+   "frame": "类型:价格调整 阶段:completed 主体:谷歌A 对象:谷歌A 动作:结束两连跌 范围:market=US、cha",
+   "score": null
+  },
+  "x17": {
+   "frame": "类型:价格调整 阶段:completed 主体:微软 对象:微软 动作:盘初走高 范围:market=US、channe",
+   "score": null
+  },
+  "x18": {
+   "frame": "类型:价格调整 阶段:completed 主体:亚马逊 对象:亚马逊 动作:开盘50分钟直线跳水转跌 范围:market",
+   "score": null
+  },
+  "x19": {
+   "frame": "类型:价格调整 阶段:completed 主体:费城半导体指数 对象:费城半导体指数 动作:盘初涨超1.7% 范围:ma",
+   "score": null
+  },
+  "x20": {
+   "frame": "类型:价格调整 阶段:completed 主体:英伟达两倍做多ETF 对象:英伟达两倍做多ETF 动作:涨近4.4% 范",
+   "score": null
+  },
+  "x21": {
+   "frame": "类型:other 阶段:completed 主体:荣耀CEO李健 对象:WAIC 2026 动作:发表演讲 范围:mar",
+   "score": null
+  },
+  "x22": {
+   "frame": "类型:other 阶段:completed 主体:荣耀CEO李健 对象:软硬一体的工程化能力 动作:比喻为沃土 范围:m",
+   "score": null
+  },
+  "x23": {
+   "frame": "类型:other 阶段:completed 主体:荣耀CEO李健 对象:丰富的生产生活场景 动作:比喻为水源 范围:ma",
+   "score": null
+  },
+  "x24": {
+   "frame": "类型:other 阶段:completed 主体:荣耀CEO李健 对象:开放共创的协同生态 动作:比喻为阳光 范围:ma",
+   "score": null
+  },
+  "x25": {
+   "frame": "类型:other 阶段:completed 主体:荣耀CEO李健 对象:AHI理念 动作:提出 范围:market=CN",
+   "score": null
+  },
+  "x26": {
+   "frame": "类型:产品发布 阶段:completed 主体:国家药品监督管理局 对象:昂戈瑞西单抗注射液、君实生物医药科技股份有限公",
+   "score": null
+  },
+  "x27": {
+   "frame": "类型:产品发布 阶段:completed 主体:奇瑞 对象:风云T7 动作:正式上市 范围:market=CN、chan",
+   "score": null
+  },
+  "x28": {
+   "frame": "类型:other 阶段:completed 主体:奇瑞汽车执行副总裁李学用 对象:风云T7 动作:回应外界关于“奇瑞造车",
+   "score": null
+  },
+  "x29": {
+   "frame": "类型:other 阶段:completed 主体:奇瑞 对象:风云T7 动作:披露项目投入和测试里程 范围:market",
+   "score": null
+  },
+  "x30": {
+   "frame": "类型:other 阶段:completed 主体:奇瑞 对象:风云T7 动作:披露安全开发标准 范围:market=CN",
+   "score": null
+  }
+ }
+}

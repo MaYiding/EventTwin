@@ -1,0 +1,119 @@
+{
+  "schema_version": "intel-config-v3.1-jev27b-emb8b",
+  "scope": {
+    "domain": "external_intelligence",
+    "enabled_event_types": [
+      "product_launch",
+      "price_change",
+      "patent_publication",
+      "merger_deal",
+      "partnership",
+      "executive_change",
+      "financial_report",
+      "sales_report",
+      "investment",
+      "market_entry",
+      "legal_action",
+      "incident",
+      "award",
+      "policy_change",
+      "expansion",
+      "other"
+    ],
+    "access_scope_default": "public"
+  },
+  "models": {
+    "chat_base_url": "http://10.10.21.216:8003/v1",
+    "chat_model": "qwen3.8-27b",
+    "chat_timeout_seconds": 600,
+    "embed_base_url": "http://10.10.21.216:8001/v1",
+    "embed_model": "qwen3-embedding-8b",
+    "embed_dimensions": 4096,
+    "embed_timeout_seconds": 120,
+    "jev_base_url": "https://openrouter.ai/api/alpha/decisions",
+    "jev_model": "typesafe/jev-1.13-20260917",
+    "jev_timeout_seconds": 240,
+    "jev_max_candidates": 24,
+    "jev_doc_chars": 300,
+    "max_retries": 2
+  },
+  "retrieval": {
+    "bm25_cluster_limit": 20,
+    "structured_cluster_limit": 100,
+    "candidate_pool_limit": 100,
+    "expanded_pool_limit": 200,
+    "judge_top_clusters": 3,
+    "require_healthy_retrieval_before_create": true,
+    "ann_target_unique_clusters": 20,
+    "ann_initial_vector_hits": 100
+  },
+  "cluster": {
+    "initial_representatives": 5,
+    "max_representatives": 10,
+    "auto_merge_clusters": false,
+    "auto_attach_without_calibration": false,
+    "calibrated": false,
+    "merge_probability_threshold": null,
+    "new_probability_threshold": null,
+    "minimum_margin": null,
+    "poc_score_attach_floor": 0.88,
+    "poc_score_new_floor": 0.78,
+    "score_weights": {
+      "semantic": 0.34,
+      "same_event": 0.26,
+      "time": 0.16,
+      "entity": 0.14,
+      "location": 0.05,
+      "type": 0.05
+    },
+    "hard_time_gap_days": {
+      "default": 120,
+      "price_change": 45,
+      "product_launch": 120
+    },
+    "high_confidence_bypass": true,
+    "bypass_score": 0.88
+  },
+  "queries": {
+    "max_additional_search_rounds": 2,
+    "max_relation_hops": 2,
+    "max_expansion_nodes": 50,
+    "answer_max_tokens": 1536,
+    "search_top_k": 10
+  },
+  "changes": {
+    "watch_predicates": [
+      "list_price",
+      "price",
+      "release_date",
+      "status",
+      "amount",
+      "equity_share"
+    ]
+  },
+  "extraction": {
+    "chunk_chars": 3000,
+    "chunk_overlap": 500,
+    "max_mentions_per_doc": 12,
+    "temperature": 0.0,
+    "max_tokens": 2000
+  },
+  "pipeline": {
+    "queue_poll_interval_ms": 300,
+    "llm_cache": true,
+    "extract_workers": 32,
+    "resolve_workers": 12,
+    "corpus_dirs": [
+      "data/corpus/incoming",
+      "data/corpus/v2"
+    ],
+    "extraction_reuse": true
+  },
+  "judge": {
+    "provider": "jev",
+    "_comment": "判别器路由：jev（默认，终审）| embedding | reranker | cascade。本地学生训好后改 cascade 即接入生产。",
+    "cascade_local": "reranker",
+    "cascade_model": "base",
+    "cascade_band": 0.35
+  }
+}

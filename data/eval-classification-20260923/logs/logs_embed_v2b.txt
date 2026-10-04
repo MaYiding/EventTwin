@@ -1,0 +1,6 @@
+leaf embeddings: 253 (usage={'prompt_tokens': 10599, 'total_tokens': 10599})
+[16/300]
+[32/300]
+[48/300]
+[64/300]
+[80/300]

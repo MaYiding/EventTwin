@@ -1,0 +1,35 @@
+{
+ "model": "/root/train/ml/models/l2_v3_4b",
+ "T": 2.6133,
+ "overall": {
+  "n": 1000,
+  "auroc": 0.9139,
+  "acc": 0.857,
+  "thr": 0.999,
+  "ece": 0.2236
+ },
+ "by_layer": {
+  "gray": {
+   "n": 300,
+   "auroc": 0.8757,
+   "acc": 0.8433,
+   "thr": 1.0,
+   "ece": 0.3517
+  },
+  "neg": {
+   "n": 400,
+   "auroc": null,
+   "acc": 0.9975,
+   "thr": 0.998,
+   "ece": 0.0757
+  },
+  "pos": {
+   "n": 300,
+   "auroc": 0.6622,
+   "acc": 0.73,
+   "thr": 0.995,
+   "ece": 0.301
+  }
+ },
+ "vs_jev_agreement": 0.794
+}

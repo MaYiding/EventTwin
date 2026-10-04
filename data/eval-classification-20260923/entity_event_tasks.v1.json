@@ -1,0 +1,539 @@
+{
+ "article": "Apple settlement offers eligible iPhone owners up to $95. Here is how to file a claim.\n\nThe claim window is now open for an Apple settlement announced earlier this year, giving certain iPhone users the chance to get up to $95.\n\nApple agreed to pay $250 million to settle claims that it misled customers about Siri's Apple Intelligence features. Customers who were part of the class action lawsuit said they purchased iPhones expecting certain Siri features they allegedly did not receive.\n\n\"The $250 million settlement fund represents the largest false advertising settlement in history,\" Ryan Clarkson, co-lead counsel on the class-action lawsuit and founder and managing partner of Clarkson Law Firm, said in an email to CBS News.\n\nApple declined to comment. The company has previously denied the allegations. According to the settlement agreement, the settlement shall \"not be construed in any fashion as an admission of liability or wrongdoing by Apple.\"\n\nHere's what to know about eligibility and how to file a claim.\n\nHow do I file a claim?\n\niPhone users can visit SmartphoneAISettlement.com to file a claim, according to a spokesperson for Clarkson Law Firm, a public interest law firm.\n\nThe person must input basic personal information, including their name, address and phone number. They must also enter their iPhone's serial number, which can be found in the phone's Settings section.\n\nOnce they finish inputting that information, they can select the payment method. The options are PayPal, Venmo, direct deposit or check.\n\nAs SmartphoneAISettlement.com points out, consumers are limited to \"one cash payment per eligible device.\" If they purchased another iPhone that meets the eligibility requirements, they must complete a separate claim form.\n\nHow do I know if I am eligible?\n\nIf you bought an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10, 2024, and March 29, 2025, you're eligible to file a claim.\n\nAccording to SmartphoneAISettlement.com, the person filing a claim must be the person who originally purchased the device. The phone must also be for personal or professional use, not for resale.\n\nIf you're not sure if you're eligible, you can call 1-888-988-8945 or write to this address for information: Landsheft, et al. v. Apple Inc.; Settlement Administrator; P.O. Box 301132; Los Angeles, CA 90030-1132.\n\nHow long do I have to file a claim?\n\nThe claims window is open until Dec. 21, 2026.\n\nHow much money will I receive?\n\nCustomers who submit a valid claim form will initially get $25 per eligible device. However, that amount may be increased up to $95 or decreased depending on the \"total number of valid claims submitted and other factors,\" the claims website says.\n\nWhen will I get the payment?\n\nA district court in San Jose, California, will hold a hearing on Feb. 24, 2027, to decide whether to approve the settlement. If there are any appeals, it could delay the payment process.\n\n\"If there is no appeal, your settlement benefit will be processed promptly,\" according to the claim website.",
+ "entities": [
+  [
+   "apple",
+   "Apple",
+   "A",
+   0.99
+  ],
+  [
+   "apple_inc",
+   "Apple Inc.",
+   "A",
+   0.98
+  ],
+  [
+   "iphone",
+   "iPhone",
+   "A",
+   0.99
+  ],
+  [
+   "siri",
+   "Siri",
+   "A",
+   0.99
+  ],
+  [
+   "ryan_clarkson",
+   "Ryan Clarkson",
+   "A",
+   0.99
+  ],
+  [
+   "clarkson_law_firm",
+   "Clarkson Law Firm",
+   "A",
+   0.95
+  ],
+  [
+   "paypal",
+   "PayPal",
+   "A",
+   0.98
+  ],
+  [
+   "landsheft",
+   "Landsheft",
+   "A",
+   0.92
+  ],
+  [
+   "samsung",
+   "Samsung",
+   "B",
+   0.02
+  ],
+  [
+   "google",
+   "Google",
+   "B",
+   0.02
+  ],
+  [
+   "elon_musk",
+   "Elon Musk",
+   "B",
+   0.02
+  ],
+  [
+   "microsoft",
+   "Microsoft",
+   "B",
+   0.02
+  ],
+  [
+   "amazon",
+   "Amazon",
+   "B",
+   0.02
+  ],
+  [
+   "ipad",
+   "iPad",
+   "C",
+   0.02
+  ],
+  [
+   "iphone_14_pro",
+   "iPhone 14 Pro",
+   "C",
+   0.03
+  ],
+  [
+   "android",
+   "Android",
+   "C",
+   0.03
+  ],
+  [
+   "ftc",
+   "Federal Trade Commission",
+   "C",
+   0.03
+  ],
+  [
+   "clarson_law_firm",
+   "Clarson Law Firm",
+   "D",
+   0.2
+  ],
+  [
+   "appel_inc",
+   "Appel Inc.",
+   "D",
+   0.3
+  ],
+  [
+   "ryan_clark",
+   "Ryan Clark",
+   "D",
+   0.26
+  ],
+  [
+   "clarkson_university",
+   "Clarkson University",
+   "D",
+   0.02
+  ],
+  [
+   "venmon",
+   "Venmon",
+   "D",
+   0.49
+  ]
+ ],
+ "claims": [
+  {
+   "id": "c01",
+   "type": "TRUE",
+   "note": "基准真值",
+   "issuer": "Apple",
+   "receiver": "集体诉讼原告（符合条件的 iPhone 用户）",
+   "relation": "同意支付2.5亿美元设立和解基金，了结关于其就 Siri 与 Apple Intelligence 功能误导消费者的指控",
+   "time": "2026年（今年）早些时候宣布",
+   "en": "Apple agreed to pay $250 million to settle claims that it misled customers about Siri's Apple Intelligence features; the settlement was announced earlier this year."
+  },
+  {
+   "id": "c02",
+   "type": "issuer|同类替换",
+   "note": "Google 顶替 Apple",
+   "issuer": "Google",
+   "receiver": "集体诉讼原告（符合条件的 iPhone 用户）",
+   "relation": "同意支付2.5亿美元设立和解基金，了结关于其就 Siri 与 Apple Intelligence 功能误导消费者的指控",
+   "time": "2026年（今年）早些时候宣布",
+   "en": "Google agreed to pay $250 million to settle claims that it misled customers about Siri's Apple Intelligence features; the settlement was announced earlier this year."
+  },
+  {
+   "id": "c03",
+   "type": "issuer|近似拼写",
+   "note": "Appel 伪造",
+   "issuer": "Appel",
+   "receiver": "集体诉讼原告（符合条件的 iPhone 用户）",
+   "relation": "同意支付2.5亿美元设立和解基金，了结关于其就 Siri 与 Apple Intelligence 功能误导消费者的指控",
+   "time": "2026年（今年）早些时候宣布",
+   "en": "Appel agreed to pay $250 million to settle claims that it misled customers about Siri's Apple Intelligence features; the settlement was announced earlier this year."
+  },
+  {
+   "id": "c04",
+   "type": "issuer+receiver|角色对调",
+   "note": "原被告互换",
+   "issuer": "集体诉讼原告",
+   "receiver": "Apple",
+   "relation": "同意支付2.5亿美元和解金了结诉讼",
+   "time": "2026年（今年）早些时候宣布",
+   "en": "The class-action plaintiffs agreed to pay Apple $250 million to settle the lawsuit; announced earlier this year."
+  },
+  {
+   "id": "c05",
+   "type": "receiver|同类替换",
+   "note": "Android 用户",
+   "issuer": "Apple",
+   "receiver": "Android 手机用户",
+   "relation": "同意支付2.5亿美元设立和解基金，了结关于其就 Siri 与 Apple Intelligence 功能误导消费者的指控",
+   "time": "2026年（今年）早些时候宣布",
+   "en": "Apple agreed to pay $250 million to settle claims that it misled Android phone users about Siri's Apple Intelligence features; announced earlier this year."
+  },
+  {
+   "id": "c06",
+   "type": "receiver|字面歧义",
+   "note": "Apple=苹果水果 陷阱",
+   "issuer": "Apple",
+   "receiver": "苹果种植农户协会",
+   "relation": "同意支付2.5亿美元和解金",
+   "time": "2026年（今年）早些时候宣布",
+   "en": "Apple agreed to pay $250 million to settle claims brought by an association of apple orchard farmers; announced earlier this year."
+  },
+  {
+   "id": "c07",
+   "type": "relation|金额近似(±4%)",
+   "note": "2.5亿→2.4亿",
+   "issuer": "Apple",
+   "receiver": "集体诉讼原告（符合条件的 iPhone 用户）",
+   "relation": "同意支付2.4亿美元和解金",
+   "time": "2026年（今年）早些时候宣布",
+   "en": "Apple agreed to pay $240 million to settle the claims; announced earlier this year."
+  },
+  {
+   "id": "c08",
+   "type": "relation|数量级(×10)",
+   "note": "2.5亿→25亿",
+   "issuer": "Apple",
+   "receiver": "集体诉讼原告（符合条件的 iPhone 用户）",
+   "relation": "同意支付25亿美元和解金",
+   "time": "2026年（今年）早些时候宣布",
+   "en": "Apple agreed to pay $2.5 billion to settle the claims; announced earlier this year."
+  },
+  {
+   "id": "c09",
+   "type": "relation|总额/单价混淆",
+   "note": "总额95美元",
+   "issuer": "Apple",
+   "receiver": "集体诉讼原告（符合条件的 iPhone 用户）",
+   "relation": "同意支付总额最高95美元的和解金",
+   "time": "2026年（今年）早些时候宣布",
+   "en": "Apple agreed to pay a total of up to $95 to settle the claims; announced earlier this year."
+  },
+  {
+   "id": "c10",
+   "type": "relation|极性反转",
+   "note": "拒付+否认",
+   "issuer": "Apple",
+   "receiver": "集体诉讼原告（符合条件的 iPhone 用户）",
+   "relation": "拒绝支付和解金并否认所有指控",
+   "time": "2026年（今年）早些时候宣布",
+   "en": "Apple refused to pay any settlement and denied all the allegations."
+  },
+  {
+   "id": "c11",
+   "type": "time|具体化矛盾",
+   "note": "文章只说今年早些时候",
+   "issuer": "Apple",
+   "receiver": "集体诉讼原告（符合条件的 iPhone 用户）",
+   "relation": "同意支付2.5亿美元设立和解基金，了结关于其就 Siri 与 Apple Intelligence 功能误导消费者的指控",
+   "time": "2025年11月宣布",
+   "en": "Apple agreed to pay $250 million to settle the claims; the settlement was announced in November 2025."
+  },
+  {
+   "id": "c12",
+   "type": "TRUE",
+   "note": "基准真值",
+   "issuer": "加利福尼亚州圣何塞的联邦地区法院",
+   "receiver": "Apple 和解协议",
+   "relation": "举行听证会以决定是否批准和解",
+   "time": "2027年2月24日",
+   "en": "A district court in San Jose, California, will hold a hearing on Feb. 24, 2027, to decide whether to approve the settlement."
+  },
+  {
+   "id": "c13",
+   "type": "TRUE|时间格式等价",
+   "note": "同一日期英文写法",
+   "issuer": "加利福尼亚州圣何塞的联邦地区法院",
+   "receiver": "Apple 和解协议",
+   "relation": "举行听证会以决定是否批准和解",
+   "time": "February 24, 2027",
+   "en": "A district court in San Jose, California, will hold a hearing on February 24, 2027, to decide whether to approve the settlement."
+  },
+  {
+   "id": "c14",
+   "type": "time|±1天",
+   "note": "2/24→2/25",
+   "issuer": "加利福尼亚州圣何塞的联邦地区法院",
+   "receiver": "Apple 和解协议",
+   "relation": "举行听证会以决定是否批准和解",
+   "time": "2027年2月25日",
+   "en": "A district court in San Jose, California, will hold a hearing on Feb. 25, 2027, to decide whether to approve the settlement."
+  },
+  {
+   "id": "c15",
+   "type": "time|±1月",
+   "note": "2/24→3/24",
+   "issuer": "加利福尼亚州圣何塞的联邦地区法院",
+   "receiver": "Apple 和解协议",
+   "relation": "举行听证会以决定是否批准和解",
+   "time": "2027年3月24日",
+   "en": "A district court in San Jose, California, will hold a hearing on Mar. 24, 2027, to decide whether to approve the settlement."
+  },
+  {
+   "id": "c16",
+   "type": "time|±1年",
+   "note": "2027→2026",
+   "issuer": "加利福尼亚州圣何塞的联邦地区法院",
+   "receiver": "Apple 和解协议",
+   "relation": "举行听证会以决定是否批准和解",
+   "time": "2026年2月24日",
+   "en": "A district court in San Jose, California, will hold a hearing on Feb. 24, 2026, to decide whether to approve the settlement."
+  },
+  {
+   "id": "c17",
+   "type": "time|跨事件混淆",
+   "note": "把索赔截止日安到听证会",
+   "issuer": "加利福尼亚州圣何塞的联邦地区法院",
+   "receiver": "Apple 和解协议",
+   "relation": "举行听证会以决定是否批准和解",
+   "time": "2026年12月21日",
+   "en": "A district court in San Jose, California, will hold a hearing on Dec. 21, 2026, to decide whether to approve the settlement."
+  },
+  {
+   "id": "c18",
+   "type": "issuer|同类城市",
+   "note": "圣何塞→洛杉矶(文中出现)",
+   "issuer": "加利福尼亚州洛杉矶的联邦地区法院",
+   "receiver": "Apple 和解协议",
+   "relation": "举行听证会以决定是否批准和解",
+   "time": "2027年2月24日",
+   "en": "A district court in Los Angeles, California, will hold a hearing on Feb. 24, 2027, to decide whether to approve the settlement."
+  },
+  {
+   "id": "c19",
+   "type": "issuer|性质近似",
+   "note": "联邦→州法院",
+   "issuer": "加利福尼亚州圣何塞的州法院",
+   "receiver": "Apple 和解协议",
+   "relation": "举行听证会以决定是否批准和解",
+   "time": "2027年2月24日",
+   "en": "A state court in San Jose, California, will hold a hearing on Feb. 24, 2027, to decide whether to approve the settlement."
+  },
+  {
+   "id": "c20",
+   "type": "relation|极性反转",
+   "note": "批准→驳回",
+   "issuer": "加利福尼亚州圣何塞的联邦地区法院",
+   "receiver": "Apple 和解协议",
+   "relation": "举行听证会以决定是否驳回和解",
+   "time": "2027年2月24日",
+   "en": "A district court in San Jose, California, will hold a hearing on Feb. 24, 2027, to decide whether to reject the settlement."
+  },
+  {
+   "id": "c21",
+   "type": "TRUE|关系等价改写",
+   "note": "语义等价",
+   "issuer": "加利福尼亚州圣何塞的联邦地区法院",
+   "receiver": "Apple 和解协议",
+   "relation": "开庭审理以裁定是否批准该和解",
+   "time": "2027年2月24日",
+   "en": "A district court in San Jose, California, will open a hearing to rule on whether to approve the settlement on Feb. 24, 2027."
+  },
+  {
+   "id": "c22",
+   "type": "TRUE",
+   "note": "基准真值",
+   "issuer": "符合条件的 iPhone 用户",
+   "receiver": "和解管理方（SmartphoneAISettlement.com）",
+   "relation": "提交索赔申请，每台设备最高可获95美元",
+   "time": "索赔窗口截止2026年12月21日",
+   "en": "Eligible iPhone users can submit a claim to the settlement administrator for up to $95 per device; the claims window closes Dec. 21, 2026."
+  },
+  {
+   "id": "c23",
+   "type": "time|±1天",
+   "note": "12/21→12/22",
+   "issuer": "符合条件的 iPhone 用户",
+   "receiver": "和解管理方（SmartphoneAISettlement.com）",
+   "relation": "提交索赔申请，每台设备最高可获95美元",
+   "time": "索赔窗口截止2026年12月22日",
+   "en": "Eligible iPhone users can submit a claim to the settlement administrator for up to $95 per device; the claims window closes Dec. 22, 2026."
+  },
+  {
+   "id": "c24",
+   "type": "time|跨事件混淆",
+   "note": "听证会日期",
+   "issuer": "符合条件的 iPhone 用户",
+   "receiver": "和解管理方（SmartphoneAISettlement.com）",
+   "relation": "提交索赔申请，每台设备最高可获95美元",
+   "time": "索赔窗口截止2027年2月24日",
+   "en": "Eligible iPhone users can submit a claim to the settlement administrator for up to $95 per device; the claims window closes Feb. 24, 2027."
+  },
+  {
+   "id": "c25",
+   "type": "time|±1年",
+   "note": "2026→2027",
+   "issuer": "符合条件的 iPhone 用户",
+   "receiver": "和解管理方（SmartphoneAISettlement.com）",
+   "relation": "提交索赔申请，每台设备最高可获95美元",
+   "time": "索赔窗口截止2027年12月21日",
+   "en": "Eligible iPhone users can submit a claim to the settlement administrator for up to $95 per device; the claims window closes Dec. 21, 2027."
+  },
+  {
+   "id": "c26",
+   "type": "relation|上限→固定",
+   "note": "最高95→固定95",
+   "issuer": "符合条件的 iPhone 用户",
+   "receiver": "和解管理方（SmartphoneAISettlement.com）",
+   "relation": "每台设备固定获得95美元",
+   "time": "索赔窗口截止2026年12月21日",
+   "en": "Eligible users will receive a fixed payment of $95 per device; the claims window closes Dec. 21, 2026."
+  },
+  {
+   "id": "c27",
+   "type": "relation|初始额混淆",
+   "note": "25 当最终额",
+   "issuer": "符合条件的 iPhone 用户",
+   "receiver": "和解管理方（SmartphoneAISettlement.com）",
+   "relation": "每台设备固定获得25美元",
+   "time": "索赔窗口截止2026年12月21日",
+   "en": "Eligible users will receive a fixed payment of $25 per device; the claims window closes Dec. 21, 2026."
+  },
+  {
+   "id": "c28",
+   "type": "issuer|范围放宽",
+   "note": "限定→所有用户",
+   "issuer": "所有 iPhone 用户",
+   "receiver": "和解管理方（SmartphoneAISettlement.com）",
+   "relation": "提交索赔申请，每台设备最高可获95美元",
+   "time": "索赔窗口截止2026年12月21日",
+   "en": "All iPhone users can submit a claim to the settlement administrator for up to $95 per device; the claims window closes Dec. 21, 2026."
+  },
+  {
+   "id": "c29",
+   "type": "issuer|型号近似",
+   "note": "14 Pro 不在范围",
+   "issuer": "购买了 iPhone 14 Pro 的用户",
+   "receiver": "和解管理方（SmartphoneAISettlement.com）",
+   "relation": "提交索赔申请，每台设备最高可获95美元",
+   "time": "索赔窗口截止2026年12月21日",
+   "en": "Users who bought an iPhone 14 Pro can submit a claim to the settlement administrator for up to $95 per device; the claims window closes Dec. 21, 2026."
+  },
+  {
+   "id": "c30",
+   "type": "TRUE",
+   "note": "基准真值(时间缺失)",
+   "issuer": "Landsheft 等",
+   "receiver": "Apple Inc.",
+   "relation": "提起集体诉讼",
+   "time": "未提及",
+   "en": "Landsheft et al. filed a class-action lawsuit against Apple Inc."
+  },
+  {
+   "id": "c31",
+   "type": "TRUE|承受者等价",
+   "note": "Apple 无 Inc.",
+   "issuer": "Landsheft 等",
+   "receiver": "Apple",
+   "relation": "提起集体诉讼",
+   "time": "未提及",
+   "en": "Landsheft et al. filed a class-action lawsuit against Apple."
+  },
+  {
+   "id": "c32",
+   "type": "issuer|角色混淆",
+   "note": "律师当原告",
+   "issuer": "Ryan Clarkson 等",
+   "receiver": "Apple Inc.",
+   "relation": "提起集体诉讼",
+   "time": "未提及",
+   "en": "Ryan Clarkson et al. filed a class-action lawsuit against Apple Inc."
+  },
+  {
+   "id": "c33",
+   "type": "time|无中生有",
+   "note": "文章未提时间",
+   "issuer": "Landsheft 等",
+   "receiver": "Apple Inc.",
+   "relation": "提起集体诉讼",
+   "time": "2025年6月提起",
+   "en": "Landsheft et al. filed a class-action lawsuit against Apple Inc. in June 2025."
+  },
+  {
+   "id": "c34",
+   "type": "relation|性质替换",
+   "note": "民事→刑事",
+   "issuer": "Landsheft 等",
+   "receiver": "Apple Inc.",
+   "relation": "对 Apple 提起刑事诉讼",
+   "time": "未提及",
+   "en": "Landsheft et al. brought criminal charges against Apple Inc."
+  },
+  {
+   "id": "c35",
+   "type": "TRUE",
+   "note": "基准真值",
+   "issuer": "消费者",
+   "receiver": "iPhone 15 Pro、iPhone 15 Pro Max 或任意 iPhone 16 机型",
+   "relation": "在此期间购买即具备索赔资格",
+   "time": "2024年6月10日至2025年3月29日",
+   "en": "Customers who bought an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10, 2024 and March 29, 2025 are eligible to file a claim."
+  },
+  {
+   "id": "c36",
+   "type": "time|起点+1天",
+   "note": "6/10→6/11",
+   "issuer": "消费者",
+   "receiver": "iPhone 15 Pro、iPhone 15 Pro Max 或任意 iPhone 16 机型",
+   "relation": "在此期间购买即具备索赔资格",
+   "time": "2024年6月11日至2025年3月29日",
+   "en": "Customers who bought an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 11, 2024 and March 29, 2025 are eligible to file a claim."
+  },
+  {
+   "id": "c37",
+   "type": "time|终点-1天",
+   "note": "3/29→3/28",
+   "issuer": "消费者",
+   "receiver": "iPhone 15 Pro、iPhone 15 Pro Max 或任意 iPhone 16 机型",
+   "relation": "在此期间购买即具备索赔资格",
+   "time": "2024年6月10日至2025年3月28日",
+   "en": "Customers who bought an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10, 2024 and March 28, 2025 are eligible to file a claim."
+  },
+  {
+   "id": "c38",
+   "type": "time|双年份前移",
+   "note": "整体前移一年",
+   "issuer": "消费者",
+   "receiver": "iPhone 15 Pro、iPhone 15 Pro Max 或任意 iPhone 16 机型",
+   "relation": "在此期间购买即具备索赔资格",
+   "time": "2023年6月10日至2024年3月29日",
+   "en": "Customers who bought an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10, 2023 and March 29, 2024 are eligible to file a claim."
+  },
+  {
+   "id": "c39",
+   "type": "receiver|型号近似",
+   "note": "14 Pro/15 不在范围",
+   "issuer": "消费者",
+   "receiver": "iPhone 14 Pro 或任意 iPhone 15 机型",
+   "relation": "在此期间购买即具备索赔资格",
+   "time": "2024年6月10日至2025年3月29日",
+   "en": "Customers who bought an iPhone 14 Pro or any iPhone 15 model between June 10, 2024 and March 29, 2025 are eligible to file a claim."
+  },
+  {
+   "id": "c40",
+   "type": "relation|添加限定",
+   "note": "官方渠道(文章未限定)",
+   "issuer": "消费者",
+   "receiver": "iPhone 15 Pro、iPhone 15 Pro Max 或任意 iPhone 16 机型",
+   "relation": "从 Apple 官方渠道购买即具备索赔资格",
+   "time": "2024年6月10日至2025年3月29日",
+   "en": "Customers who bought an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model from Apple's official channels between June 10, 2024 and March 29, 2025 are eligible to file a claim."
+  }
+ ]
+}

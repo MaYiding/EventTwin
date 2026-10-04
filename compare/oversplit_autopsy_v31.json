@@ -1,0 +1,124 @@
+{
+ "n_should_merge": 12,
+ "causes": {
+  "R1_recall_miss": 5,
+  "R5_snapshot_iso": 5,
+  "R6_attached_elsewhere": 2
+ },
+ "pairs": [
+  {
+   "first_pub_late": "2026-08-21T14:26:13.000+08:00",
+   "same_day": false,
+   "cause": "R1_recall_miss",
+   "pair_idx": 4,
+   "jev_score": 0.83,
+   "s1": "类型:产品发布 阶段:effective 主体:华为、余承东 对象:享界G9 动作:正式",
+   "s2": "类型:产品发布 阶段:effective 主体:鸿蒙智行、北汽集团 对象:享界G9 动作"
+  },
+  {
+   "first_pub_late": "2025-02-25T15:55:44.000+08:00",
+   "same_day": true,
+   "cause": "R5_snapshot_iso",
+   "pair_idx": 6,
+   "jev_score": 0.85,
+   "s1": "类型:产品发布 阶段:announced 主体:理想汽车 对象:理想i8 动作:发布首款",
+   "s2": "类型:产品发布 阶段:completed 主体:理想汽车 对象:理想i8 动作:官宣亮相"
+  },
+  {
+   "first_pub_late": "2024-05-25T20:56:53.000+08:00",
+   "same_day": false,
+   "cause": "R1_recall_miss",
+   "pair_idx": 9,
+   "jev_score": 0.64,
+   "s1": "类型:investment 阶段:announced 主体:京东 对象:股票 动作:表示",
+   "s2": "类型:investment 阶段:announced 主体:京东 对象:可转债 动作:宣"
+  },
+  {
+   "first_pub_late": "2026-07-13T17:13:02.000+08:00",
+   "same_day": false,
+   "cause": "R1_recall_miss",
+   "pair_idx": 11,
+   "jev_score": 0.53,
+   "s1": "类型:产品发布 阶段:completed 主体:上汽大众 对象:奥迪E7X、途观L eP",
+   "s2": "类型:产品发布 阶段:effective 主体:上汽大众 对象:奥迪E7X 动作:上市 "
+  },
+  {
+   "first_pub_late": "2026-01-04T16:14:51.000+08:00",
+   "same_day": true,
+   "cause": "R5_snapshot_iso",
+   "pair_idx": 12,
+   "jev_score": 0.55,
+   "s1": "类型:sales_report 阶段:completed 主体:上汽集团 对象:整车 动",
+   "s2": "类型:sales_report 阶段:completed 主体:上汽集团 对象:自主品牌"
+  },
+  {
+   "first_pub_late": "2024-11-30T20:41:57.000+08:00",
+   "same_day": true,
+   "met_action": "attach",
+   "met_reason": "high_confidence_bypass",
+   "cause": "R6_attached_elsewhere",
+   "target": "high_confidence_bypass",
+   "pair_idx": 15,
+   "jev_score": 0.84,
+   "s1": "类型:合作签约 阶段:effective 主体:广汽、华为 对象:智能汽车战略合作 动作",
+   "s2": "类型:合作签约 阶段:announced 主体:广汽集团、华为 对象:高端智能新能源汽车"
+  },
+  {
+   "first_pub_late": "2026-03-01T00:00:00.000+08:00",
+   "same_day": false,
+   "cause": "R1_recall_miss",
+   "pair_idx": 18,
+   "jev_score": 0.95,
+   "s1": "类型:sales_report 阶段:completed 主体:蔚来汽车 对象:全新ES",
+   "s2": "类型:sales_report 阶段:completed 主体:蔚来 对象:全新ES8 "
+  },
+  {
+   "first_pub_late": "2026-06-02T16:33:55.000+08:00",
+   "same_day": false,
+   "cause": "R1_recall_miss",
+   "pair_idx": 22,
+   "jev_score": 0.56,
+   "s1": "类型:产品发布 阶段:effective 主体:小鹏汽车 对象:2026款小鹏P7+ 动",
+   "s2": "类型:产品发布 阶段:completed 主体:小鹏汽车 对象:2026款小鹏P7+、小"
+  },
+  {
+   "first_pub_late": "2026-05-27T20:04:00.000+08:00",
+   "same_day": true,
+   "met_action": "attach",
+   "met_reason": "high_confidence_bypass",
+   "cause": "R6_attached_elsewhere",
+   "target": "high_confidence_bypass",
+   "pair_idx": 23,
+   "jev_score": 0.93,
+   "s1": "类型:financial_report 阶段:completed 主体:快手 对象:20",
+   "s2": "类型:financial_report 阶段:completed 主体:快手科技 对象:"
+  },
+  {
+   "first_pub_late": "2026-02-14T18:23:25.000+08:00",
+   "same_day": true,
+   "cause": "R5_snapshot_iso",
+   "pair_idx": 25,
+   "jev_score": 0.97,
+   "s1": "类型:legal_action 阶段:completed 主体:市场监管总局 对象:阿里",
+   "s2": "类型:legal_action 阶段:completed 主体:市场监管总局 对象:阿里"
+  },
+  {
+   "first_pub_late": "2024-12-09T10:20:57.000+08:00",
+   "same_day": true,
+   "cause": "R5_snapshot_iso",
+   "pair_idx": 27,
+   "jev_score": 0.51,
+   "s1": "类型:产品发布 阶段:effective 主体:上汽通用、别克 对象:23台新车、OMP",
+   "s2": "类型:产品发布 阶段:effective 主体:别克 对象:OMPV 动作:新能源MPV"
+  },
+  {
+   "first_pub_late": "2024-05-24T07:22:49.000+08:00",
+   "same_day": true,
+   "cause": "R5_snapshot_iso",
+   "pair_idx": 28,
+   "jev_score": 0.58,
+   "s1": "类型:investment 阶段:announced 主体:阿里巴巴 对象:可转换优先票",
+   "s2": "类型:investment 阶段:announced 主体:阿里巴巴 对象:可转换优先票"
+  }
+ ]
+}

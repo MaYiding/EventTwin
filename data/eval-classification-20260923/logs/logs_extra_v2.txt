@@ -1,0 +1,8 @@
+Jev body: /tmp/jev_event_body.json  (200 questions, 40 claims, 35249 chars)
+jev entity done
+jev event done
+8b entity done
+8b event done
+embed done
+rerank done
+saved

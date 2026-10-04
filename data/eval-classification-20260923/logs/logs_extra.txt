@@ -1,0 +1,47 @@
+Jev body: /tmp/jev_event_body.json  (200 questions, 40 claims, 35249 chars)
+c01 [TRUE                  ] zh=0.9929  en=0.9863
+Traceback (most recent call last):
+  File "/Users/mayiding/Desktop/Git/Research/数据库-图/Code/data/eval-classification-20260923/run_extra.py", line 105, in <module>
+    main()
+    ~~~~^^
+  File "/Users/mayiding/Desktop/Git/Research/数据库-图/Code/data/eval-classification-20260923/run_extra.py", line 25, in main
+    m2 = load_mod("/tmp/event_verify_gen.py", "m2")
+  File "/Users/mayiding/Desktop/Git/Research/数据库-图/Code/data/eval-classification-20260923/run_extra.py", line 19, in load_mod
+    spec.loader.exec_module(m)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/tmp/event_verify_gen.py", line 366, in <module>
+    zh_max = max(rerank(zh_query(c), DOC_CHUNKS))
+                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/event_verify_gen.py", line 353, in rerank
+    with urllib.request.urlopen(req, timeout=90) as resp:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/urllib/request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/urllib/request.py", line 489, in open
+    response = self._open(req, data)
+  File "/opt/anaconda3/lib/python3.13/urllib/request.py", line 506, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "/opt/anaconda3/lib/python3.13/urllib/request.py", line 466, in _call_chain
+    result = func(*args)
+  File "/opt/anaconda3/lib/python3.13/urllib/request.py", line 1348, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/urllib/request.py", line 1323, in do_open
+    r = h.getresponse()
+  File "/opt/anaconda3/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+TimeoutError: timed out

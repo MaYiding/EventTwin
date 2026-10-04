@@ -1,0 +1,1373 @@
+{
+ "model": "jev-latest",
+ "state": {
+  "article": {
+   "标题": "Apple settlement offers eligible iPhone owners up to $95. Here is how to file a claim.",
+   "正文": "【原样粘贴正文，与之前 22 实体测试同一篇文章，一字不改】"
+  },
+  "claims": {
+   "c01": {
+    "发出者": "Apple",
+    "承受者": "集体诉讼原告（符合条件的 iPhone 用户）",
+    "关系": "同意支付2.5亿美元设立和解基金，了结关于其就 Siri 与 Apple Intelligence 功能误导消费者的指控",
+    "时间": "2026年（今年）早些时候宣布"
+   },
+   "c02": {
+    "发出者": "Google",
+    "承受者": "集体诉讼原告（符合条件的 iPhone 用户）",
+    "关系": "同意支付2.5亿美元设立和解基金，了结关于其就 Siri 与 Apple Intelligence 功能误导消费者的指控",
+    "时间": "2026年（今年）早些时候宣布"
+   },
+   "c03": {
+    "发出者": "Appel",
+    "承受者": "集体诉讼原告（符合条件的 iPhone 用户）",
+    "关系": "同意支付2.5亿美元设立和解基金，了结关于其就 Siri 与 Apple Intelligence 功能误导消费者的指控",
+    "时间": "2026年（今年）早些时候宣布"
+   },
+   "c04": {
+    "发出者": "集体诉讼原告",
+    "承受者": "Apple",
+    "关系": "同意支付2.5亿美元和解金了结诉讼",
+    "时间": "2026年（今年）早些时候宣布"
+   },
+   "c05": {
+    "发出者": "Apple",
+    "承受者": "Android 手机用户",
+    "关系": "同意支付2.5亿美元设立和解基金，了结关于其就 Siri 与 Apple Intelligence 功能误导消费者的指控",
+    "时间": "2026年（今年）早些时候宣布"
+   },
+   "c06": {
+    "发出者": "Apple",
+    "承受者": "苹果种植农户协会",
+    "关系": "同意支付2.5亿美元和解金",
+    "时间": "2026年（今年）早些时候宣布"
+   },
+   "c07": {
+    "发出者": "Apple",
+    "承受者": "集体诉讼原告（符合条件的 iPhone 用户）",
+    "关系": "同意支付2.4亿美元和解金",
+    "时间": "2026年（今年）早些时候宣布"
+   },
+   "c08": {
+    "发出者": "Apple",
+    "承受者": "集体诉讼原告（符合条件的 iPhone 用户）",
+    "关系": "同意支付25亿美元和解金",
+    "时间": "2026年（今年）早些时候宣布"
+   },
+   "c09": {
+    "发出者": "Apple",
+    "承受者": "集体诉讼原告（符合条件的 iPhone 用户）",
+    "关系": "同意支付总额最高95美元的和解金",
+    "时间": "2026年（今年）早些时候宣布"
+   },
+   "c10": {
+    "发出者": "Apple",
+    "承受者": "集体诉讼原告（符合条件的 iPhone 用户）",
+    "关系": "拒绝支付和解金并否认所有指控",
+    "时间": "2026年（今年）早些时候宣布"
+   },
+   "c11": {
+    "发出者": "Apple",
+    "承受者": "集体诉讼原告（符合条件的 iPhone 用户）",
+    "关系": "同意支付2.5亿美元设立和解基金，了结关于其就 Siri 与 Apple Intelligence 功能误导消费者的指控",
+    "时间": "2025年11月宣布"
+   },
+   "c12": {
+    "发出者": "加利福尼亚州圣何塞的联邦地区法院",
+    "承受者": "Apple 和解协议",
+    "关系": "举行听证会以决定是否批准和解",
+    "时间": "2027年2月24日"
+   },
+   "c13": {
+    "发出者": "加利福尼亚州圣何塞的联邦地区法院",
+    "承受者": "Apple 和解协议",
+    "关系": "举行听证会以决定是否批准和解",
+    "时间": "February 24, 2027"
+   },
+   "c14": {
+    "发出者": "加利福尼亚州圣何塞的联邦地区法院",
+    "承受者": "Apple 和解协议",
+    "关系": "举行听证会以决定是否批准和解",
+    "时间": "2027年2月25日"
+   },
+   "c15": {
+    "发出者": "加利福尼亚州圣何塞的联邦地区法院",
+    "承受者": "Apple 和解协议",
+    "关系": "举行听证会以决定是否批准和解",
+    "时间": "2027年3月24日"
+   },
+   "c16": {
+    "发出者": "加利福尼亚州圣何塞的联邦地区法院",
+    "承受者": "Apple 和解协议",
+    "关系": "举行听证会以决定是否批准和解",
+    "时间": "2026年2月24日"
+   },
+   "c17": {
+    "发出者": "加利福尼亚州圣何塞的联邦地区法院",
+    "承受者": "Apple 和解协议",
+    "关系": "举行听证会以决定是否批准和解",
+    "时间": "2026年12月21日"
+   },
+   "c18": {
+    "发出者": "加利福尼亚州洛杉矶的联邦地区法院",
+    "承受者": "Apple 和解协议",
+    "关系": "举行听证会以决定是否批准和解",
+    "时间": "2027年2月24日"
+   },
+   "c19": {
+    "发出者": "加利福尼亚州圣何塞的州法院",
+    "承受者": "Apple 和解协议",
+    "关系": "举行听证会以决定是否批准和解",
+    "时间": "2027年2月24日"
+   },
+   "c20": {
+    "发出者": "加利福尼亚州圣何塞的联邦地区法院",
+    "承受者": "Apple 和解协议",
+    "关系": "举行听证会以决定是否驳回和解",
+    "时间": "2027年2月24日"
+   },
+   "c21": {
+    "发出者": "加利福尼亚州圣何塞的联邦地区法院",
+    "承受者": "Apple 和解协议",
+    "关系": "开庭审理以裁定是否批准该和解",
+    "时间": "2027年2月24日"
+   },
+   "c22": {
+    "发出者": "符合条件的 iPhone 用户",
+    "承受者": "和解管理方（SmartphoneAISettlement.com）",
+    "关系": "提交索赔申请，每台设备最高可获95美元",
+    "时间": "索赔窗口截止2026年12月21日"
+   },
+   "c23": {
+    "发出者": "符合条件的 iPhone 用户",
+    "承受者": "和解管理方（SmartphoneAISettlement.com）",
+    "关系": "提交索赔申请，每台设备最高可获95美元",
+    "时间": "索赔窗口截止2026年12月22日"
+   },
+   "c24": {
+    "发出者": "符合条件的 iPhone 用户",
+    "承受者": "和解管理方（SmartphoneAISettlement.com）",
+    "关系": "提交索赔申请，每台设备最高可获95美元",
+    "时间": "索赔窗口截止2027年2月24日"
+   },
+   "c25": {
+    "发出者": "符合条件的 iPhone 用户",
+    "承受者": "和解管理方（SmartphoneAISettlement.com）",
+    "关系": "提交索赔申请，每台设备最高可获95美元",
+    "时间": "索赔窗口截止2027年12月21日"
+   },
+   "c26": {
+    "发出者": "符合条件的 iPhone 用户",
+    "承受者": "和解管理方（SmartphoneAISettlement.com）",
+    "关系": "每台设备固定获得95美元",
+    "时间": "索赔窗口截止2026年12月21日"
+   },
+   "c27": {
+    "发出者": "符合条件的 iPhone 用户",
+    "承受者": "和解管理方（SmartphoneAISettlement.com）",
+    "关系": "每台设备固定获得25美元",
+    "时间": "索赔窗口截止2026年12月21日"
+   },
+   "c28": {
+    "发出者": "所有 iPhone 用户",
+    "承受者": "和解管理方（SmartphoneAISettlement.com）",
+    "关系": "提交索赔申请，每台设备最高可获95美元",
+    "时间": "索赔窗口截止2026年12月21日"
+   },
+   "c29": {
+    "发出者": "购买了 iPhone 14 Pro 的用户",
+    "承受者": "和解管理方（SmartphoneAISettlement.com）",
+    "关系": "提交索赔申请，每台设备最高可获95美元",
+    "时间": "索赔窗口截止2026年12月21日"
+   },
+   "c30": {
+    "发出者": "Landsheft 等",
+    "承受者": "Apple Inc.",
+    "关系": "提起集体诉讼",
+    "时间": "未提及"
+   },
+   "c31": {
+    "发出者": "Landsheft 等",
+    "承受者": "Apple",
+    "关系": "提起集体诉讼",
+    "时间": "未提及"
+   },
+   "c32": {
+    "发出者": "Ryan Clarkson 等",
+    "承受者": "Apple Inc.",
+    "关系": "提起集体诉讼",
+    "时间": "未提及"
+   },
+   "c33": {
+    "发出者": "Landsheft 等",
+    "承受者": "Apple Inc.",
+    "关系": "提起集体诉讼",
+    "时间": "2025年6月提起"
+   },
+   "c34": {
+    "发出者": "Landsheft 等",
+    "承受者": "Apple Inc.",
+    "关系": "对 Apple 提起刑事诉讼",
+    "时间": "未提及"
+   },
+   "c35": {
+    "发出者": "消费者",
+    "承受者": "iPhone 15 Pro、iPhone 15 Pro Max 或任意 iPhone 16 机型",
+    "关系": "在此期间购买即具备索赔资格",
+    "时间": "2024年6月10日至2025年3月29日"
+   },
+   "c36": {
+    "发出者": "消费者",
+    "承受者": "iPhone 15 Pro、iPhone 15 Pro Max 或任意 iPhone 16 机型",
+    "关系": "在此期间购买即具备索赔资格",
+    "时间": "2024年6月11日至2025年3月29日"
+   },
+   "c37": {
+    "发出者": "消费者",
+    "承受者": "iPhone 15 Pro、iPhone 15 Pro Max 或任意 iPhone 16 机型",
+    "关系": "在此期间购买即具备索赔资格",
+    "时间": "2024年6月10日至2025年3月28日"
+   },
+   "c38": {
+    "发出者": "消费者",
+    "承受者": "iPhone 15 Pro、iPhone 15 Pro Max 或任意 iPhone 16 机型",
+    "关系": "在此期间购买即具备索赔资格",
+    "时间": "2023年6月10日至2024年3月29日"
+   },
+   "c39": {
+    "发出者": "消费者",
+    "承受者": "iPhone 14 Pro 或任意 iPhone 15 机型",
+    "关系": "在此期间购买即具备索赔资格",
+    "时间": "2024年6月10日至2025年3月29日"
+   },
+   "c40": {
+    "发出者": "消费者",
+    "承受者": "iPhone 15 Pro、iPhone 15 Pro Max 或任意 iPhone 16 机型",
+    "关系": "从 Apple 官方渠道购买即具备索赔资格",
+    "时间": "2024年6月10日至2025年3月29日"
+   }
+  }
+ },
+ "questions": {
+  "c01_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c01` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c01_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c01.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c01_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c01.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c01_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c01.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c01_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c01.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c02_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c02` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c02_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c02.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c02_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c02.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c02_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c02.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c02_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c02.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c03_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c03` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c03_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c03.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c03_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c03.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c03_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c03.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c03_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c03.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c04_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c04` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c04_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c04.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c04_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c04.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c04_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c04.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c04_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c04.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c05_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c05` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c05_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c05.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c05_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c05.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c05_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c05.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c05_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c05.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c06_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c06` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c06_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c06.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c06_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c06.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c06_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c06.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c06_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c06.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c07_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c07` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c07_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c07.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c07_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c07.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c07_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c07.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c07_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c07.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c08_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c08` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c08_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c08.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c08_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c08.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c08_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c08.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c08_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c08.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c09_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c09` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c09_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c09.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c09_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c09.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c09_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c09.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c09_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c09.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c10_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c10` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c10_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c10.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c10_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c10.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c10_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c10.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c10_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c10.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c11_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c11` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c11_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c11.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c11_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c11.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c11_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c11.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c11_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c11.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c12_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c12` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c12_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c12.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c12_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c12.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c12_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c12.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c12_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c12.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c13_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c13` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c13_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c13.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c13_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c13.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c13_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c13.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c13_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c13.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c14_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c14` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c14_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c14.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c14_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c14.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c14_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c14.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c14_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c14.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c15_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c15` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c15_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c15.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c15_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c15.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c15_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c15.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c15_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c15.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c16_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c16` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c16_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c16.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c16_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c16.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c16_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c16.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c16_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c16.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c17_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c17` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c17_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c17.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c17_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c17.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c17_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c17.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c17_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c17.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c18_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c18` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c18_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c18.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c18_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c18.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c18_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c18.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c18_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c18.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c19_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c19` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c19_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c19.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c19_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c19.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c19_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c19.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c19_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c19.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c20_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c20` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c20_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c20.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c20_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c20.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c20_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c20.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c20_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c20.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c21_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c21` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c21_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c21.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c21_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c21.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c21_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c21.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c21_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c21.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c22_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c22` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c22_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c22.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c22_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c22.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c22_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c22.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c22_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c22.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c23_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c23` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c23_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c23.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c23_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c23.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c23_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c23.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c23_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c23.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c24_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c24` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c24_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c24.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c24_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c24.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c24_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c24.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c24_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c24.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c25_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c25` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c25_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c25.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c25_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c25.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c25_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c25.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c25_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c25.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c26_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c26` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c26_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c26.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c26_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c26.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c26_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c26.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c26_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c26.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c27_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c27` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c27_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c27.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c27_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c27.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c27_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c27.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c27_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c27.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c28_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c28` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c28_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c28.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c28_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c28.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c28_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c28.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c28_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c28.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c29_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c29` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c29_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c29.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c29_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c29.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c29_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c29.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c29_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c29.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c30_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c30` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c30_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c30.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c30_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c30.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c30_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c30.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c30_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c30.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c31_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c31` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c31_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c31.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c31_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c31.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c31_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c31.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c31_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c31.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c32_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c32` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c32_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c32.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c32_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c32.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c32_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c32.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c32_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c32.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c33_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c33` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c33_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c33.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c33_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c33.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c33_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c33.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c33_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c33.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c34_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c34` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c34_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c34.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c34_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c34.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c34_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c34.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c34_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c34.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c35_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c35` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c35_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c35.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c35_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c35.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c35_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c35.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c35_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c35.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c36_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c36` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c36_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c36.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c36_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c36.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c36_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c36.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c36_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c36.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c37_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c37` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c37_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c37.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c37_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c37.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c37_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c37.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c37_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c37.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c38_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c38` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c38_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c38.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c38_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c38.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c38_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c38.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c38_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c38.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c39_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c39` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c39_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c39.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c39_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c39.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c39_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c39.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c39_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c39.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  },
+  "c40_overall": {
+   "type": "noul",
+   "instructions": "整体判断事件记录 `claims.c40` 与 `article` 的记载是否一致：发出者、承受者、关系、时间四个维度全部相符才算一致。",
+   "criteria": {
+    "true": "四个维度均与文章一致；全称/简称/别名称等价、同一日期不同书写格式均算一致。",
+    "false": "任一维度与文章矛盾，或添加了文章不支持的限定条件，或对文章未提及的信息虚构了内容。"
+   }
+  },
+  "c40_issuer": {
+   "type": "noul",
+   "instructions": "仅判断发出者维度：`claims.c40.发出者` 与 `article` 记载的该事件发出者是否指同一实体。"
+  },
+  "c40_receiver": {
+   "type": "noul",
+   "instructions": "仅判断承受者维度：`claims.c40.承受者` 与 `article` 记载的该事件承受者是否指同一实体。"
+  },
+  "c40_relation": {
+   "type": "noul",
+   "instructions": "仅判断关系维度：`claims.c40.关系` 所述的动作、金额与性质是否与 `article` 记载一致。"
+  },
+  "c40_time": {
+   "type": "noul",
+   "instructions": "仅判断时间维度：`claims.c40.时间` 是否与 `article` 的记载一致。",
+   "criteria": {
+    "true": "与文章记载一致；文章未给出时间而此处也未给出具体时间，同样算一致。",
+    "false": "与文章记载的时间矛盾；或文章未给出时间而此处给出了具体时间。"
+   }
+  }
+ }
+}
