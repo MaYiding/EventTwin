@@ -6,10 +6,10 @@
 
 | 模型 | 底座 | AUROC | 链接 |
 |---|---|---|---|
-| **v15（主力）** | Qwen3-Reranker-4B | 0.963 | [HuggingFace](https://huggingface.co/MaYiding/EventTwin) |
+| **v2.1 = v23b（主力）** | Qwen3-Reranker-4B | **0.983** | [HuggingFace](https://huggingface.co/MaYiding/EventTwin) |
+| v2.0 = v15 | Qwen3-Reranker-4B | 0.963 | [HuggingFace tag v2.0](https://huggingface.co/MaYiding/EventTwin/tree/v2.0) |
 | v8 | bge-reranker-v2-m3 (568M) | 0.909 | [HuggingFace ensemble/v8](https://huggingface.co/MaYiding/EventTwin/tree/main/ensemble/v8) |
 | v10a | bge-reranker-v2-m3 (568M) | 0.903 | [HuggingFace ensemble/v10a](https://huggingface.co/MaYiding/EventTwin/tree/main/ensemble/v10a) |
-| **三模型集成** | — | **0.981** | 本仓库 `ml/judges.py` |
 
 ## 快速使用
 
@@ -26,15 +26,17 @@ score = judge.judge_batch([({"frame": "小米YU7上市"}, {"frame": "小米发�
 
 ## 性能（1000 对 benchmark）
 
-| 指标 | v15 单模型 | 三模型集成 | Jev（教师上限） |
-|---|---|---|---|
-| AUROC | 0.963 | **0.981** | 0.998 |
-| gray 层 | 0.974 | **0.979** | 1.000 |
-| pos 层 | 0.845 | **0.922** | 0.992 |
-| ECE | 0.107 | **0.096** | 0.062 |
+| 指标 | v15 单模型 | 三模型集成 | **v2.1 单模型** | Jev（教师上限） |
+|---|---|---|---|---|
+| AUROC | 0.963 | 0.981 | **0.983** | 0.998 |
+| gray 层 | 0.974 | 0.979 | **0.982** | 1.000 |
+| pos 层 | 0.845 | 0.922 | **0.926** | 0.992 |
+| ECE | 0.107 | 0.096 | **0.076** | 0.062 |
+
+v2.1（内部 v23b）：LLM 复核精化软标签 + 跨粒度对，T=0.733，明确负例误并 3.0%→0%。
 
 ## 数据
-- [EventTwin-Data](https://huggingface.co/datasets/MaYiding/EventTwin-Data)：1000 对分层金标 + 81K 训练对
+- [EventTwin-Data](https://huggingface.co/datasets/MaYiding/EventTwin-Data)：1000 对分层金标 + 55K v2.1 训练对
 
 ## 技术报告
 - [十九版本完整对决报告](ml/benchmark/学生模型对决报告.md)
