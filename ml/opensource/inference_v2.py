@@ -8,7 +8,7 @@
 ★ v2.0 三条协议红线（缺一性能大幅劣化）：
 1) 每侧文本截断 200 字符（全文输入 AUROC 0.834 → 截断 0.963）；
 2) 左 padding + 取序列末位（-1）的 yes/no 双 logit；
-3) softmax 前除温度 T=0.733（v2.1，calibration.json 随权重发布）。
+3) softmax 前除温度 T=0.6856（calibration.json 随权重发布）。
 """
 from __future__ import annotations
 
@@ -32,7 +32,7 @@ def load(model_id: str = MODEL_ID, local_files_only: bool = False):
     model = AutoModelForCausalLM.from_pretrained(
         model_id, torch_dtype=torch.bfloat16, local_files_only=local_files_only).cuda().eval()
     cal = Path(model_id) / "calibration.json"
-    T = json.loads(cal.read_text())["temperature"] if cal.exists() else 0.733
+    T = json.loads(cal.read_text())["temperature"] if cal.exists() else 0.6856
     yes_id = tok("yes", add_special_tokens=False)["input_ids"][0]
     no_id = tok("no", add_special_tokens=False)["input_ids"][0]
     return tok, model, T, yes_id, no_id
