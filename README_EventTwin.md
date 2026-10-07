@@ -6,7 +6,8 @@
 
 | 模型 | 底座 | AUROC | 链接 |
 |---|---|---|---|
-| **v2.2 = v24b（主力）** | Qwen3-Reranker-4B | **0.985** | [HuggingFace](https://huggingface.co/MaYiding/EventTwin) |
+| **v2.3 = v26（主力）** | Qwen3-Reranker-4B | **0.985** | [HuggingFace](https://huggingface.co/MaYiding/EventTwin) |
+| v2.2 = v24b | Qwen3-Reranker-4B | 0.985 |
 | v2.1 = v23b | Qwen3-Reranker-4B | 0.983 |
 | v2.0 = v15 | Qwen3-Reranker-4B | 0.963 | [HuggingFace tag v2.0](https://huggingface.co/MaYiding/EventTwin/tree/v2.0) |
 | v8 | bge-reranker-v2-m3 (568M) | 0.909 | [HuggingFace ensemble/v8](https://huggingface.co/MaYiding/EventTwin/tree/main/ensemble/v8) |
@@ -34,7 +35,7 @@ score = judge.judge_batch([({"frame": "小米YU7上市"}, {"frame": "小米发�
 | pos 层 | 0.845 | 0.922 | **0.926** | 0.992 |
 | ECE | 0.107 | 0.096 | **0.076** | 0.062 |
 
-v2.2（内部 v24b）：v2.1 配方 + 四象限跨粒度（各 1.5k），T=0.7789，象限 hold-out 0.99-1.0，长文并簇 acc 0.983。
+v2.3（内部 v26）：+标签锐化与双共识合成 12k，T=0.854，误并 2.8% 历代最低、升级率 23.7%、ECE 0.094。
 
 ## 数据
 - [EventTwin-Data](https://huggingface.co/datasets/MaYiding/EventTwin-Data)：1000 对分层金标 + 55K v2.1 训练对
