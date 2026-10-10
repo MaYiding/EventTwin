@@ -23,20 +23,19 @@ widget:
     example_title: "Different events (P ≈ 0.02)"
 ---
 
-# EventTwin v2.3 · 中文同事件判定器
+# EventTwin v2.4 · 中文同事件判定器
 
 **TL;DR (EN)** — EventTwin judges whether two event descriptions refer to the **same real-world
 event** (cross-document event coreference / news deduplication) with **temperature-calibrated
-probabilities**. **v2.3** keeps the [Qwen3-Reranker-4B](https://huggingface.co/Qwen/Qwen3-Reranker-4B) base
-and refines the recipe with **sharpened labels + dual-teacher-consensus synthetic data**:
-LLM-refined soft labels (v2.1) + four cross-granularity quadrants (v2.2) + 12k multi-register
-synthetic pairs (social-media / colloquial / wire / long-form, kept only when the generator's
-judgment agrees with a second judge's probability). Result: **overall AUROC 0.985 + gray
-0.982 (records)**, **ECE 0.094**, **truth-based false-merge 2.8% (family's lowest)** with
-**coverage 95.4% / miss 0.0%**, and escalation down from v2.2's 56.6% to **23.7%** on the
-hard stratified benchmark. Quadrant hold-out 0.98-1.0. Prior profiles remain as tags
-([v2.2](./tree/v2.2) / [v2.1](./tree/v2.1) / v2.0 / v1.x). Data:
-[EventTwin-Data](https://huggingface.co/datasets/MaYiding/EventTwin-Data).
+probabilities**. **v2.4** is the *data-hygiene + decisiveness* generation: an audit revealed 448
+training pairs where a same-entity-different-event channel ("company X raises funding" vs
+"company X files for IPO") had been mislabeled SAME; a four-model median gate relabeled them,
+and the v2.3 recipe was retrained on the cleaned corpus. Result: **ECE 0.057 (family's best
+calibration)**, escalation at default thresholds down from 23.7% to **4.0%** on the hard
+benchmark (**[0.2, 0.9] recipe: 2.1% hard / 1.6% production-like**), clear-negative false-merge
+0.0%, coverage 95.0%. Cost: overall AUROC −0.3pt (0.983) and false-merge 2.8%→3.3% — for the
+absolute-best discriminator keep [v2.3](./tree/v2.3); for calibration + cost, take v2.4.
+Data: [EventTwin-Data](https://huggingface.co/datasets/MaYiding/EventTwin-Data).
 
 ---
 
@@ -49,7 +48,7 @@ hard stratified benchmark. Quadrant hold-out 0.98-1.0. Prior profiles remain as 
 ## ⚠️ 输入协议（v2.x 必读）
 
 v2.0 的官方推理协议：**每侧文本截断到 200 字符**，再套 Qwen3-Reranker 官方模板，
-取序列末位 yes/no 双 logit，除温度 T=0.854 后 softmax（v2.3）。
+取序列末位 yes/no 双 logit，除温度 T=0.7264 后 softmax（v2.4）。
 
 ```python
 import torch, json
@@ -85,117 +84,108 @@ same_event_prob("小米YU7正式上市，售价25.35万元起，共推出三款�
 普遍的 context-rot 现象同族）。训练数据文本本身均长 ~135 字，截断即回到训练分布。
 批量推理与级联路由示例：[GitHub inference_v2.py](https://github.com/MaYiding/EventTwin)。
 
-## 版本对比：v1.x 家族 vs v2.0 - v2.3
+## 版本对比：v1.x 家族 vs v2.0 - v2.4
 
 基准 = 1,000 对双教师确认金标（[EventTwin-Data](https://huggingface.co/datasets/MaYiding/EventTwin-Data)）；
 v1.x 系列为 568M encoder 基座（bge-reranker-v2-m3），v2.x 为 **4B decoder 基座**
-（Qwen3-Reranker-4B）。所有版本可从本仓库获取（v2.3 = main；v2.2/v2.1/v2.0/v1.2/v1.1/v1.0 为 tag）。
+（Qwen3-Reranker-4B）。所有版本可从本仓库获取（v2.4 = main；v2.3/v2.2/v2.1/v2.0/v1.2/v1.1/v1.0 为 tag）。
 
 ### 判别力
 
-| 指标 | v1.0 | v1.2 | v2.0（tag） | v2.1（tag） | v2.2（tag） | **v2.3（main）** |
+| 指标 | v1.0 | v1.2 | v2.1（tag） | v2.2（tag） | v2.3（tag） | **v2.4（main）** |
 |---|---|---|---|---|---|---|
-| **总体 AUROC** | 0.909 | 0.903 | 0.963 | 0.983 | 0.985 | **0.985** |
-| **灰带 AUROC**（最难层） | 0.866 | 0.793 | 0.974 | 0.982 | 0.976 | **0.982** |
-| **pos AUROC**（措辞多样同事件） | 0.767 | 0.847 | 0.850 | 0.926 | **0.949** | 0.938 |
-| **长文×长文 AUROC / acc**（hold-out） | — | — | — | 0.929 / 0.861 | **0.993 / 0.983** | 0.977 / 0.939 |
-| **长文×簇卡 acc**（hold-out） | — | — | — | 0.922 | 0.986 | **0.993** |
-| 总体 ECE | 0.187 | 0.261 | 0.105 | **0.076** | 0.150 | 0.094 |
-| 与教师一致率 | 0.796 | 0.718 | 0.918 | 0.951 | 0.944 | **0.969** |
+| **总体 AUROC** | 0.909 | 0.903 | 0.983 | **0.985** | **0.985** | 0.983 |
+| **灰带 AUROC**（最难层） | 0.866 | 0.793 | 0.982 | 0.976 | **0.982** | 0.979 |
+| **pos AUROC**（措辞多样同事件） | 0.767 | 0.847 | 0.926 | **0.949** | 0.938 | 0.924 |
+| 总体 ECE | 0.187 | 0.261 | 0.076 | 0.150 | 0.094 | **0.057** |
+| 与教师一致率 | 0.796 | 0.718 | 0.951 | 0.944 | **0.969** | 0.962 |
 | 基座 / 参数 | 568M | 568M | 4B | 4B | 4B | **4B** |
 
-（v1.1 0.895/v1.3 0.902 已略；完整六版数据见 GitHub 训练档案。）
+（v2.0 0.963/v1.1 0.895/v1.3 0.902 已略；完整数据见 GitHub 训练档案。）
 
 ### 置信分带行为（级联生产口径）
 
 **真值口径**（按 1,000 对终版金标真值统计）：
 
-| 指标 | **v2.0** | **v2.1（tag）** | **v2.2（tag）** | **v2.3（main）** |
+| 指标 | **v2.1（tag）** | **v2.2（tag）** | **v2.3（tag）** | **v2.4（main）** |
 |---|---|---|---|---|
-| 误自动并率（真负例≥0.9 / ≥0.95） | 8.0% / 7.9% | 2.9% / 2.8% | 3.7% / 3.2% | **2.8% / 2.8%** |
-| 明确负例误并（neg 层≥0.9） | 3.0% | 0.0% | 0.0% | **0.0%** |
-| 自动并覆盖（真正例≥0.9） | 92.5% | 91.3% | **96.7%** | 95.4% |
-| 漏并率（真正例≤0.1） | 0.0% | 1.7% | 0.0% | **0.0%** |
-| 灰带升级率（0.1-0.9，难例分层集） | 10.7% | **13.4%** | 56.6% | 23.7% |
+| 误自动并率（真负例≥0.9 / ≥0.95） | 2.9% / 2.8% | 3.7% / 3.2% | **2.8% / 2.8%** | 3.3% / 3.3% |
+| 明确负例误并（neg 层≥0.9） | 0.0% | 0.0% | 0.0% | **0.0%** |
+| 自动并覆盖（真正例≥0.9） | 91.3% | **96.7%** | 95.4% | 95.0% |
+| 漏并率（真正例≤0.1） | 1.7% | 0.0% | **0.0%** | 0.8% |
+| 灰带升级率（0.1-0.9，难例分层集） | 13.4% | 56.6% | 23.7% | **4.0%** |
 
 **双流量画像**（升级率取决于流量难度，选型前先看这条）：
 
-| 流量画像 | 模型 | 误并 | 漏并 | 覆盖 | 拒并 | 升级率 |
-|---|---|---|---|---|---|---|
-| 最坏情形（benchmark 分层难例，30% 灰带构造） | v2.1 | 2.9% | 1.7% | 91.3% | — | **13.4%** |
-| | v2.2 | 3.7% | 0.0% | **96.7%** | — | 56.6% |
-| | **v2.3** | **2.8%** | **0.0%** | 95.4% | — | **23.7%** |
-
-v2.3 在最坏情形流量上同时拿到低误并（2.8%，历代最低）与中等升级率（23.7%，v2.2 的
-四成）；自然难度流量下升级率与 v2.2 同档（val 口径 ~10%）。需要最低升级率（13.4%）
-选 v2.1，需要最高覆盖（96.7%）选 v2.2，均衡选 **v2.3**。
-
-**层口径**（按构建层统计，与 v1.x 历史表可比；pos 构建层 35% 对的终标为否，
-故该口径的"漏并/覆盖"含构造标签噪声，仅作纵向对照）：
-
-| 指标 | v1.0 | v1.2 | v2.0 | v2.1 | **v2.2** |
+| 流量画像 | 模型 | 误并 | 漏并 | 升级率@默认 | 升级率@[0.2,0.9] |
 |---|---|---|---|---|---|
-| 误自动并率（neg层≥0.9） | 0.25% | **0.0%** | 3.0% | 0.0% | **0.0%** |
-| 漏并率（pos层≤0.1） | 6.3% | 3.7% | 13.0% | 14.7% | 3.0% |
-| 自动并覆盖（pos层≥0.9） | 76.3% | 28.0% | 73.3% | 64.7% | 68.3% |
+| 最坏情形（benchmark 分层难例） | v2.3 | **2.8%** | **0.0%** | 23.7% | 4.3% |
+| | **v2.4** | 3.3% | 0.8% | **4.0%** | **2.1%** |
+| 自然难度（生产 val 口径） | v2.3 | 0.4% | 0.4% | 9.5% | 2.7% |
+| | **v2.4** | **0.4%** | 0.4% | 4.1% | **1.6%** |
+
+v2.4 的核心价值是**果断度与校准**：默认阈值下升级率 4.0%（v2.3 的 1/6），ECE 0.057
+历代最佳——分数可直接当置信度用。代价：金标 AUROC −0.3pt、误并 2.8→3.3%、漏并
+0→0.8%。追求金标单点最优选 v2.3（tag），成本/校准敏感选 **v2.4（main）**。
+
+**生产阈值建议（重要）**：把自动 DIFF 阈值从 0.10 抬到 **0.20**（即 [0.2, 0.9]），
+v2.4 升级率降为**难例 2.1% / 自然流量 1.6%**，误并不变（3.3%）、漏并 1.2%——
+0.1-0.2 分数带几乎全是真负例。t_high 不要低于 0.9（硬负例集中在 0.3-0.9 带，
+下探即误并翻倍）。各档位与被否决的集成方案实测数字见
+[GitHub docs/escalation-recipes.md](https://github.com/MaYiding/EventTwin)。
 
 ### 选型建议
 
-- **v2.3（main）· 均衡旗舰**：AUROC/灰带/一致率新高 + 误并 2.8% 历代最低 + 漏并 0% +
-  升级率较 v2.2 减半以上 + ECE 0.094——排序、自动并、跨粒度的默认之选。**注意**：
-  长文×长文象限较 v2.2 微降（0.977 vs 0.993）、pos 层较 v2.2 低（0.938 vs 0.949）；
-  追求单点极致用对应 tag（v2.2 跨粒度/pos，v2.1 校准/果断）；
-- **v1.2 · 零误并闸门**：高置信带 0% 误并 + 3.7% 漏并——作 v2.0 前置保险或独立安全闸；
-- **v1.0 · 轻量独立判定**：568M、ECE 0.187，无 GPU 预算或边缘部署；
-- v1.1/v1.3/v1.4：历史档案（v1.4 的多语域合成数据遗产已汇入 v2.0 训练集）。
+- **v2.4（main）· 校准+果断旗舰**：ECE 0.057 历代最佳（分数即置信度）+ 默认升级率
+  4.0%（v2.3 的 1/6）+ [0.2,0.9] 配方下 2.1%/1.6%——成本敏感、概率直接用于路由的
+  默认之选。**注意**：金标判别力 −0.3pt、误并 2.8→3.3%、漏并 0→0.8%；
+- **v2.3（tag）· 金标鲁棒王**：AUROC 0.985/误并 2.8%/漏并 0%——对抗流量、误并敏感
+  场景的最优单模；
+- **v1.2（tag）· 零误并闸门**：高置信带 0% 误并——前置保险或独立安全闸；
+- **v1.0（tag）· 轻量独立判定**：568M、无 GPU 预算或边缘部署；
+- v2.2（tag）：跨粒度/覆盖极致档；v2.1（tag）：历史校准档；其余为档案。
 
 对照参考：教师（商业判定 API，闭源）0.998 / ECE 0.062；通用 embedding-8B 0.977 但
 **ECE 0.563**（分数不可当概率用）。
 
-## v2.3 训练方法
+## v2.4 训练方法
 
 - **基座**（历代相同）：[Qwen/Qwen3-Reranker-4B](https://huggingface.co/Qwen/Qwen3-Reranker-4B)
   （decoder 式 yes/no logit 打分）+ LoRA(r=32) + **权重合并发布**
-- **数据升级（本版核心）**：v2.2 配方（LLM 复核精化软标签 37k + 四象限各 1.5k）+
-  **双教师共识合成通道 12k**——多模型各生成虚构中小企业/多行业事件的多种表面形式
-  （社媒转述/口语/快讯/长文/事件卡），仅保留生成模型判定与第二判定器概率方向一致的
-  对（共识过滤），场景级 train/test 切分
-- **正则与锐化**：标签平滑 LS=0.05 + 标签极值锐化 [0.02, 0.98] + R-Drop KL=2.0 +
-  EMA + lr 1e-4 · 2 epoch · 梯度检查点；**长输入 max_len 1152**
-- **温度后校准**：T=0.854
-- **算力**：1× RTX 4090D 24G，约 2 小时
-- 4B 路线前史：内部 v3（4B+旧配方，0.914 持平 568M）与 v15 未合并 adapter 的误评测
-  曾两次"证伪"该路线——v2.0 证明**换基模的收益要配新配方（更强正则+更高 lr）才能兑现**，
-  完整复盘见 GitHub 训练档案。
+- **数据卫生（本版核心）**：全量标签审计发现 `lineage` 通道（同主体事件谱系对）448 对
+  被错标 SAME（如"完成融资 vs 计划 IPO"、"财报 vs 单品销量"——同主体**不同**事件）。
+  用 v23b/v24b/v25/v26 四模型中位数门控重标：中位数 ≥0.7 保留 39 对，其余 409 对改 0.02。
+  v2.3 配方在清洗后的语料上重训
+- **其余与 v2.3 相同**：LLM 复核精化软标签 37k + 四象限各 1.5k + 双教师共识合成 12k；
+  LS=0.05 + 锐化 [0.02, 0.98] + R-Drop KL=2.0 + EMA + lr 1e-4 · 2 epoch
+- **温度后校准**：T=0.7264
+- **算力**：1× RTX 4090D 24G，约 5.5 小时
 
-## v2.3 基准结果（200 字截断协议）
+## v2.4 基准结果（200 字截断协议）
 
 | 层 | n | AUROC | ECE |
 |---|---|---|---|
-| OVERALL | 1000 | **0.9854** | **0.094** |
-| 灰带（最难） | 300 | **0.9819** | — |
-| pos（措辞多样同事件） | 300 | 0.9379 | — |
+| OVERALL | 1000 | 0.9826 | **0.057** |
+| 灰带（最难） | 300 | 0.9791 | — |
+| pos（措辞多样同事件） | 300 | 0.9237 | — |
 | 明确负 | 400 | —（带行为见分带表：≥0.9 误并 0.0%） | — |
-
-**跨粒度 hold-out**（按簇切分防泄漏）：长文×簇卡 0.9954/acc 0.993 / 短句×簇卡
-0.9997 / 框架×正文 1.000 / 长文×长文 0.977（v2.2 为 0.993，微降）。
 
 ## 版本说明
 
-公开版本号与内部迭代代号解耦：v1.0=v8 / v1.1=v9 / v1.2=v10a / **v2.0=v15_4b_merged** /
-**v2.1=v23b_4b_merged / v2.2=v24b_4b_merged / v2.3=v26_4b_merged**（v1.3/v1.4 权重因当时的网络拦截未能上传，
-配方与数据完整入档 EventTwin-Data，指标见 GitHub VERSIONS）。**MAJOR 位 = 换基模或
-代际跃升**；MINOR 位 = 同基模数据/配方升级。v2.0 遗留的 3% 饱和误并核自 v2.1 起消除
-（明确负例 0%）。下一步：合成数据飞轮（中小企业/多行业场景）+ q1 精化全量重训。
+公开版本号与内部迭代代号解耦：v1.0=v8 / v1.1=v9 / v1.2=v10a / v2.0=v15_4b_merged /
+v2.1=v23b_4b_merged / v2.2=v24b_4b_merged / v2.3=v26_4b_merged / **v2.4=v29_4b_merged**
+（v1.3/v1.4 权重因当时的网络拦截未能上传，配方与数据完整入档 EventTwin-Data，
+指标见 GitHub VERSIONS）。**MAJOR 位 = 换基模或代际跃升**；MINOR 位 = 同基模数据/配方
+升级。v2.4 的教训入档：评测集标签噪声可把"漏并率"污染 3-8 倍并误导整条阈值研究线——
+分带指标必须按数据通道分解后再下结论（详见 GitHub VERSIONS）。
 
 ## 局限（如实）
 
-- **灰带区误并 2.8%**（真值口径）：明确负例零误并，但真值存疑的模糊对仍会打到 ≥0.9
-  ——绝对零误并场景建议 v1.2 前置或双级复核；
-- 标签锐化使模型对部分"翻转标签"训练对的拟合下降（val 口径漏并升至 18%，benchmark
-  人工金标口径漏并 0.0% 不受影响）——若你的下游标签分布与精化标签强相关，选 v2.2；
-- ECE 0.150（v2.1 0.076）——概率直接当置信度用的场景优先 v2.1；
-- 输入必须遵循 200 字截断协议（全文输入 AUROC 掉 13pt，v2.0 实测）；
+- **误并 3.3%**（真值口径，v2.3 为 2.8%）：明确负例零误并，但真值存疑的模糊对仍会
+  打到 ≥0.9——绝对零误并场景用 v2.3 + 双级复核；
+- 漏并 0.8%（v2.3 为 0.0%）：[0.2,0.9] 配方下 1.2%；
+- 金标 AUROC −0.3pt / pos 层 0.924（v2.2 0.949）；
+- 输入必须遵循 200 字截断协议（全文输入 AUROC 大跌，v2.0 实测）；
 - 域偏移：训练语料为企业新闻域（合成扩产进行中）；4B 权重 8GB（CPU 不可用）。
 
 ## 引用
